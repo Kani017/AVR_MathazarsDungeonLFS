@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7151303138588848267}
   - component: {fileID: 6093743880656027438}
   - component: {fileID: 8319736808185695204}
-  - component: {fileID: 3436299923731815987}
+  - component: {fileID: 1245670726765146418}
   m_Layer: 0
   m_Name: Floor_Divider
   m_TagString: Untagged
@@ -26,8 +26,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7527020192145680945}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -80,7 +80,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3436299923731815987
+--- !u!65 &1245670726765146418
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
