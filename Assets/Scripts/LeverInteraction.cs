@@ -7,11 +7,13 @@ public class LeverInteraction : MonoBehaviour
     public int riddleIndex; // Index for the specific riddle this lever is associated with, assign in the inspector
 
     private RiddleManager riddleManager; // Automatically assigned using Singleton pattern
+    private bool hasBeenActivated = false; // Flag to track if the lever has been activated once
 
     private void Start()
     {
         riddleManager = RiddleManager.Instance;
     }
+
     void Update()
     {
         // Press the 'L' key to simulate pulling the lever
@@ -20,19 +22,19 @@ public class LeverInteraction : MonoBehaviour
             PullLever();
         }
     }
+
     public void PullLever()
     {
         // Check if the specific riddle associated with this lever is solved
         if (riddleManager.isRiddleSolved[riddleIndex])
         {
-            // Toggle the 'Activated' state of the lever
-            bool isActive = leverAnimator.GetBool("Activated");
-            leverAnimator.SetBool("Activated", !isActive);
-
-            // If the lever is activated, open the door
-            if (!isActive)
+            // Check if the lever has not been activated before
+            if (!hasBeenActivated)
             {
-                doorInteraction.OpenDoor();
+                // Activate the lever and open the door
+                leverAnimator.SetBool("Activated", true);
+                hasBeenActivated = true;
+                CoroutineUtilities.DelayedAction(this, 1, doorInteraction.OpenDoor);
             }
         }
         else
