@@ -13,9 +13,4 @@ public class DoorInteraction : MonoBehaviour
         UnityEngine.Debug.Log("OpenDoor method called"); // Make sure the quotes and parentheses are correctly placed
         doorAnimator.SetBool("Activated", true); // Assuming 'Activated' is your parameter to open the door
     }
-
-    public void CloseDoor()
-    {
-        doorAnimator.SetBool("Activated", false); // Use the same parameter to close the door
-    }
 }

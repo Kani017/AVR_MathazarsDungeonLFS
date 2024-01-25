@@ -21,6 +21,7 @@ public class LeverInteraction : MonoBehaviour
         {
             PullLever();
         }
+
     }
 
     public void PullLever()
