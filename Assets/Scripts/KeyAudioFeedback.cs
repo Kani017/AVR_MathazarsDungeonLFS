@@ -1,0 +1,37 @@
+using UnityEngine;
+
+public class AudioFeedback : MonoBehaviour
+{
+    public AudioClip keyPickupSound;
+    public AudioClip keyDropSound;
+    public AudioClip keyUnlockSound;
+    private AudioSource audioSource;
+
+    void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
+    public void PlayPickupSound()
+    {
+        if (audioSource && keyPickupSound)
+        {
+            audioSource.PlayOneShot(keyPickupSound);
+        }
+    }
+    public void PlayDropSound()
+    {
+        if (audioSource && keyDropSound)
+        {
+            audioSource.PlayOneShot(keyDropSound);
+        }
+    }
+
+    public void PlayUnlockSound()
+    {
+        if (audioSource && keyUnlockSound)
+        {
+            audioSource.PlayOneShot(keyUnlockSound);
+        }
+    }
+}

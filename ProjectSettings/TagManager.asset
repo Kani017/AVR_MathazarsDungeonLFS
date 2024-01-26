@@ -6,6 +6,8 @@ TagManager:
   tags:
   - PlayerHand
   - PlayerHead
+  - Ground
+  - Lever
   layers:
   - Default
   - TransparentFX
