@@ -11,7 +11,7 @@ public class HeadCollisionHandler : MonoBehaviour
     [SerializeField]
     private CharacterController _characterController;
     [SerializeField]
-    public float pushBackStrength = 1.0f;
+    private float pushBackStrength = 0.5f;
     [SerializeField]
     private FadeEffect _blackScreenFade;
     [SerializeField]

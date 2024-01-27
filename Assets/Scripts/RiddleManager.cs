@@ -10,6 +10,7 @@ public class RiddleManager : MonoBehaviour
     {
         // Temporarily mark the first riddle as solved for testing
         isRiddleSolved[0] = true;
+        isRiddleSolved[1] = true;
     }
 
     private void Awake()

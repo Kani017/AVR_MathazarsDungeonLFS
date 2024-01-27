@@ -35,7 +35,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WallDoor_Arched_Wood_Idle
+  m_Name: Room1_WoodDoor_Idle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -62,7 +62,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WallDoor_Arched_Wood_Close
+  m_Name: Room1_WoodDoor_Close
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -88,7 +88,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WallDoor_Arched_Wood_Animated
+  m_Name: Room1_WoodDoor
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Activated
@@ -96,7 +96,7 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -117,7 +117,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WallDoor_Arched_Wood_Open
+  m_Name: Room1_WoodDoor_Open
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:

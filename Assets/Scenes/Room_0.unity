@@ -7655,7 +7655,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _detector: {fileID: 796452914}
   _characterController: {fileID: 1948467912}
-  pushBackStrength: 0.05
+  pushBackStrength: 0.5
   _blackScreenFade: {fileID: 1079140766}
   _peekWarningMessage: {fileID: 192772099}
   _interactor1: {fileID: 1962877792}

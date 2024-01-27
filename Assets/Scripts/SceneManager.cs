@@ -10,7 +10,7 @@ public class SceneManager : MonoBehaviour
     //public Animator transitionAnim;
     public float transitionTime = 1f;
 
-    private int currentRoomIndex = 0;
+    private int currentRoomIndex = 1;
     private string[] rooms = { "Room_0", "Room_1", "Room_2", "Room_3", "Room_4" };
 
     private void Awake()
