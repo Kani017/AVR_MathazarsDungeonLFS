@@ -3608,7 +3608,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 770305123e9318642bf6d39147e7232b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorAnimator: {fileID: 523173031}
+  cellDoorAnimator: {fileID: 0}
+  boxCollider: {fileID: 0}
+  blockerToDestroy: {fileID: 0}
 --- !u!95 &523173031
 Animator:
   serializedVersion: 5
@@ -6396,7 +6398,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 770305123e9318642bf6d39147e7232b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorAnimator: {fileID: 0}
+  cellDoorAnimator: {fileID: 0}
+  boxCollider: {fileID: 0}
+  blockerToDestroy: {fileID: 0}
 --- !u!114 &1086588035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8213,7 +8217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   leverAnimator: {fileID: 1385510873}
-  doorInteraction: {fileID: 523173030}
+  doorInteraction: {fileID: 0}
   riddleIndex: 0
 --- !u!95 &1385510873
 Animator:
@@ -8385,50 +8389,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
   m_PrefabInstance: {fileID: 1396367106}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1421298884
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1421298886}
-  - component: {fileID: 1421298885}
-  m_Layer: 0
-  m_Name: State_Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1421298885
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1421298884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5dd2d41b7bfd9f74e921fb85e35aca2b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1421298886
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1421298884}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4257345, y: -0.64907014, z: -8.192186}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1439502848
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9323,51 +9283,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1 &1620975579
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1620975581}
-  - component: {fileID: 1620975580}
-  m_Layer: 0
-  m_Name: SceneManager0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1620975580
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1620975579}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15b620ee5e7e96f4f84d6b64301fc1db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  transitionTime: 1
---- !u!4 &1620975581
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1620975579}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.398246, y: 1.6879232, z: -4.145975}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1622197138
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12514,7 +12429,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 611771389}
-  - {fileID: 1421298886}
   - {fileID: 1986011124}
   - {fileID: 1496617923}
   - {fileID: 373033254}
@@ -12524,7 +12438,6 @@ SceneRoots:
   - {fileID: 130271671}
   - {fileID: 1980425679}
   - {fileID: 363857781}
-  - {fileID: 1620975581}
   - {fileID: 523173035}
   - {fileID: 1385510874}
   - {fileID: 780674780}

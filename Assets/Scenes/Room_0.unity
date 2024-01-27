@@ -15155,7 +15155,7 @@ GameObject:
   - component: {fileID: 685779938}
   - component: {fileID: 685779937}
   m_Layer: 0
-  m_Name: SceneManager0
+  m_Name: SceneManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15182,7 +15182,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 685779936}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 14.398246, y: 1.6879232, z: -4.145975}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -19655,7 +19655,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1170354091}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 12.416767, y: 1.8792365, z: -13.427027}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -27118,11 +27118,11 @@ SceneRoots:
   - {fileID: 788797460}
   - {fileID: 505248336}
   - {fileID: 1664890966150305184}
-  - {fileID: 685779938}
   - {fileID: 617194606}
   - {fileID: 598033078}
-  - {fileID: 1170354093}
   - {fileID: 1683908036}
   - {fileID: 1522789254}
   - {fileID: 1858647719}
   - {fileID: 446956674}
+  - {fileID: 1170354093}
+  - {fileID: 685779938}

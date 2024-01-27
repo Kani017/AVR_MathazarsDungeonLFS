@@ -6,7 +6,7 @@ public class TeleportationTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player")) // Make sure the player has a tag "Player"
         {
-            SceneManager.Instance.LoadNextScene();
+            MySceneManager.Instance.LoadNextScene();
         }
     }
 }

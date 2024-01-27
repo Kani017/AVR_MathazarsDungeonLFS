@@ -49,7 +49,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: ca4a4df8321e5334b9b8a628800e1905, type: 2}
+  m_Motion: {fileID: 7400000, guid: fedb0c4606e4c5646a85cbe685c0d106, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -76,7 +76,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 8a55de5f22fd6dc4798c23a61c2648b3, type: 2}
+  m_Motion: {fileID: 7400000, guid: c914036c683ae30419fb8b291371c897, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -88,7 +88,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Room1_WoodDoor
+  m_Name: Room1_Door
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Activated
@@ -131,7 +131,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 06e50e18001838a4dbab8651d825966b, type: 2}
+  m_Motion: {fileID: 7400000, guid: e69625df544d2604bafe1b92be14ca25, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
