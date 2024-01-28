@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;  // Import this namespace to use UI elements
 
-public class MenuActions : MonoBehaviour
+public class MainMenuActions : MonoBehaviour
 {
     public GameObject creditsText;  // Assign in Inspector
     public GameObject backButton;   // Assign in Inspector
