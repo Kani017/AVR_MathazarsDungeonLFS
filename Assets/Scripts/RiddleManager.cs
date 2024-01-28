@@ -12,6 +12,8 @@ public class RiddleManager : MonoBehaviour
         isRiddleSolved[0] = true;
         isRiddleSolved[1] = true;
         isRiddleSolved[2] = true;
+        isRiddleSolved[3] = true;
+        isRiddleSolved[4] = true;
     }
 
     private void Awake()
@@ -22,7 +24,7 @@ public class RiddleManager : MonoBehaviour
             DontDestroyOnLoad(gameObject);
 
             // Initialize the array based on the number of riddles
-            isRiddleSolved = new bool[3]; // Assuming 3 riddles
+            isRiddleSolved = new bool[4]; // Assuming 3 riddles
         }
         else
         {
