@@ -32,11 +32,12 @@ public class MySceneManager : MonoBehaviour
             currentRoomIndex++;
             StartCoroutine(LoadScene("Room_" + currentRoomIndex));
         }
-        else
-        {
-            Debug.Log("You are at the last room.");
-            // Handle the end of the game or loop back to the first room if needed
-        }
+    }
+
+    public void ResetManager()
+    {
+        currentRoomIndex = 0;
+        // Reset other necessary states if any
     }
 
     IEnumerator LoadScene(string sceneName)

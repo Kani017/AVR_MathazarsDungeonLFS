@@ -1,18 +1,18 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;  // Import this namespace to use UI elements
+using UnityEngine.UI;  
 
 public class MainMenuActions : MonoBehaviour
 {
-    public GameObject creditsText;  // Assign in Inspector
-    public GameObject backButton;   // Assign in Inspector
-    public Button startButton;      // Assign in Inspector
-    public Button creditsButton;    // Assign in Inspector
-    public Button exitButton;       // Assign in Inspector
+    public GameObject creditsText;  
+    public GameObject backButton;   
+    public Button startButton;      
+    public Button creditsButton;    
+    public Button exitButton;       
 
     public void StartGame()
     {
-        SceneManager.LoadScene("Room_0"); // Make sure the scene name matches exactly
+        SceneManager.LoadScene("Room_0"); 
     }
 
     public void ShowCredits()
@@ -39,7 +39,7 @@ public class MainMenuActions : MonoBehaviour
     {
         Application.Quit();
 #if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;  // This line is for exiting Play Mode in the Unity Editor
+        UnityEditor.EditorApplication.isPlaying = false;  
 #endif
     }
 }

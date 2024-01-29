@@ -59,8 +59,6 @@ public class KeyInteraction : MonoBehaviour
         {
             // Play the drop sound
             audioFeedback?.PlayDropSound();
-
-       
         }
     }
 

@@ -8,7 +8,7 @@ public class RiddleManager : MonoBehaviour
 
     void Start()
     {
-        // Temporarily mark the first riddle as solved for testing
+        // Temporarily mark all riddles as solved for testing
         isRiddleSolved[0] = true;
         isRiddleSolved[1] = true;
         isRiddleSolved[2] = true;
@@ -23,8 +23,8 @@ public class RiddleManager : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(gameObject);
 
-            // Initialize the array based on the number of riddles
-            isRiddleSolved = new bool[4]; // Assuming 3 riddles
+           
+            isRiddleSolved = new bool[5];
         }
         else
         {
