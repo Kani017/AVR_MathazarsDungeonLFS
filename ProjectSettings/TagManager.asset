@@ -8,6 +8,7 @@ TagManager:
   - PlayerHead
   - Ground
   - Lever
+  - Cake
   layers:
   - Default
   - TransparentFX
