@@ -10,7 +10,7 @@ public class KeyInteraction : MonoBehaviour
     private Rigidbody _rigidbody;
     public float unlockDistance = 0.2f;
     private bool hasUnlocked = false;
-    private AudioFeedback audioFeedback;
+    private KeyAudioFeedback keyAudioFeedback;
     public ParticleSystem keyUnlockParticles;
     public ParticleSystem keyIdleParticles;
     private bool isDropped = false;
@@ -20,8 +20,7 @@ public class KeyInteraction : MonoBehaviour
     {
         grabInteractable = GetComponent<XRGrabInteractable>();
         _rigidbody = GetComponent<Rigidbody>();
-        audioFeedback = GetComponentInChildren<AudioFeedback>();
-        keyIdleParticles.Play();
+        grabInteractable.enabled = false;
     }
 
     void Update()
@@ -40,8 +39,8 @@ public class KeyInteraction : MonoBehaviour
     {
         // Set isDropped to false to avoid playing the sound again
         isDropped = false;
-        audioFeedback?.PlayPickupSound();
-        keyHighlightEffect?.StartHighlighting();
+        keyAudioFeedback.PlayPickupSound();
+        keyHighlightEffect.StartHighlighting();
         keyIdleParticles.Stop();
     }
 
@@ -58,10 +57,17 @@ public class KeyInteraction : MonoBehaviour
         if (isDropped && !hasUnlocked)
         {
             // Play the drop sound
-            audioFeedback?.PlayDropSound();
+            keyAudioFeedback.PlayDropSound();
         }
     }
 
+    public void MakeKeyInteractable()
+    {
+        grabInteractable.enabled = true;
+        keyAudioFeedback = GetComponentInChildren<KeyAudioFeedback>();
+        keyIdleParticles.gameObject.SetActive(true);
+
+    }
 
     private IEnumerator UnlockProcedure()
     {
@@ -79,7 +85,8 @@ public class KeyInteraction : MonoBehaviour
         float duration = 1.0f;
         float elapsed = 0;
 
-        audioFeedback?.PlayUnlockSound();
+        keyAudioFeedback.PlayUnlockSound();
+        keyUnlockParticles.gameObject.SetActive(true);
         keyUnlockParticles.Play();
         grabInteractable.enabled = false;
         _rigidbody.isKinematic = true;
@@ -92,6 +99,6 @@ public class KeyInteraction : MonoBehaviour
         }
 
         cellDoorInteraction.OpenCellDoor();
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }

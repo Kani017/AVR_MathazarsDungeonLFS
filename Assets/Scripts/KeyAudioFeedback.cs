@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class AudioFeedback : MonoBehaviour
+public class KeyAudioFeedback : MonoBehaviour
 {
     public AudioClip keyPickupSound;
     public AudioClip keyDropSound;
