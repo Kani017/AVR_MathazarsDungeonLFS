@@ -2,13 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;  
+using UnityEngine.UI;
 
 public class PauseMenuActions : MonoBehaviour
 {
-    public Button resumeButton;    
-    public Button startMenuButton;    
-    public Button exitGameButton;    
+    public Button resumeButton;
+    public Button startMenuButton;
+    public Button exitGameButton;
+    public GameObject exitGameWarning;
+    public GameObject startMenuWarning;
 
     private bool isMenuActive = false;
 
@@ -22,18 +24,25 @@ public class PauseMenuActions : MonoBehaviour
             exitGameButton.gameObject.SetActive(true);
             Time.timeScale = 0;
 
-        } 
-        else {
+        }
+        else
+        {
             isMenuActive = false;
+            exitGameWarning.SetActive(false);
             resumeButton.gameObject.SetActive(false);
             startMenuButton.gameObject.SetActive(false);
             exitGameButton.gameObject.SetActive(false);
             Time.timeScale = 1;
         }
     }
+
     public void ResumeGame()
     {
         isMenuActive = false;
+
+        HideExitGameWarning();
+        HideStartMenuWarning();
+
         resumeButton.gameObject.SetActive(false);
         startMenuButton.gameObject.SetActive(false);
         exitGameButton.gameObject.SetActive(false);
@@ -43,6 +52,10 @@ public class PauseMenuActions : MonoBehaviour
     public void BackToMenu()
     {
         Time.timeScale = 1;
+
+        HideExitGameWarning();
+        HideStartMenuWarning();
+
         MySceneManager.Instance.ResetManager();
         SceneManager.LoadScene("MainMenu");
     }
@@ -51,7 +64,29 @@ public class PauseMenuActions : MonoBehaviour
     {
         Application.Quit();
 #if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;  
+        UnityEditor.EditorApplication.isPlaying = false;
 #endif
+    }
+
+    public void ShowExitGameWarning()
+    {
+        exitGameWarning.SetActive(true);
+        HideStartMenuWarning();
+    }
+
+    public void HideExitGameWarning()
+    {
+        exitGameWarning.SetActive(false);
+    }
+
+    public void ShowStartMenuWarning()
+    {
+        startMenuWarning.SetActive(true);
+        HideExitGameWarning ();
+    }
+
+    public void HideStartMenuWarning()
+    {
+        startMenuWarning.SetActive(false);
     }
 }
