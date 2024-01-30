@@ -1,19 +1,21 @@
 using UnityEngine;
 using TMPro;
+using System.Collections; // Needed for IEnumerator
 
 public class CircleDetection : MonoBehaviour
 {
     public TextMeshPro[] questions; // Assign in Inspector
     public GameObject[] cakePrefabs; // Assign in Inspector
-    public Material whiteMaterial, redMaterial, greenMaterial; // Assign in Inspector
-    public GameObject circle; // Assign in Inspector
-    public Collider circleCollider; // Assign in Inspector
+    public GameObject circle; // Assign the parent GameObject "MagicCircle" in Inspector
+    public GameObject redCircle; // Assign the red plane child in Inspector
+    public GameObject whiteCircle; // Assign the white plane child in Inspector
+    public GameObject greenCircle; // Assign the green plane child in Inspector
     private int currentQuestionIndex = 0;
     private int[] correctCakeIndex = { 0, 1, 2, 3, 4, 5 }; // Assign index of correct cakes
 
     void Start()
     {
-        circle.GetComponent<Renderer>().material = whiteMaterial;
+        SetCircleColor("white"); // Set initial state to white
         DisplayQuestion(currentQuestionIndex);
     }
 
@@ -36,28 +38,38 @@ public class CircleDetection : MonoBehaviour
 
     void CheckCake(GameObject cake)
     {
-        // Determine if the correct cake was placed based on the current question
-        if (IsCorrectCake(cake, currentQuestionIndex))
+        bool isCorrect = IsCorrectCake(cake, currentQuestionIndex);
+        SetCircleColor(isCorrect ? "green" : "red");
+        Destroy(cake, 2.0f); // Destroy the cake after a short delay
+
+        if (isCorrect)
         {
-            circle.GetComponent<Renderer>().material = greenMaterial;
-            Destroy(cake, 2.0f); // Destroy the cake after a short delay
             currentQuestionIndex++;
             if (currentQuestionIndex < questions.Length)
             {
+                StartCoroutine(ResetCircleColor());
                 DisplayQuestion(currentQuestionIndex);
-                circle.GetComponent<Renderer>().material = whiteMaterial;
             }
             else
             {
                 // All questions answered, riddle solved
                 // Enable lever to open the door
+                // Implement the code to enable the lever here
             }
         }
         else
         {
-            circle.GetComponent<Renderer>().material = redMaterial;
-            // Maybe reset the cake's position or give feedback to the player
+            StartCoroutine(ResetCircleColor());
+            // Provide feedback to the player
+            // Implement the feedback logic here
         }
+    }
+
+    IEnumerator ResetCircleColor()
+    {
+        // Wait for 2 seconds to show the color, then reset to white
+        yield return new WaitForSeconds(2.0f);
+        SetCircleColor("white");
     }
 
     bool IsCorrectCake(GameObject cake, int questionIndex)
@@ -65,5 +77,13 @@ public class CircleDetection : MonoBehaviour
         // Implement logic to check if the cake matches the fraction required by the question
         // You might use the cake's name, tag, or a custom script/property to determine which fraction it represents
         return cake.name == cakePrefabs[correctCakeIndex[questionIndex]].name;
+    }
+
+    void SetCircleColor(string color)
+    {
+        // Enable the correct color and disable the others
+        redCircle.SetActive(color == "red");
+        whiteCircle.SetActive(color == "white");
+        greenCircle.SetActive(color == "green");
     }
 }
