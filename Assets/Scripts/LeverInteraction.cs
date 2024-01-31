@@ -14,16 +14,6 @@ public class LeverInteraction : MonoBehaviour
         riddleManager = RiddleManager.Instance;
     }
 
-    void Update()
-    {
-        // Press the 'L' key to simulate pulling the lever
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            PullLever();
-        }
-
-    }
-
     public void PullLever()
     {
         // Check if the specific riddle associated with this lever is solved
