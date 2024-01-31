@@ -9,7 +9,8 @@ public class CellDoorInteraction : MonoBehaviour
 {
     public Animator cellDoorAnimator; // Assign in the inspector
     public BoxCollider boxCollider;
-    public GameObject blockerToDestroy;
+    public GameObject blockerToDestroy1;
+    public GameObject blockerToDestroy2;
     private AudioSource audioSource;
 
     void Start()
@@ -24,7 +25,8 @@ public class CellDoorInteraction : MonoBehaviour
         cellDoorAnimator.SetBool("Activated", true); // Assuming 'Activated' is your parameter to open the door
         PlayCreakingSound();
         Destroy(boxCollider);
-        Destroy(blockerToDestroy);
+        Destroy(blockerToDestroy1);
+        Destroy(blockerToDestroy2);
     }
 
     private void PlayCreakingSound()
