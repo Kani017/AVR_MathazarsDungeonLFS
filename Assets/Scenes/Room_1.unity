@@ -12699,6 +12699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1147e71e8bfa6274989d84111950b22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  riddleIndex: 1
 --- !u!4 &1102639970
 Transform:
   m_ObjectHideFlags: 0
