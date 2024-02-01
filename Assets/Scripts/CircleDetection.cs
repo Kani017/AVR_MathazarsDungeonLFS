@@ -10,30 +10,26 @@ public class CircleDetection : MonoBehaviour
     public GameObject redCircle; // Assign the red plane child in Inspector
     public GameObject whiteCircle; // Assign the white plane child in Inspector
     public GameObject greenCircle; // Assign the green plane child in Inspector
-    public AudioSource audioSource; // Assign the AudioSource component in Inspector
-    public AudioClip soundCakesGrabbed; // Assign in Inspector
-    public AudioClip soundCakesThrown; // Assign in Inspector
-    public AudioClip soundCakesTouchGround; // Assign in Inspector
-    public AudioClip soundQuestionSolved; // Assign in Inspector
-    public AudioClip soundAllQuestionsSolved; // Assign in Inspector
-    public ParticleSystem leverParticles; // Assign your particle system for the lever
     public TextMeshPro finalText; // Assign a TextMeshPro for the final text
+    private DetectionCircleAudioFeedback detectionCircleAudioFeedback;
+    private RiddleManager riddleManager;
     private int currentQuestionIndex = 0;
     private int[] correctCakeIndex = { 0, 1, 2, 3, 4, 5 }; // Assign index of correct cakes
+    private bool isDropped = false;
 
     void Start()
     {
+        detectionCircleAudioFeedback = GetComponentInChildren<DetectionCircleAudioFeedback>();
         SetCircleColor("white"); // Set initial state to white
         DisplayQuestion(currentQuestionIndex);
         finalText.gameObject.SetActive(false); // Hide final text initially
-        leverParticles.Stop(); // Ensure the particle system is not playing initially
+        riddleManager = RiddleManager.Instance;
     }
 
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Cake"))
         {
-            PlaySound(soundCakesGrabbed); // Play sound when a cake is grabbed/placed
             CheckCake(other.gameObject);
         }
     }
@@ -54,7 +50,7 @@ public class CircleDetection : MonoBehaviour
 
         if (isCorrect)
         {
-            PlaySound(soundQuestionSolved); // Play sound when a question is solved
+            detectionCircleAudioFeedback.PlayQuestionSolvedSound(); // Play sound when a question is solved
             Destroy(cake, 2.0f); // Destroy the cake after a short delay
             currentQuestionIndex++;
 
@@ -66,8 +62,8 @@ public class CircleDetection : MonoBehaviour
             else
             {
                 // All questions answered, riddle solved
-                PlaySound(soundAllQuestionsSolved); // Play sound when all questions are solved
-                leverParticles.Play(); // Start particle effect
+                detectionCircleAudioFeedback.PlayAllQuestionsSolvedSound(); // Play sound when all questions are solved
+                riddleManager.SolveRiddle(2); // Start particle effect
 
                 // Deactivate all questions
                 foreach (var question in questions)
@@ -106,27 +102,5 @@ public class CircleDetection : MonoBehaviour
         redCircle.SetActive(color == "red");
         whiteCircle.SetActive(color == "white");
         greenCircle.SetActive(color == "green");
-    }
-
-    void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Cake"))
-        {
-            PlaySound(soundCakesTouchGround); // Play sound when cake touches the ground
-        }
-    }
-
-    // Function to play a sound
-    void PlaySound(AudioClip clip)
-    {
-        if (audioSource != null && clip != null)
-        {
-            audioSource.clip = clip;
-            audioSource.Play();
-        }
-        else
-        {
-            Debug.LogError("AudioSource or AudioClip is missing!");
-        }
     }
 }

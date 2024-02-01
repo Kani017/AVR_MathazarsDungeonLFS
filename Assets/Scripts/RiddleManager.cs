@@ -1,20 +1,14 @@
 using UnityEngine;
+using System;
 
 public class RiddleManager : MonoBehaviour
 {
     public static RiddleManager Instance { get; private set; }
 
-    public bool[] isRiddleSolved; // Array to keep track of solved riddles
+    // Declare an event for when a riddle is solved
+    public static event Action OnRiddleSolved;
 
-    void Start()
-    {
-        // Temporarily mark all riddles as solved for testing
-        isRiddleSolved[0] = true;
-        isRiddleSolved[1] = true;
-        isRiddleSolved[2] = true;
-        isRiddleSolved[3] = true;
-        isRiddleSolved[4] = true;
-    }
+    public bool[] isRiddleSolved; // Array to keep track of solved riddles
 
     private void Awake()
     {
@@ -22,9 +16,8 @@ public class RiddleManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
-
-           
-            isRiddleSolved = new bool[5];
+            // Initialize the array here or in Start depending on your needs
+            isRiddleSolved = new bool[4]; // Adjust the size according to your riddles
         }
         else
         {
@@ -32,12 +25,24 @@ public class RiddleManager : MonoBehaviour
         }
     }
 
+    void Start()
+    {
+        // Set all riddles to unsolved from the start
+        isRiddleSolved[0] = false;
+        isRiddleSolved[1] = false;
+        isRiddleSolved[2] = false;
+        isRiddleSolved[3] = false;
+    }
+
     // Call this method when a riddle is solved, passing the index of the riddle
     public void SolveRiddle(int riddleIndex)
     {
-        if (riddleIndex >= 0 && riddleIndex < isRiddleSolved.Length)
+        // Ensure the index is within bounds and the riddle hasn't been marked as solved before
+        if (riddleIndex >= 0 && riddleIndex < isRiddleSolved.Length && !isRiddleSolved[riddleIndex])
         {
             isRiddleSolved[riddleIndex] = true;
+            // Invoke the OnRiddleSolved event to notify any listeners
+            OnRiddleSolved?.Invoke();
         }
     }
 }

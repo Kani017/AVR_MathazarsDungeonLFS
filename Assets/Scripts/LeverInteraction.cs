@@ -1,37 +1,61 @@
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class LeverInteraction : MonoBehaviour
 {
     public Animator leverAnimator; // Animator for the lever, assign in the inspector
     public DoorInteraction doorInteraction; // DoorInteraction script, assign in the inspector
     public int riddleIndex; // Index for the specific riddle this lever is associated with, assign in the inspector
+    private XRSimpleInteractable interactable;
+    private ParticleSystem leverInteractableParticles;
 
-    private RiddleManager riddleManager; // Automatically assigned using Singleton pattern
     private bool hasBeenActivated = false; // Flag to track if the lever has been activated once
 
-    private void Start()
+    private void Awake()
     {
-        riddleManager = RiddleManager.Instance;
+        interactable = GetComponent<XRSimpleInteractable>();
+        interactable.enabled = false; // Start with the lever as non-interactable
+        leverInteractableParticles = GetComponentInChildren<ParticleSystem>();
+        leverInteractableParticles.Stop(); // Ensure the particle system is not playing initially
+    }
+
+    private void OnEnable()
+    {
+        RiddleManager.OnRiddleSolved += CheckRiddleSolved;
+    }
+
+    private void OnDisable()
+    {
+        RiddleManager.OnRiddleSolved -= CheckRiddleSolved;
+    }
+
+    private void CheckRiddleSolved()
+    {
+        // Check if the riddle for this lever is solved
+        if (RiddleManager.Instance.isRiddleSolved[riddleIndex])
+        {
+            MakeLeverInteractable();
+        }
     }
 
     public void PullLever()
     {
-        // Check if the specific riddle associated with this lever is solved
-        if (riddleManager.isRiddleSolved[riddleIndex])
+        // Ensure the lever has not been previously activated
+        if (!hasBeenActivated)
         {
-            // Check if the lever has not been activated before
-            if (!hasBeenActivated)
-            {
-                // Activate the lever and open the door
-                leverAnimator.SetBool("Activated", true);
-                hasBeenActivated = true;
-                CoroutineUtilities.DelayedAction(this, 1, doorInteraction.OpenDoor);
-            }
+            leverInteractableParticles.Stop();
+            leverAnimator.SetBool("Activated", true);
+            hasBeenActivated = true;
+            CoroutineUtilities.DelayedAction(this, 1, doorInteraction.OpenDoor);
         }
-        else
+    }
+
+    private void MakeLeverInteractable()
+    {
+        if (!hasBeenActivated)
         {
-            // Provide feedback that the riddle isn't solved yet
-            Debug.Log("The riddle is not solved yet.");
+            leverInteractableParticles.Play();
+            interactable.enabled = true;
         }
     }
 }

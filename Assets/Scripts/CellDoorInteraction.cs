@@ -12,11 +12,13 @@ public class CellDoorInteraction : MonoBehaviour
     public GameObject blockerToDestroy1;
     public GameObject blockerToDestroy2;
     private AudioSource audioSource;
+    private RiddleManager riddleManager;
 
     void Start()
     {
         // Initialize the AudioSource component
         audioSource = GetComponentInChildren<AudioSource>();
+        riddleManager = RiddleManager.Instance;
     }
 
     public void OpenCellDoor()
@@ -27,6 +29,7 @@ public class CellDoorInteraction : MonoBehaviour
         Destroy(boxCollider);
         Destroy(blockerToDestroy1);
         Destroy(blockerToDestroy2);
+        riddleManager.SolveRiddle(0);
     }
 
     private void PlayCreakingSound()
