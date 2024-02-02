@@ -9,6 +9,7 @@ TagManager:
   - Ground
   - Lever
   - Cake
+  - Cheese
   layers:
   - Default
   - TransparentFX

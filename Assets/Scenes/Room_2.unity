@@ -3739,8 +3739,8 @@ GameObject:
   - component: {fileID: 311563251}
   - component: {fileID: 311563253}
   m_Layer: 0
-  m_Name: Cake N 1/6
-  m_TagString: Cake
+  m_Name: Cheese N 1/6
+  m_TagString: Cheese
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4422,6 +4422,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36713f5901ed8ee4794ea63950dbda32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  floorThreshold: -10
 --- !u!1001 &311617617
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11114,7 +11115,7 @@ MonoBehaviour:
   - {fileID: 572516712}
   - {fileID: 1604553865}
   - {fileID: 214254591}
-  cakePrefabs:
+  cheesePrefabs:
   - {fileID: 740240566}
   - {fileID: 771746336}
   - {fileID: 1421464254}
@@ -14123,8 +14124,8 @@ GameObject:
   - component: {fileID: 740240573}
   - component: {fileID: 740240575}
   m_Layer: 0
-  m_Name: Cake N 1/2
-  m_TagString: Cake
+  m_Name: Cheese N 1/2
+  m_TagString: Cheese
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15198,6 +15199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36713f5901ed8ee4794ea63950dbda32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  floorThreshold: -10
 --- !u!1001 &762229908
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15386,8 +15388,8 @@ GameObject:
   - component: {fileID: 771746343}
   - component: {fileID: 771746345}
   m_Layer: 0
-  m_Name: Cake N 3/4
-  m_TagString: Cake
+  m_Name: Cheese N 3/4
+  m_TagString: Cheese
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16816,6 +16818,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36713f5901ed8ee4794ea63950dbda32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  floorThreshold: -10
 --- !u!1001 &782773636
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20637,8 +20640,8 @@ GameObject:
   - component: {fileID: 1184293123}
   - component: {fileID: 1184293125}
   m_Layer: 0
-  m_Name: Cake N 2/3
-  m_TagString: Cake
+  m_Name: Cheese N 2/3
+  m_TagString: Cheese
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22044,6 +22047,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36713f5901ed8ee4794ea63950dbda32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  floorThreshold: -10
 --- !u!1001 &1189782882
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25121,8 +25125,8 @@ GameObject:
   - component: {fileID: 1421464261}
   - component: {fileID: 1421464263}
   m_Layer: 0
-  m_Name: Cake N 1/3
-  m_TagString: Cake
+  m_Name: Cheese N 1/3
+  m_TagString: Cheese
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26030,6 +26034,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36713f5901ed8ee4794ea63950dbda32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  floorThreshold: -10
 --- !u!1001 &1421997577
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28932,8 +28937,8 @@ GameObject:
   - component: {fileID: 1597553706}
   - component: {fileID: 1597553708}
   m_Layer: 0
-  m_Name: Cake N 1/4
-  m_TagString: Cake
+  m_Name: Cheese N 1/4
+  m_TagString: Cheese
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29698,6 +29703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36713f5901ed8ee4794ea63950dbda32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  floorThreshold: -10
 --- !u!1 &1603503048
 GameObject:
   m_ObjectHideFlags: 0

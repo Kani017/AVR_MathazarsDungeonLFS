@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
@@ -16,11 +17,19 @@ public class KeyInteraction : MonoBehaviour
     private bool isDropped = false;
     public KeyHighlightEffect keyHighlightEffect;
 
+    private Vector3 originalPosition;
+    private Quaternion originalRotation;
+    public float floorThreshold = -10f; // Threshold for y-coordinate
+
     void Start()
     {
         grabInteractable = GetComponent<XRGrabInteractable>();
         _rigidbody = GetComponent<Rigidbody>();
         grabInteractable.enabled = false;
+
+        // Store the original position and rotation
+        originalPosition = transform.position;
+        originalRotation = transform.rotation;
     }
 
     void Update()
@@ -33,6 +42,21 @@ public class KeyInteraction : MonoBehaviour
                 StartCoroutine(UnlockProcedure());
             }
         }
+        if (transform.position.y < floorThreshold)
+        {
+            RespawnKey();
+        }
+    }
+
+    private void RespawnKey()
+    {
+        // Reset the key's position and rotation to its original state
+        transform.SetPositionAndRotation(originalPosition, originalRotation);
+
+        // Reset physics state
+        _rigidbody.velocity = Vector3.zero;
+        _rigidbody.angularVelocity = Vector3.zero;
+        _rigidbody.isKinematic = false;
     }
 
     public void OnKeyPickedUp()

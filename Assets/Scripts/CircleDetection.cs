@@ -5,7 +5,7 @@ using System.Collections; // Needed for IEnumerator
 public class CircleDetection : MonoBehaviour
 {
     public TextMeshPro[] questions; // Assign in Inspector
-    public GameObject[] cakePrefabs; // Assign in Inspector
+    public GameObject[] cheesePrefabs; // Assign in Inspector
     public GameObject circle; // Assign the parent GameObject "MagicCircle" in Inspector
     public GameObject redCircle; // Assign the red plane child in Inspector
     public GameObject whiteCircle; // Assign the white plane child in Inspector
@@ -14,8 +14,7 @@ public class CircleDetection : MonoBehaviour
     private DetectionCircleAudioFeedback detectionCircleAudioFeedback;
     private RiddleManager riddleManager;
     private int currentQuestionIndex = 0;
-    private int[] correctCakeIndex = { 0, 1, 2, 3, 4, 5 }; // Assign index of correct cakes
-    private bool isDropped = false;
+    private int[] correctCheeseIndex = { 0, 1, 2, 3, 4, 5 }; // Assign index of correct cheeses
 
     void Start()
     {
@@ -28,9 +27,9 @@ public class CircleDetection : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Cake"))
+        if (other.gameObject.CompareTag("Cheese"))
         {
-            CheckCake(other.gameObject);
+            CheckCheese(other.gameObject);
         }
     }
 
@@ -43,15 +42,15 @@ public class CircleDetection : MonoBehaviour
         questions[index].gameObject.SetActive(true);
     }
 
-    void CheckCake(GameObject cake)
+    void CheckCheese(GameObject cheese)
     {
-        bool isCorrect = IsCorrectCake(cake, currentQuestionIndex);
+        bool isCorrect = IsCorrectCheese(cheese, currentQuestionIndex);
         SetCircleColor(isCorrect ? "green" : "red");
 
         if (isCorrect)
         {
             detectionCircleAudioFeedback.PlayQuestionSolvedSound(); // Play sound when a question is solved
-            Destroy(cake, 2.0f); // Destroy the cake after a short delay
+            Destroy(cheese, 2.0f); // Destroy the cheese after a short delay
             currentQuestionIndex++;
 
             if (currentQuestionIndex < questions.Length)
@@ -90,10 +89,10 @@ public class CircleDetection : MonoBehaviour
         SetCircleColor("white");
     }
 
-    bool IsCorrectCake(GameObject cake, int questionIndex)
+    bool IsCorrectCheese(GameObject cheese, int questionIndex)
     {
         // Implement logic to check if the cake matches the fraction required by the question
-        return cake.name == cakePrefabs[correctCakeIndex[questionIndex]].name;
+        return cheese.name == cheesePrefabs[correctCheeseIndex[questionIndex]].name;
     }
 
     void SetCircleColor(string color)

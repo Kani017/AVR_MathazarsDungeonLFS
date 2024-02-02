@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,12 +12,20 @@ public class ScrollInteraction : MonoBehaviour
     public KeyInteraction keyInteraction;
     private bool isDropped = false;
     private bool keyIsInteractable = false;
+
+    private Vector3 originalPosition;
+    private Quaternion originalRotation;
+    public float floorThreshold = -10f; // Threshold for y-coordinate
     // Start is called before the first frame update
     void Start()
     {
         grabInteractable = GetComponent<XRGrabInteractable>();
         scrollAudioFeedback = GetComponentInChildren<ScrollAudioFeedback>();
         scrollIdleParticles.Play();
+
+        // Store the original position and rotation
+        originalPosition = transform.position;
+        originalRotation = transform.rotation;
     }
 
     // Update is called once per frame
@@ -28,6 +37,17 @@ public class ScrollInteraction : MonoBehaviour
             keyIsInteractable = true;
             scrollIdleParticles.Stop();
         }
+
+        if (transform.position.y < floorThreshold)
+        {
+            RespawnScroll();
+        }
+    }
+
+    private void RespawnScroll()
+    {
+        // Reset the scroll's position and rotation to its original state
+        transform.SetPositionAndRotation(originalPosition, originalRotation);
     }
 
     public void OnScrollPickedUp()
