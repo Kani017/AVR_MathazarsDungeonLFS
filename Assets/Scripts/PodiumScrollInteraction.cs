@@ -34,7 +34,7 @@ public class PodiumScrollInteraction : MonoBehaviour
         }
     }
 
-    private void RespawnScroll()
+    public void RespawnScroll()
     {
         // Reset the scroll's position and rotation to its original state
         transform.SetPositionAndRotation(originalPosition, originalRotation);
