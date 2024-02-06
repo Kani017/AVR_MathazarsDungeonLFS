@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
@@ -10,6 +11,7 @@ public class ScrollInteraction : MonoBehaviour
     public ParticleSystem scrollIdleParticles;
     private ScrollAudioFeedback scrollAudioFeedback;
     public KeyInteraction keyInteraction;
+    public GameObject teleportationTutorialText;
     private bool isDropped = false;
     private bool keyIsInteractable = false;
 
@@ -36,6 +38,7 @@ public class ScrollInteraction : MonoBehaviour
             CoroutineUtilities.DelayedAction(this, 2, keyInteraction.MakeKeyInteractable);
             keyIsInteractable = true;
             scrollIdleParticles.Stop();
+            teleportationTutorialText.gameObject.SetActive(false);
         }
 
         if (transform.position.y < floorThreshold)
