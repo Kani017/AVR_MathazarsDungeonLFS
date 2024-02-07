@@ -38,7 +38,7 @@ public class ScrollInteraction : MonoBehaviour
             CoroutineUtilities.DelayedAction(this, 2, keyInteraction.MakeKeyInteractable);
             keyIsInteractable = true;
             scrollIdleParticles.Stop();
-            teleportationTutorialText.gameObject.SetActive(false);
+            teleportationTutorialText.SetActive(false);
         }
 
         if (transform.position.y < floorThreshold)

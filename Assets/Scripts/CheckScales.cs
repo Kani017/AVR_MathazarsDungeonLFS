@@ -9,9 +9,11 @@ public class CheckScales : MonoBehaviour
     // Assuming you have a way to know how many weights should be used in total
     public int totalWeightsCount;
     private RiddleManager riddleManager;
+    private AudioSource scalesAudioFeedback;
 
     private void Start()
     {
+        scalesAudioFeedback = GetComponentInChildren<AudioSource>();
         riddleManager = RiddleManager.Instance;
     }
 
@@ -31,9 +33,10 @@ public class CheckScales : MonoBehaviour
         if (CompareScalesWeights())
         {
             Debug.Log("Scales are balanced and all weights are used.");
-            // Uncomment the next line if you want to call a method when the puzzle is solved
+            
+            scalesAudioFeedback.Play();
             riddleManager.SolveRiddle(1);
-            // Trigger any actions needed to indicate the puzzle is solved
+            
         }
     }
 }

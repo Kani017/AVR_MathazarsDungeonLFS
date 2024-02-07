@@ -7,11 +7,12 @@ public class WeightInteraction : MonoBehaviour
 {
     public float weightValue;
     private WeightAudioFeedback weightAudioFeedback;
-    private Rigidbody _rigidbody;
     private Vector3 originalPosition;
     private Quaternion originalRotation;
     public float floorThreshold = -10f; // Threshold for y-coordinate
     public bool isDropped = false;
+
+    public ParticleSystem weightIdleParticles;
 
     public SocketHighlightingEffect scale1SocketHighlighting;
     public SocketHighlightingEffect scale2SocketHighlighting;
@@ -19,7 +20,8 @@ public class WeightInteraction : MonoBehaviour
     private void Start()
     {
         weightAudioFeedback = GetComponentInChildren<WeightAudioFeedback>();
-        _rigidbody = GetComponent<Rigidbody>();
+        weightIdleParticles.Play();
+
         // Store the original position and rotation
         originalPosition = transform.position;
         originalRotation = transform.rotation;
@@ -37,17 +39,14 @@ public class WeightInteraction : MonoBehaviour
     {
         // Reset the key's position and rotation to its original state
         transform.SetPositionAndRotation(originalPosition, originalRotation);
-
-        // Reset physics state
-        _rigidbody.velocity = Vector3.zero;
-        _rigidbody.angularVelocity = Vector3.zero;
-        _rigidbody.isKinematic = false;
     }
 
     public void OnWeightPickedUp() {
         // Set isDropped to false to avoid playing the sound again
         isDropped = false;
         weightAudioFeedback.PlayPickupSound();
+
+        weightIdleParticles.Stop();
 
         // Highlight sockets
         scale1SocketHighlighting.StartHighlighting();
@@ -57,6 +56,8 @@ public class WeightInteraction : MonoBehaviour
     public void OnWeightDropped()
     {
         isDropped = true;
+
+        weightIdleParticles.Play();
 
         // Stop highlighting sockets
         scale1SocketHighlighting.StopHighlighting();
