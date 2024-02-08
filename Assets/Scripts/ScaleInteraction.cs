@@ -8,6 +8,8 @@ public class ScaleInteraction : MonoBehaviour
     public float totalWeight = 0f;
     private readonly List<XRSocketInteractor> socketInteractors = new();
 
+    public SocketHighlightingEffect socketHighlightingEffect;
+
     private void Awake()
     {
         // Find all XRSocketInteractor components in children of this GameObject
@@ -56,6 +58,7 @@ public class ScaleInteraction : MonoBehaviour
             {
                 audioFeedback.PlaySnappingSound();
             }
+            socketHighlightingEffect.StopHighlighting();
             UpdateTotalWeight();
             Debug.Log($"Weight of {weight.name} added. Total weight now: {totalWeight}");
         }
@@ -68,12 +71,6 @@ public class ScaleInteraction : MonoBehaviour
         if (weightsOnScale.Contains(weight))
         {
             weightsOnScale.Remove(weight);
-            // Optionally play a sound for removing the weight
-            WeightAudioFeedback audioFeedback = weight.GetComponentInChildren<WeightAudioFeedback>();
-            if (audioFeedback != null)
-            {
-                // audioFeedback.PlayDropSound(); // Uncomment or implement this if you want a removal sound
-            }
             UpdateTotalWeight();
             Debug.Log($"Weight of {weight.name} removed. Total weight now: {totalWeight}");
         }
