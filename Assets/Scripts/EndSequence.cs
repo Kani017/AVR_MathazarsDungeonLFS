@@ -9,7 +9,7 @@ public class EndSequence : MonoBehaviour
     public AudioClip jumpSound;
     public AudioClip voiceLine;
     public GameObject credits;
-    public Animation creditsAnimation; // Reference to the Animation component for credits
+    public Animator creditsAnimation; // Reference to the Animation component for credits
 
     private void Start()
     {
@@ -30,7 +30,9 @@ public class EndSequence : MonoBehaviour
         mathazarAnimator.SetTrigger("Jump");
         audioSource.PlayOneShot(jumpSound);
         yield return new WaitForSeconds(jumpSound.length);
+        appearanceEffect.Stop();
         yield return new WaitForSeconds(2f); // Additional delay to observe the jump and sound
+
 
         // Play Mathazar's voice line
         audioSource.PlayOneShot(voiceLine);
@@ -44,11 +46,7 @@ public class EndSequence : MonoBehaviour
 
         // Trigger the credits animation
         credits.SetActive(true);
-        creditsAnimation.Play();
+        creditsAnimation.SetBool("Activated", true);
         yield return new WaitForSeconds(2f); // Additional delay before the credits scroll
-
-        // Wait for the credits animation to finish, assuming it's not looped
-        // If the credits animation is looped, you'll need to handle it differently
-        yield return new WaitWhile(() => creditsAnimation.isPlaying);
     }
 }
