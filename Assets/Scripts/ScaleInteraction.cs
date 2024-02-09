@@ -12,6 +12,7 @@ public class ScaleInteraction : MonoBehaviour
 
     private void Awake()
     {
+        Debug.Log("hello sockets");
         // Find all XRSocketInteractor components in children of this GameObject
         socketInteractors.AddRange(GetComponentsInChildren<XRSocketInteractor>());
 

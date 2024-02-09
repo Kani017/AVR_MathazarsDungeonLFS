@@ -13571,9 +13571,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 186074664503701704, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       insertIndex: -1
       addedObject: {fileID: 953911177}
-    - targetCorrespondingSourceObject: {fileID: 3434908570904428465, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
 --- !u!114 &953911174 stripped
 MonoBehaviour:
@@ -15889,7 +15886,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 08251cff5e9a8594099169dda1d0e4f8, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 04b33b64682f6ca49a1d9db5ca06331f, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
