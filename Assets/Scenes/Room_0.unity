@@ -40170,36 +40170,52 @@ PrefabInstance:
     - target: {fileID: 4907927931020990262, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 6707721482835403648, guid: b681653f71002a84e9dbc8d727e110b3, type: 2}
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 6268689182145467605, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_text
-      value: 'Wilkommen Spieler
-
-
-        lorem ipsum lorem ipsumlorem ipsumlorem
-        ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem
-        ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem hallo tom ipsumlorem '
+      value: "Willkommen, junger Mathemagier,\r\n\r\nMathazar hat dich, einen aufstrebenden
+        Stern der Mathematik, eingesperrt. Er bef\xFCrchtet du k\xF6nntest ihn in
+        in der kommenden Mathematik-Olympiade besiegen. Entkomme diese Mauern, indem
+        du deine F\xE4higkeiten in der Mathematik unter Beweis stellst.\n\nL\xF6se
+        alle R\xE4tsel und entkomme diesem Kerker, damit du rechtzeitig zur Matheolympiade
+        erscheinst!"
       objectReference: {fileID: 0}
     - target: {fileID: 6268689182145467605, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_fontSize
-      value: 0.2
+      value: 0.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6268689182145467605, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
+      propertyPath: m_margin.x
+      value: 0.03938803
+      objectReference: {fileID: 0}
+    - target: {fileID: 6268689182145467605, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
+      propertyPath: m_margin.z
+      value: 0.62749535
       objectReference: {fileID: 0}
     - target: {fileID: 6268689182145467605, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: b681653f71002a84e9dbc8d727e110b3, type: 2}
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 6268689182145467605, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_fontStyle
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6268689182145467605, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
+      propertyPath: m_lineSpacing
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6268689182145467605, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_fontSizeBase
-      value: 0.2
+      value: 0.19
       objectReference: {fileID: 0}
     - target: {fileID: 6268689182145467605, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 6707721482835403648, guid: b681653f71002a84e9dbc8d727e110b3, type: 2}
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 6268689182145467605, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6268689182145467605, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
