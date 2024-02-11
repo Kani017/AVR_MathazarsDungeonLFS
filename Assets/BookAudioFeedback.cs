@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class BookAudioFeedback : MonoBehaviour
 {
-    public AudioClip bookSnappingSound;
     public AudioClip bookPickupSound;
     public AudioClip bookDropSound;
+    public AudioClip bookSnappingSound;
     private AudioSource audioSource;
 
     void Awake()

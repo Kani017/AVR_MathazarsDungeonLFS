@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BookshelfAudioFeedback : MonoBehaviour
 {
-    public AudioClip wrongBookSound;
+    //public AudioClip wrongBookSound;
     public AudioClip correctBookSound;
     public AudioClip allQuestionsSolvedSound;
     private AudioSource audioSource;
@@ -14,13 +14,13 @@ public class BookshelfAudioFeedback : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
-    public void PlayWrongBookSound()
+    /*public void PlayWrongBookSound()
     {
         if (audioSource && wrongBookSound)
         {
             audioSource.PlayOneShot(wrongBookSound);
         }
-    }
+    }*/
     public void PlayCorrectBookSound()
     {
         if (audioSource && correctBookSound)

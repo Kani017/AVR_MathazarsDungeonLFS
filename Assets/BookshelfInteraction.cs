@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -9,21 +10,26 @@ public class BookshelfInteraction : MonoBehaviour
     public TextMeshPro[] questions; // Assign in Inspector
     public TextMeshPro finalText;
     public List<GameObject> books = new();
-    private readonly List<XRSocketInteractor> socketInteractors = new List<XRSocketInteractor>();
+    private readonly List<XRSocketInteractor> socketInteractors = new();
 
-    public Material defaultMaterial; // Assign in Inspector
-    public Material wrongMaterial; // Assign in Inspector
+    public ParticleSystem bookshelfInteractableParticles;
 
     private RiddleManager riddleManager;
     private int currentQuestionIndex = 0;
     private readonly int[] correctBookIndex = { 0, 1, 2, 3, 4, 5 }; // Adjust as needed
+
+    private BookshelfAudioFeedback bookshelfAudioFeedback;
+    [SerializeField]
+    private SocketHighlightingEffect socketHighlightingEffect;
+    public BookMaterialManager bookMaterialManager;
 
     private void Start()
     {
         Debug.Log("hello sockets");
         socketInteractors.AddRange(GetComponentsInChildren<XRSocketInteractor>());
         DisplayQuestion(currentQuestionIndex);
-        riddleManager = FindObjectOfType<RiddleManager>();
+        riddleManager = RiddleManager.Instance;
+        bookshelfAudioFeedback = GetComponentInChildren<BookshelfAudioFeedback>();
 
         foreach (var socket in socketInteractors)
         {
@@ -55,15 +61,40 @@ public class BookshelfInteraction : MonoBehaviour
 
         if (isCorrect)
         {
+            // Assuming your book has a BookAudioFeedback component similar to the WeightAudioFeedback
+            BookAudioFeedback audioFeedback = book.GetComponentInChildren<BookAudioFeedback>();
+            if (audioFeedback != null)
+            {
+                audioFeedback.PlaySnappingSound(); // Play the snapping sound for the book
+            }
             Debug.Log("Correct book");
             StartCoroutine(ApplyConstraintsAndDisableInteraction(book));
+            bookshelfAudioFeedback.PlayCorrectBookSound();
             ProceedWithNextQuestion();
+
+            XRSocketInteractor socketInteractor = args.interactorObject as XRSocketInteractor;
+            if (socketInteractor != null)
+            {
+                socketHighlightingEffect.DisablePlusSign(socketInteractor.gameObject);
+                StartCoroutine(DisableSocketAfterDelay(socketInteractor));
+            }
         }
         else
         {
             ShowWrongAnswer(book);
         }
     }
+
+
+IEnumerator DisableSocketAfterDelay(XRSocketInteractor socketInteractor)
+    {
+        // Wait for a brief moment to allow the book to settle in the socket
+        yield return new WaitForSeconds(0.5f); // Adjust the delay as needed
+
+        // Disable the socket to prevent further interactions
+        socketInteractor.enabled = false;
+    }
+
 
     IEnumerator ApplyConstraintsAndDisableInteraction(GameObject book)
     {
@@ -77,11 +108,12 @@ public class BookshelfInteraction : MonoBehaviour
         rb.constraints = RigidbodyConstraints.FreezeAll;
         rb.useGravity = false;
 
-        var grabInteractable = book.GetComponent<XRGrabInteractable>();
-        if (grabInteractable != null)
+        if (book.TryGetComponent<XRGrabInteractable>(out var grabInteractable))
         {
             grabInteractable.enabled = false;
         }
+        ParticleSystem bookIdleParticles = book.GetComponentInChildren<ParticleSystem>();
+        bookIdleParticles.Stop();
     }
 
     void ProceedWithNextQuestion()
@@ -99,27 +131,17 @@ public class BookshelfInteraction : MonoBehaviour
 
     void ShowWrongAnswer(GameObject book)
     {
-        // Change the book's material to indicate a wrong answer
-        var renderer = book.GetComponent<Renderer>();
-        if (renderer != null)
+        // Use the BookMaterialChanger to set the book's material to the wrong material
+        if (bookMaterialManager != null)
         {
-            renderer.material = wrongMaterial;
+            bookMaterialManager.SetBookMaterialWrong(book);
         }
-
-        // Optionally, revert to the default material after a delay
-        StartCoroutine(RevertMaterial(book));
-    }
-
-    IEnumerator RevertMaterial(GameObject book)
-    {
-        yield return new WaitForSeconds(2); // Wait for 2 seconds before reverting
-
-        var renderer = book.GetComponent<Renderer>();
-        if (renderer != null)
+        else
         {
-            renderer.material = defaultMaterial;
+            Debug.LogError("BookMaterialChanger reference not set in BookshelfInteraction.");
         }
     }
+
 
     bool IsCorrectBook(GameObject book, int questionIndex)
     {
@@ -128,11 +150,14 @@ public class BookshelfInteraction : MonoBehaviour
 
     void CompleteRiddle()
     {
+        bookshelfAudioFeedback.PlayAllQuestionsSolvedSound();
         Debug.Log("Riddle completed");
         foreach (var question in questions)
         {
             question.gameObject.SetActive(false);
         }
         finalText.gameObject.SetActive(true);
+        bookshelfInteractableParticles.Stop();
+        //riddleManager.SolveRiddle(3);
     }
 }

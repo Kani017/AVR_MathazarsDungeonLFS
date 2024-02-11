@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class SocketHighlightingEffect : MonoBehaviour
@@ -43,4 +44,14 @@ public class SocketHighlightingEffect : MonoBehaviour
             }
         }
     }
+
+    public void DisablePlusSign(GameObject socket)
+    {
+        int index = Array.IndexOf(sockets, socket);
+        if (index != -1 && plusSigns[index] != null)
+        {
+            Destroy(plusSigns[index]);
+        }
+    }
+
 }

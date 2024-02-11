@@ -5,7 +5,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class BookInteraction : MonoBehaviour
 {
     public ParticleSystem bookIdleParticles;
-    //private BookAudioFeedback bookAudioFeedback;
+    private BookAudioFeedback bookAudioFeedback;
 
     private Vector3 originalPosition;
     private Quaternion originalRotation;
@@ -16,6 +16,7 @@ public class BookInteraction : MonoBehaviour
     private void Start()
     {
         bookIdleParticles.Play();
+        bookAudioFeedback = GetComponentInChildren<BookAudioFeedback>();
 
         // Store the original position and rotation
         originalPosition = transform.position;
@@ -35,16 +36,29 @@ public class BookInteraction : MonoBehaviour
         isDropped = false;
         bookIdleParticles.Stop();
         socketHighlightingEffect.StartHighlighting();
+        bookAudioFeedback.PlayPickupSound();
     }
 
     public void OnBookDropped() {
         isDropped = true;
         socketHighlightingEffect.StopHighlighting();
+        bookIdleParticles.Play();
     }
 
     private void RespawnBook()
     {
         // Reset the key's position and rotation to its original state
         transform.SetPositionAndRotation(originalPosition, originalRotation);
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        // Check if the key has been dropped and it's the first collision after being dropped
+        if (isDropped)
+        {
+            // Play the drop sound
+            bookAudioFeedback.PlayDropSound();
+
+        }
     }
 }

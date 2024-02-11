@@ -8,8 +8,6 @@ public class ScaleInteraction : MonoBehaviour
     public float totalWeight = 0f;
     private readonly List<XRSocketInteractor> socketInteractors = new();
 
-    public SocketHighlightingEffect socketHighlightingEffect;
-
     private void Awake()
     {
         Debug.Log("hello sockets");
@@ -59,7 +57,6 @@ public class ScaleInteraction : MonoBehaviour
             {
                 audioFeedback.PlaySnappingSound();
             }
-            socketHighlightingEffect.StopHighlighting();
             UpdateTotalWeight();
             Debug.Log($"Weight of {weight.name} added. Total weight now: {totalWeight}");
         }

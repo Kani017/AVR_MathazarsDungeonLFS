@@ -69,6 +69,7 @@ public class WeightInteraction : MonoBehaviour
         {
             // Play the drop sound
             weightAudioFeedback.PlayDropSound();
+
         }
     }
 }
