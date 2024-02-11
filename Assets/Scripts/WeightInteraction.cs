@@ -57,8 +57,6 @@ public class WeightInteraction : MonoBehaviour
     {
         isDropped = true;
 
-        weightIdleParticles.Play();
-
         // Stop highlighting sockets
         scale1SocketHighlighting.StopHighlighting();
         scale2SocketHighlighting.StopHighlighting();
