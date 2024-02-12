@@ -6,8 +6,8 @@ public class EndSequence : MonoBehaviour
     public Animator mathazarAnimator;
     public ParticleSystem appearanceEffect;
     public AudioSource audioSource;
-    public AudioClip jumpSound;
     public AudioClip voiceLine;
+    public AudioClip jumpSound;
     public GameObject credits;
     public Animator creditsAnimation; // Reference to the Animation component for credits
 
@@ -18,35 +18,35 @@ public class EndSequence : MonoBehaviour
 
     private IEnumerator SequenceCoroutine()
     {
-        // Initial delay
-        yield return new WaitForSeconds(2f);
 
-        // Particle effect for appearance
-        appearanceEffect.Play();
-        yield return new WaitForSeconds(appearanceEffect.main.duration);
-        yield return new WaitForSeconds(2f); // Additional delay to observe the particle effect
-
-        // Mathazar jumps in with sound
+        // Play Anim
         mathazarAnimator.SetTrigger("Jump");
-        audioSource.PlayOneShot(jumpSound);
-        yield return new WaitForSeconds(jumpSound.length);
-        appearanceEffect.Stop();
-        yield return new WaitForSeconds(2f); // Additional delay to observe the jump and sound
+        yield return new WaitForSeconds(1f);
 
 
         // Play Mathazar's voice line
         audioSource.PlayOneShot(voiceLine);
         yield return new WaitForSeconds(voiceLine.length);
-        yield return new WaitForSeconds(2f); // Additional delay after the voice line
 
-        // Mathazar disappears with jump animation
-        mathazarAnimator.SetTrigger("Jump");
-        yield return new WaitForSeconds(mathazarAnimator.GetCurrentAnimatorStateInfo(0).length);
-        yield return new WaitForSeconds(2f); // Additional delay to observe the disappearance
+
+        //Mathazar despawn
+        appearanceEffect.Play();
+        audioSource.PlayOneShot(jumpSound);
+        yield return new WaitForSeconds(0.5f);
+        mathazarAnimator.gameObject.SetActive(false);
+        yield return new WaitForSeconds(0.5f);
+        appearanceEffect.Stop();
+        yield return new WaitForSeconds(2f);
+
 
         // Trigger the credits animation
         credits.SetActive(true);
         creditsAnimation.SetBool("Activated", true);
-        yield return new WaitForSeconds(2f); // Additional delay before the credits scroll
+        yield return new WaitForSeconds(28f);
+        credits.SetActive(false);
+
+
+
+        //End Menü hier
     }
 }
