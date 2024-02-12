@@ -5,14 +5,15 @@ public class EndSequence : MonoBehaviour
 {
     public Animator mathazarAnimator;
     public ParticleSystem appearanceEffect;
-    public AudioSource audioSource;
     public AudioClip voiceLine;
-    public AudioClip jumpSound;
     public GameObject credits;
     public Animator creditsAnimation; // Reference to the Animation component for credits
+    private EndSequenceAudioFeedback endSequenceAudioFeedback;
+    public PauseMenuActions pauseMenuActions;
 
     private void Start()
     {
+        endSequenceAudioFeedback = GetComponentInChildren<EndSequenceAudioFeedback>();
         StartCoroutine(SequenceCoroutine());
     }
 
@@ -25,13 +26,13 @@ public class EndSequence : MonoBehaviour
 
 
         // Play Mathazar's voice line
-        audioSource.PlayOneShot(voiceLine);
+        endSequenceAudioFeedback.PlayMathazarOutroVoiceline();
         yield return new WaitForSeconds(voiceLine.length);
 
 
         //Mathazar despawn
         appearanceEffect.Play();
-        audioSource.PlayOneShot(jumpSound);
+        endSequenceAudioFeedback.PlayMathazarJumpSound();
         yield return new WaitForSeconds(0.5f);
         mathazarAnimator.gameObject.SetActive(false);
         yield return new WaitForSeconds(0.5f);
@@ -48,5 +49,6 @@ public class EndSequence : MonoBehaviour
 
 
         //End Menü hier
+        pauseMenuActions.OnActivate();
     }
 }
