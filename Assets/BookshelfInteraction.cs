@@ -58,19 +58,25 @@ public class BookshelfInteraction : MonoBehaviour
     {
         GameObject book = args.interactableObject.transform.gameObject;
         bool isCorrect = IsCorrectBook(book, currentQuestionIndex);
+        BookAudioFeedback audioFeedback = book.GetComponentInChildren<BookAudioFeedback>();
+        audioFeedback.PlaySnappingSound();
 
         if (isCorrect)
         {
-            // Assuming your book has a BookAudioFeedback component similar to the WeightAudioFeedback
-            BookAudioFeedback audioFeedback = book.GetComponentInChildren<BookAudioFeedback>();
             if (audioFeedback != null)
             {
-                audioFeedback.PlaySnappingSound(); // Play the snapping sound for the book
+                //audioFeedback.PlaySnappingSound(); // Play the snapping sound for the book
             }
             Debug.Log("Correct book");
             StartCoroutine(ApplyConstraintsAndDisableInteraction(book));
-            bookshelfAudioFeedback.PlayCorrectBookSound();
+
             ProceedWithNextQuestion();
+
+            if (currentQuestionIndex < questions.Length) // This means there are more questions left, not the last book
+            {
+                bookshelfAudioFeedback.PlayCorrectBookSound();
+                Debug.Log("Correct book");
+            }
 
             XRSocketInteractor socketInteractor = args.interactorObject as XRSocketInteractor;
             if (socketInteractor != null)
@@ -81,6 +87,7 @@ public class BookshelfInteraction : MonoBehaviour
         }
         else
         {
+            //audioFeedback.PlaySnappingSound();
             ShowWrongAnswer(book);
         }
     }
@@ -136,6 +143,7 @@ IEnumerator DisableSocketAfterDelay(XRSocketInteractor socketInteractor)
         {
             bookMaterialManager.SetBookMaterialWrong(book);
         }
+
         else
         {
             Debug.LogError("BookMaterialChanger reference not set in BookshelfInteraction.");
