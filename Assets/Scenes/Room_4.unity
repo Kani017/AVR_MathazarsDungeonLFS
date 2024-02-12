@@ -9896,7 +9896,6 @@ MonoBehaviour:
   mathazarAnimator: {fileID: 1633701570}
   appearanceEffect: {fileID: 1153607858}
   voiceLine: {fileID: 8300000, guid: 128700960fcce44409e86769f3c62a88, type: 3}
-  jumpSound: {fileID: 8300000, guid: 0cd592ef1b145104fa9cc0a0ba81ab42, type: 3}
   credits: {fileID: 681448364}
   creditsAnimation: {fileID: 681448366}
   pauseMenuActions: {fileID: 1217204179}
@@ -12253,6 +12252,38 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 8.5}
   m_SizeDelta: {x: 50, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &673289550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 673289551}
+  m_Layer: 0
+  m_Name: Visual Feedback
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &673289551
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673289550}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1153607859}
+  m_Father: {fileID: 1633701571}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &681448364
 GameObject:
   m_ObjectHideFlags: 0
@@ -21765,7 +21796,7 @@ GameObject:
   - component: {fileID: 1153607858}
   - component: {fileID: 1153607857}
   m_Layer: 0
-  m_Name: Particle System
+  m_Name: MathazarDisappearParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26574,12 +26605,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153607856}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 7.8, y: -0.3000002, z: -2.3}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalRotation: {x: -0.13247561, y: -0.6945864, z: -0.6945864, w: 0.13247561}
+  m_LocalPosition: {x: 0.16813725, y: -0.32000017, z: -0.06655738}
+  m_LocalScale: {x: 0.49999982, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 673289551}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1001 &1154692304
 PrefabInstance:
@@ -31839,12 +31870,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4463868907105534, guid: ccd8c3b89aa02e943a08ab9238a8a70c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 673289551}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccd8c3b89aa02e943a08ab9238a8a70c, type: 3}
 --- !u!95 &1633701570 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 95538263452871118, guid: ccd8c3b89aa02e943a08ab9238a8a70c, type: 3}
+  m_PrefabInstance: {fileID: 1633701569}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1633701571 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4463868907105534, guid: ccd8c3b89aa02e943a08ab9238a8a70c, type: 3}
   m_PrefabInstance: {fileID: 1633701569}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1641826018
@@ -31960,7 +31999,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mathazarOutroVoiceline: {fileID: 8300000, guid: 128700960fcce44409e86769f3c62a88, type: 3}
   mathazarJumpSound: {fileID: 8300000, guid: 0cd592ef1b145104fa9cc0a0ba81ab42, type: 3}
-  audioSource: {fileID: 0}
 --- !u!82 &1643820666
 AudioSource:
   m_ObjectHideFlags: 0
@@ -46400,4 +46438,3 @@ SceneRoots:
   - {fileID: 960855892}
   - {fileID: 1633701569}
   - {fileID: 360461637}
-  - {fileID: 1153607859}
