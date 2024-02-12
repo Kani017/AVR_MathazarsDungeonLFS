@@ -166,6 +166,6 @@ IEnumerator DisableSocketAfterDelay(XRSocketInteractor socketInteractor)
         }
         finalText.gameObject.SetActive(true);
         bookshelfInteractableParticles.Stop();
-        //riddleManager.SolveRiddle(3);
+        riddleManager.SolveRiddle(3);
     }
 }
