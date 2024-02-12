@@ -19,7 +19,7 @@ public class EndSequence : MonoBehaviour
 
     private IEnumerator SequenceCoroutine()
     {
-
+        endSequenceAudioFeedback.PlayGlobalBgMusic();
         // Play Anim
         mathazarAnimator.SetTrigger("Jump");
         yield return new WaitForSeconds(1f);
@@ -31,16 +31,18 @@ public class EndSequence : MonoBehaviour
 
 
         //Mathazar despawn
-        appearanceEffect.Play();
         endSequenceAudioFeedback.PlayMathazarJumpSound();
+        yield return new WaitForSeconds(0.5f);
+        appearanceEffect.Play();
         yield return new WaitForSeconds(0.5f);
         mathazarAnimator.gameObject.SetActive(false);
         yield return new WaitForSeconds(0.5f);
         appearanceEffect.Stop();
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(4f);
 
 
         // Trigger the credits animation
+        endSequenceAudioFeedback.PlayEndMusic();
         credits.SetActive(true);
         creditsAnimation.SetBool("Activated", true);
         yield return new WaitForSeconds(28f);
