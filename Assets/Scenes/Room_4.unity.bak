@@ -31999,9 +31999,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mathazarOutroVoiceline: {fileID: 8300000, guid: 128700960fcce44409e86769f3c62a88, type: 3}
   mathazarJumpSound: {fileID: 8300000, guid: 0cd592ef1b145104fa9cc0a0ba81ab42, type: 3}
+<<<<<<< Updated upstream
+=======
   endMusic: {fileID: 8300000, guid: d877b9c6a522e714b97f57c0ebc28d3d, type: 3}
   globalBgMusic: {fileID: 8300000, guid: 87b3c5ef3bedd25428ada467d7b84c5a, type: 3}
-
+>>>>>>> Stashed changes
 --- !u!82 &1643820666
 AudioSource:
   m_ObjectHideFlags: 0
