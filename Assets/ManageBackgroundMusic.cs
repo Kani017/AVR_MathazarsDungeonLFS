@@ -35,7 +35,7 @@ public class ManageBackgroundMusic : MonoBehaviour
         audioSource.volume = 0;
         audioSource.Play();
 
-        while (audioSource.volume < 1)
+        while (audioSource.volume < 0.5)
         {
             audioSource.volume += Time.deltaTime / fadeTime;
             yield return null;
