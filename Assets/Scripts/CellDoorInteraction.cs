@@ -1,35 +1,36 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class CellDoorInteraction : MonoBehaviour
 {
-    public Animator cellDoorAnimator; // Assign in the inspector
+    public Animator cellDoorAnimator;
     public BoxCollider boxCollider;
     public GameObject blockerToDestroy1;
     public GameObject blockerToDestroy2;
     private AudioSource audioSource;
     private RiddleManager riddleManager;
+    public GameObject mathazarGameObject; // Direct reference to Mathazar GameObject
 
     void Start()
     {
-        // Initialize the AudioSource component
         audioSource = GetComponentInChildren<AudioSource>();
         riddleManager = RiddleManager.Instance;
     }
 
     public void OpenCellDoor()
     {
-        UnityEngine.Debug.Log("OpenCellDoor method called"); // Make sure the quotes and parentheses are correctly placed
-        cellDoorAnimator.SetBool("Activated", true); // Assuming 'Activated' is your parameter to open the door
+        Debug.Log("OpenCellDoor method called");
+        cellDoorAnimator.SetBool("Activated", true);
         PlayCreakingSound();
         Destroy(boxCollider);
         Destroy(blockerToDestroy1);
         Destroy(blockerToDestroy2);
-        riddleManager.SolveRiddle(0);
+
+        // Aktiviere das Mathazar GameObject, um die Sequenz zu starten
+        if (mathazarGameObject != null)
+            mathazarGameObject.SetActive(true);
+
+        Debug.Log("function ran through");
     }
 
     private void PlayCreakingSound()
