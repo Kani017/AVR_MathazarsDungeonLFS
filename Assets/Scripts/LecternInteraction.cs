@@ -22,9 +22,9 @@ public class LecternInteraction : MonoBehaviour
     private void Start()
     {
         // Example pages, replace with your actual text
-        pages.Add("Page 1 text here");
-        pages.Add("Page 2 text here");
-        pages.Add("Page 3 text here");
+        pages.Add("Einheiten messen die Welt. Ein Kilogramm (kg) sind 1000 Gramm (g), ein Gramm sind 1000 Milligramm (mg).");
+        pages.Add("1kg = 1000g, 1g = 1000mg. Wandele weise um.");
+        pages.Add("Umrechnungen: 1kg = 1000g, 1g = 1000mg. Nutze dies, um Gleichgewicht zu erreichen.");
 
         // Store the original position and rotation
         originalPosition = helpScroll.transform.position;

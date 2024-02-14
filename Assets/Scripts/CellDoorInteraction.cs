@@ -9,6 +9,7 @@ public class CellDoorInteraction : MonoBehaviour
     public GameObject blockerToDestroy2;
     private AudioSource audioSource;
     private RiddleManager riddleManager;
+    public GameObject MathazarInteraction;
     public GameObject mathazarGameObject; // Direct reference to Mathazar GameObject
 
     void Start()
@@ -27,8 +28,8 @@ public class CellDoorInteraction : MonoBehaviour
         Destroy(blockerToDestroy2);
 
         // Aktiviere das Mathazar GameObject, um die Sequenz zu starten
-        if (mathazarGameObject != null)
-            mathazarGameObject.SetActive(true);
+        mathazarGameObject.SetActive(true);
+        MathazarInteraction.SetActive(true);
 
         Debug.Log("function ran through");
     }

@@ -25347,7 +25347,7 @@ MonoBehaviour:
   boxCollider: {fileID: 1033639062}
   blockerToDestroy1: {fileID: 113113050}
   blockerToDestroy2: {fileID: 1098607329}
-  mathazarInteractionScript: {fileID: 1259190773}
+  MathazarInteraction: {fileID: 1259190772}
   mathazarGameObject: {fileID: 1435872669}
 --- !u!95 &1033639067
 Animator:
