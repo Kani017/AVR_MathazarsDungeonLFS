@@ -28016,7 +28016,7 @@ MonoBehaviour:
   mathazarGameObject: {fileID: 1435872669}
   appearEffect: {fileID: 1925817611}
   audioSource: {fileID: 1085537138}
-  voiceline_R0: {fileID: 8300000, guid: 128700960fcce44409e86769f3c62a88, type: 3}
+  voiceline_R0: {fileID: 8300000, guid: ec252636d660919468e41bcd31be9231, type: 3}
   teleportSound: {fileID: 8300000, guid: 0cd592ef1b145104fa9cc0a0ba81ab42, type: 3}
   appearSound: {fileID: 8300000, guid: 0cd592ef1b145104fa9cc0a0ba81ab42, type: 3}
 --- !u!4 &1259190774
@@ -45151,8 +45151,8 @@ MonoBehaviour:
     sowie lizensierten, bezahlten Assets und f\xE4llt daher unter eine Creative Commons
     0 Lizenz.\n\n\n "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b681653f71002a84e9dbc8d727e110b3, type: 2}
-  m_sharedMaterial: {fileID: 6707721482835403648, guid: b681653f71002a84e9dbc8d727e110b3, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1f96eb56f50b6994cae5f11187d4162e, type: 2}
+  m_sharedMaterial: {fileID: 8694288473087831709, guid: 1f96eb56f50b6994cae5f11187d4162e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -45429,7 +45429,7 @@ PrefabInstance:
     - target: {fileID: 4907927931020990262, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+      objectReference: {fileID: 8694288473087831709, guid: 1f96eb56f50b6994cae5f11187d4162e, type: 2}
     - target: {fileID: 6268689182145467605, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_text
       value: "Willkommen, junger Mathemagier,\r\n\r\nMathazar hat dich, einen aufstrebenden
@@ -45454,7 +45454,7 @@ PrefabInstance:
     - target: {fileID: 6268689182145467605, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+      objectReference: {fileID: 11400000, guid: 1f96eb56f50b6994cae5f11187d4162e, type: 2}
     - target: {fileID: 6268689182145467605, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_fontStyle
       value: 1
@@ -45470,7 +45470,7 @@ PrefabInstance:
     - target: {fileID: 6268689182145467605, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+      objectReference: {fileID: 8694288473087831709, guid: 1f96eb56f50b6994cae5f11187d4162e, type: 2}
     - target: {fileID: 6268689182145467605, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_HorizontalAlignment
       value: 1
