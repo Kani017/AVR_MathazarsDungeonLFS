@@ -8,14 +8,12 @@ public class CellDoorInteraction : MonoBehaviour
     public GameObject blockerToDestroy1;
     public GameObject blockerToDestroy2;
     private AudioSource audioSource;
-    private RiddleManager riddleManager;
     public GameObject MathazarInteraction;
     public GameObject mathazarGameObject; // Direct reference to Mathazar GameObject
 
     void Start()
     {
         audioSource = GetComponentInChildren<AudioSource>();
-        riddleManager = RiddleManager.Instance;
     }
 
     public void OpenCellDoor()

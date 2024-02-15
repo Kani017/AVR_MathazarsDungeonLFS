@@ -2,50 +2,57 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro; // Add this to use TextMeshPro components
+using TMPro;
 
 public class LecternInteraction : MonoBehaviour
 {
     public GameObject helpScroll; // The scroll object
-    public TextMeshPro scrollText; // TextMeshProUGUI component to display the current page text
+    public List<TextMeshPro> pageTextComponents; // Assign TextMeshPro components for each page in the inspector
     public Button spawnHelpScrollButton;
     public Button despawnHelpScrollButton;
     public Button nextPageButton;
     public Button previousPageButton;
 
     private int currentPageIndex = 0;
-    private readonly List<string> pages = new(); // List to hold the text for each page
 
     private Vector3 originalPosition;
     private Quaternion originalRotation;
 
+    private LecternAudioFeedback lecternAudioFeedback;
+
     private void Start()
     {
-        // Example pages, replace with your actual text
-        pages.Add("Einheiten messen die Welt. Ein Kilogramm (kg) sind 1000 Gramm (g), ein Gramm sind 1000 Milligramm (mg).");
-        pages.Add("1kg = 1000g, 1g = 1000mg. Wandele weise um.");
-        pages.Add("Umrechnungen: 1kg = 1000g, 1g = 1000mg. Nutze dies, um Gleichgewicht zu erreichen.");
+        // Ensure there's at least one page to prevent errors
+        if (pageTextComponents.Count > 0)
+        {
+            // Store the original position and rotation
+            originalPosition = helpScroll.transform.position;
+            originalRotation = helpScroll.transform.rotation;
 
-        // Store the original position and rotation
-        originalPosition = helpScroll.transform.position;
-        originalRotation = helpScroll.transform.rotation;
+            // Initially, hide all pages except the first one
+            UpdateScrollText();
+        }
+
+        lecternAudioFeedback = GetComponentInChildren<LecternAudioFeedback>();
     }
 
     public void SpawnScroll()
-    {
+    {   
+        lecternAudioFeedback.PlayStartEndHelpSound();
         currentPageIndex = 0; // Reset to the first page
         UpdateScrollText();
         helpScroll.SetActive(true);
 
         spawnHelpScrollButton.gameObject.SetActive(false);
         despawnHelpScrollButton.gameObject.SetActive(true);
-        nextPageButton.gameObject.SetActive(pages.Count > 1); // Only show if more than one page
+        nextPageButton.gameObject.SetActive(pageTextComponents.Count > 1); // Only show if more than one page
         previousPageButton.gameObject.SetActive(false); // Can't go back on the first page
         helpScroll.transform.SetPositionAndRotation(originalPosition, originalRotation);
     }
 
     public void DespawnScroll()
     {
+        lecternAudioFeedback.PlayStartEndHelpSound();
         helpScroll.SetActive(false);
         spawnHelpScrollButton.gameObject.SetActive(true);
         despawnHelpScrollButton.gameObject.SetActive(false);
@@ -55,8 +62,9 @@ public class LecternInteraction : MonoBehaviour
 
     public void NextPage()
     {
-        if (currentPageIndex < pages.Count - 1)
+        if (currentPageIndex < pageTextComponents.Count - 1)
         {
+            lecternAudioFeedback.PlayForwardBackSound();
             currentPageIndex++;
             UpdateScrollText();
         }
@@ -67,6 +75,7 @@ public class LecternInteraction : MonoBehaviour
     {
         if (currentPageIndex > 0)
         {
+            lecternAudioFeedback.PlayForwardBackSound();
             currentPageIndex--;
             UpdateScrollText();
         }
@@ -75,16 +84,23 @@ public class LecternInteraction : MonoBehaviour
 
     private void UpdateScrollText()
     {
-        if (currentPageIndex >= 0 && currentPageIndex < pages.Count)
+        // Hide all pages
+        foreach (var textComponent in pageTextComponents)
         {
-            scrollText.text = pages[currentPageIndex];
+            textComponent.gameObject.SetActive(false);
+        }
+
+        // Show the current page
+        if (currentPageIndex >= 0 && currentPageIndex < pageTextComponents.Count)
+        {
+            pageTextComponents[currentPageIndex].gameObject.SetActive(true);
         }
     }
 
     // Enable or disable navigation buttons based on the current page index
     private void CheckButtons()
     {
-        nextPageButton.gameObject.SetActive(currentPageIndex < pages.Count - 1);
+        nextPageButton.gameObject.SetActive(currentPageIndex < pageTextComponents.Count - 1);
         previousPageButton.gameObject.SetActive(currentPageIndex > 0);
     }
 }

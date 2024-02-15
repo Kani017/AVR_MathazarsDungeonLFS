@@ -10,6 +10,11 @@ public class MathazarInteraction_R0 : MonoBehaviour
     public AudioClip teleportSound; // Assign in Inspector
     public AudioClip appearSound; // Assign in Inspector
     private RiddleManager riddleManager; // Referenz auf den RiddleManager
+
+    private void Start()
+    {
+        riddleManager = RiddleManager.Instance;
+    }
     void OnEnable() // Verwenden Sie OnEnable anstelle von Start
     {
         StartCoroutine(SequenceCoroutine());
@@ -18,7 +23,6 @@ public class MathazarInteraction_R0 : MonoBehaviour
 
     private IEnumerator SequenceCoroutine()
     {
-        UnityEngine.Debug.Log("M R0 worked");
         appearEffect.Play();
         audioSource.PlayOneShot(appearSound);
         yield return new WaitForSeconds(1f);
