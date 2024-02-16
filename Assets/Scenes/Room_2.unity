@@ -24729,10 +24729,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e2ef2ab2ca838c4c875afda84c23adb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartEndHelpSound: {fileID: 8300000, guid: 6710f59d1d9e1f446ae3c1931aedf50e, type: 3}
-  PageOneSound: {fileID: 8300000, guid: ac5b0a303a02af54cbca221a0b837f49, type: 3}
-  PageTwoSound: {fileID: 8300000, guid: 29698e1ac071d7a4a9bdf8d5e49892a9, type: 3}
-  PageThreeSound: {fileID: 8300000, guid: 8ae096a1bc4d4814897d5be2faae8fac, type: 3}
+  StartEndHelpSound: {fileID: 8300000, guid: d896f333befd71b44831b9a9c20f61fe, type: 3}
+  PageOneSound: {fileID: 8300000, guid: ecd8233c4fc75254f9f67f83d006d4ec, type: 3}
+  PageTwoSound: {fileID: 8300000, guid: bc6d614ed8560e94083bc8708498e871, type: 3}
+  PageThreeSound: {fileID: 8300000, guid: 691b071fb249ac944aa1ab81d30c5541, type: 3}
 --- !u!1001 &1242481058
 PrefabInstance:
   m_ObjectHideFlags: 0
