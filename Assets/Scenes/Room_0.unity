@@ -173,7 +173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5121424874881898277, guid: 8467e07eb8d87574dab94d758a2401f0, type: 3}
       propertyPath: m_Name
-      value: Candle Light
+      value: Candle Light1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -239,7 +239,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (1)
+      value: CellWall5
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -402,7 +402,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7269837772379014575, guid: 7d10f222c40d0d246a7ed5e786e6a6ae, type: 3}
       propertyPath: m_Name
-      value: Particle_Candle_Flame (2)
+      value: CandleFlame3
       objectReference: {fileID: 0}
     - target: {fileID: 7269837772379014576, guid: 7d10f222c40d0d246a7ed5e786e6a6ae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -512,7 +512,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (5)
+      value: HallwayTorch4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -536,11 +536,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 430618357}
+    m_TransformParent: {fileID: 357231485}
     m_Modifications:
     - target: {fileID: 100000, guid: 2a0826ad237d48847ad9a933839aa0f4, type: 3}
       propertyPath: m_Name
-      value: Coin_Silver (1)
+      value: CoinSilver2
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2a0826ad237d48847ad9a933839aa0f4, type: 3}
       propertyPath: m_Layer
@@ -548,11 +548,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2a0826ad237d48847ad9a933839aa0f4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.947514
+      value: -3.9475136
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2a0826ad237d48847ad9a933839aa0f4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7
+      value: 0.70000005
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2a0826ad237d48847ad9a933839aa0f4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -613,7 +613,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_Name
-      value: Floor_Stone (13)
+      value: Floor9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_LocalPosition.x
@@ -767,7 +767,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5121424874881898277, guid: 8467e07eb8d87574dab94d758a2401f0, type: 3}
       propertyPath: m_Name
-      value: Candle Light (1)
+      value: Candle Light2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -789,7 +789,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_Name
-      value: Floor_Stone (9)
+      value: Floor11
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_LocalPosition.x
@@ -863,7 +863,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 073c22d86bc6356428add81e8b29f187, type: 3}
       propertyPath: m_Name
-      value: Table_Wood_Square
+      value: HallwayTable
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 073c22d86bc6356428add81e8b29f187, type: 3}
       propertyPath: m_Layer
@@ -923,7 +923,28 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 400000, guid: 073c22d86bc6356428add81e8b29f187, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1237854234}
+    - targetCorrespondingSourceObject: {fileID: 400000, guid: 073c22d86bc6356428add81e8b29f187, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 891125257}
+    - targetCorrespondingSourceObject: {fileID: 400000, guid: 073c22d86bc6356428add81e8b29f187, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 849357212}
+    - targetCorrespondingSourceObject: {fileID: 400000, guid: 073c22d86bc6356428add81e8b29f187, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2007952451}
+    - targetCorrespondingSourceObject: {fileID: 400000, guid: 073c22d86bc6356428add81e8b29f187, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1160192460}
+    - targetCorrespondingSourceObject: {fileID: 400000, guid: 073c22d86bc6356428add81e8b29f187, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1569584836}
+    - targetCorrespondingSourceObject: {fileID: 400000, guid: 073c22d86bc6356428add81e8b29f187, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 960038034}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 073c22d86bc6356428add81e8b29f187, type: 3}
       insertIndex: -1
@@ -1187,7 +1208,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (5)
+      value: CeilingWood7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1395,7 +1416,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (4)
+      value: HallwayTorch3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1423,7 +1444,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (4)
+      value: TeleportRoomWall3
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -1510,7 +1531,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 65c6c44d70fa53946a57b3d66e287a02, type: 3}
       propertyPath: m_Name
-      value: Pot_04
+      value: Pot2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65c6c44d70fa53946a57b3d66e287a02, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1767,7 +1788,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Name
-      value: Wall_02
+      value: HallwayWall1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Layer
@@ -6858,7 +6879,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (6)
+      value: CellWall4
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -6887,7 +6908,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: f67140d9ffb29a848b113b5dab3c07f6, type: 3}
       propertyPath: m_Name
-      value: Floor_Wood
+      value: ExitFloor
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f67140d9ffb29a848b113b5dab3c07f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6961,7 +6982,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_Name
-      value: Floor_Stone (10)
+      value: Floor6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7240,7 +7261,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7269837772379014575, guid: 7d10f222c40d0d246a7ed5e786e6a6ae, type: 3}
       propertyPath: m_Name
-      value: Particle_Candle_Flame
+      value: CandleFlame2
       objectReference: {fileID: 0}
     - target: {fileID: 7269837772379014576, guid: 7d10f222c40d0d246a7ed5e786e6a6ae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7306,11 +7327,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 430618357}
+    m_TransformParent: {fileID: 357231485}
     m_Modifications:
     - target: {fileID: 100000, guid: 6fb09ba948a82ba4197bc32e046297c1, type: 3}
       propertyPath: m_Name
-      value: Coin_Gold
+      value: CoinGold1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6fb09ba948a82ba4197bc32e046297c1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7376,7 +7397,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: af1d7308daf371e4a8b0d686db4a7f37, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Barrel_Vault_Large
+      value: CeilingBarrelVault
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: af1d7308daf371e4a8b0d686db4a7f37, type: 3}
       propertyPath: m_LocalScale.x
@@ -7586,11 +7607,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 430618357}
+    m_TransformParent: {fileID: 1893867272}
     m_Modifications:
     - target: {fileID: 100000, guid: ffaeb91d33e6e72429bea28c96310603, type: 3}
       propertyPath: m_Name
-      value: Candle_Taper_01 (1)
+      value: CandleTaper3
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ffaeb91d33e6e72429bea28c96310603, type: 3}
       propertyPath: m_Layer
@@ -7598,11 +7619,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ffaeb91d33e6e72429bea28c96310603, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.8752437
+      value: -3.8752441
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ffaeb91d33e6e72429bea28c96310603, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.8
+      value: 0.79999995
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ffaeb91d33e6e72429bea28c96310603, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7685,7 +7706,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Name
-      value: Wall_02 (3)
+      value: HallwayWall5
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Layer
@@ -7779,13 +7800,10 @@ Transform:
   m_Children:
   - {fileID: 83799176}
   - {fileID: 1754244211}
-  - {fileID: 1995646792}
   - {fileID: 536224828}
   - {fileID: 1479816383}
   - {fileID: 1858647719}
   - {fileID: 430618357}
-  - {fileID: 446956677}
-  - {fileID: 589983722}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &347250941 stripped
@@ -7814,6 +7832,46 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4.0000033, y: 3, z: 0.4870308}
   m_Center: {x: -0.00000029802288, y: 1.5, z: 0.00499908}
+--- !u!1 &357231484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 357231485}
+  m_Layer: 0
+  m_Name: Coins
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &357231485
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357231484}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 290819738}
+  - {fileID: 729984393}
+  - {fileID: 652345926}
+  - {fileID: 663965701}
+  - {fileID: 790020741}
+  - {fileID: 2120145529}
+  - {fileID: 46193175}
+  - {fileID: 1891431478}
+  - {fileID: 788893655}
+  m_Father: {fileID: 430618357}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &393922868 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
@@ -8027,43 +8085,23 @@ Transform:
   - {fileID: 1689682136}
   - {fileID: 1402782992}
   - {fileID: 1859263512}
-  - {fileID: 1296751417}
   - {fileID: 1004206333}
+  - {fileID: 1914699352}
+  - {fileID: 1296751417}
   - {fileID: 1298753106}
-  - {fileID: 617676132}
-  - {fileID: 1530247790}
-  - {fileID: 1817395923}
-  - {fileID: 309295080}
-  - {fileID: 648754735}
-  - {fileID: 984722450}
   - {fileID: 2065296698}
   - {fileID: 1893567347}
   - {fileID: 894708595}
   - {fileID: 917268815}
   - {fileID: 187703288}
   - {fileID: 916355665}
-  - {fileID: 788893655}
-  - {fileID: 290819738}
-  - {fileID: 663965701}
-  - {fileID: 790020741}
-  - {fileID: 729984393}
-  - {fileID: 652345926}
-  - {fileID: 2120145529}
-  - {fileID: 46193175}
-  - {fileID: 1914699352}
-  - {fileID: 1237854234}
-  - {fileID: 891125257}
-  - {fileID: 105018283}
-  - {fileID: 2007952451}
-  - {fileID: 1160192460}
-  - {fileID: 849357212}
-  - {fileID: 960038034}
-  - {fileID: 1569584836}
-  - {fileID: 1242021611}
   - {fileID: 529698838}
+  - {fileID: 105018283}
+  - {fileID: 1242021611}
   - {fileID: 924477787}
-  - {fileID: 1891431478}
-  - {fileID: 1613352138}
+  - {fileID: 446956677}
+  - {fileID: 1893867272}
+  - {fileID: 357231485}
   m_Father: {fileID: 333685839}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &438583887
@@ -8310,7 +8348,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_Name
-      value: Floor_Stone (4)
+      value: Floor10
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8375,11 +8413,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 333685839}
+    m_TransformParent: {fileID: 430618357}
     m_Modifications:
     - target: {fileID: 100000, guid: bcb7f6ad7ab7c084fa27de507c4d62d9, type: 3}
       propertyPath: m_Name
-      value: Scroll_Open
+      value: CreditsScroll
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcb7f6ad7ab7c084fa27de507c4d62d9, type: 3}
       propertyPath: m_LocalScale.x
@@ -8395,15 +8433,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcb7f6ad7ab7c084fa27de507c4d62d9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.055429
+      value: -1.7758026
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcb7f6ad7ab7c084fa27de507c4d62d9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.60483706
+      value: 1.5513619
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcb7f6ad7ab7c084fa27de507c4d62d9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.6721573
+      value: 0.1793232
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcb7f6ad7ab7c084fa27de507c4d62d9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8811,7 +8849,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Name
-      value: Wall_02 (2)
+      value: HallwayWall4
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Layer
@@ -8928,7 +8966,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow
+      value: CellWall2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -8962,7 +9000,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: e54c282ab722b974d9f2be855e9c3bf9, type: 3}
       propertyPath: m_Name
-      value: Key_Silver
+      value: Key
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e54c282ab722b974d9f2be855e9c3bf9, type: 3}
       propertyPath: m_IsActive
@@ -9060,7 +9098,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_Name
-      value: Floor_Stone
+      value: Floor1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_TagString
@@ -9230,7 +9268,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_Name
-      value: Floor_Stone (3)
+      value: Floor4
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_TagString
@@ -9347,7 +9385,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (2)
+      value: CellWall11
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -9384,7 +9422,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 100000, guid: 443d48a30675807468840798620e61b0, type: 3}
       propertyPath: m_Name
-      value: Barrel (1)
+      value: Barrel2
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 443d48a30675807468840798620e61b0, type: 3}
       propertyPath: m_Layer
@@ -9461,7 +9499,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (12)
+      value: CeilingWood10
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9578,6 +9616,7 @@ Transform:
   - {fileID: 445642147}
   - {fileID: 98936017}
   - {fileID: 1434793616}
+  - {fileID: 1995646792}
   m_Father: {fileID: 333685839}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &536224829
@@ -9706,7 +9745,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: d226cc637e472f442af0df6cfbe55f74, type: 3}
       propertyPath: m_Name
-      value: Stairs_Wood_Short (1)
+      value: Stairs2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d226cc637e472f442af0df6cfbe55f74, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9800,7 +9839,7 @@ GameObject:
   - component: {fileID: 545215293}
   - component: {fileID: 545215292}
   m_Layer: 0
-  m_Name: Cube (17)
+  m_Name: IronBar5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14950,11 +14989,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 333685839}
+    m_TransformParent: {fileID: 1754244211}
     m_Modifications:
     - target: {fileID: 100000, guid: 00dcb0cea1398c048965c11b722a8d5d, type: 3}
       propertyPath: m_Name
-      value: Door_Cell_Arched
+      value: OffRoomDoor
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 00dcb0cea1398c048965c11b722a8d5d, type: 3}
       propertyPath: m_Layer
@@ -14962,15 +15001,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 00dcb0cea1398c048965c11b722a8d5d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.07621
+      value: 2.6202211
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 00dcb0cea1398c048965c11b722a8d5d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.156199
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 00dcb0cea1398c048965c11b722a8d5d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.163301
+      value: 13.19664
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 00dcb0cea1398c048965c11b722a8d5d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -15226,7 +15265,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_Name
-      value: Floor_Stone (6)
+      value: NonTeleportableFloor1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_Layer
@@ -15431,11 +15470,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 430618357}
+    m_TransformParent: {fileID: 1893867272}
     m_Modifications:
     - target: {fileID: 100000, guid: 6b1331dc7b707a545b89b1cddbd74bf7, type: 3}
       propertyPath: m_Name
-      value: Candle_Holder_Taper
+      value: CandleHolderTaper1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6b1331dc7b707a545b89b1cddbd74bf7, type: 3}
       propertyPath: m_Layer
@@ -15443,11 +15482,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b1331dc7b707a545b89b1cddbd74bf7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.0752435
+      value: -4.075243
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b1331dc7b707a545b89b1cddbd74bf7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7
+      value: 0.70000005
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b1331dc7b707a545b89b1cddbd74bf7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15639,7 +15678,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (14)
+      value: CeilingWood12
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15710,7 +15749,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_Name
-      value: Floor_Stone (7)
+      value: NonTeleportableFloor2
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_Layer
@@ -15779,19 +15818,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 430618357}
+    m_TransformParent: {fileID: 1893867272}
     m_Modifications:
     - target: {fileID: 100000, guid: e244196b2be80414b8443babf55c7899, type: 3}
       propertyPath: m_Name
-      value: Candle_Holder_Big
+      value: CandleHolderTaper2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e244196b2be80414b8443babf55c7899, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.0752435
+      value: -4.075243
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e244196b2be80414b8443babf55c7899, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7
+      value: 0.70000005
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e244196b2be80414b8443babf55c7899, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15850,11 +15889,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 430618357}
+    m_TransformParent: {fileID: 357231485}
     m_Modifications:
     - target: {fileID: 100000, guid: 6fb09ba948a82ba4197bc32e046297c1, type: 3}
       propertyPath: m_Name
-      value: Coin_Gold (2)
+      value: CoinGold3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6fb09ba948a82ba4197bc32e046297c1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15916,11 +15955,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 430618357}
+    m_TransformParent: {fileID: 357231485}
     m_Modifications:
     - target: {fileID: 100000, guid: 6fb09ba948a82ba4197bc32e046297c1, type: 3}
       propertyPath: m_Name
-      value: Coin_Gold (3)
+      value: CoinGold4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6fb09ba948a82ba4197bc32e046297c1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21022,7 +21061,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (5)
+      value: CellWall9
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -21475,7 +21514,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (4)
+      value: CellWall7
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -21823,7 +21862,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (3)
+      value: CellWall6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -21848,11 +21887,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 430618357}
+    m_TransformParent: {fileID: 357231485}
     m_Modifications:
     - target: {fileID: 100000, guid: 6fb09ba948a82ba4197bc32e046297c1, type: 3}
       propertyPath: m_Name
-      value: Coin_Gold (1)
+      value: CoinGold2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6fb09ba948a82ba4197bc32e046297c1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21953,7 +21992,7 @@ GameObject:
   - component: {fileID: 739296159}
   - component: {fileID: 739296158}
   m_Layer: 0
-  m_Name: Cube (12)
+  m_Name: IronBar1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22194,7 +22233,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (5)
+      value: CellWall3
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -22328,7 +22367,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (1)
+      value: CellTorch2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22425,7 +22464,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5121424874881898277, guid: 8467e07eb8d87574dab94d758a2401f0, type: 3}
       propertyPath: m_Name
-      value: Candle Light (2)
+      value: Candle Light3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22459,7 +22498,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ef3a35881a3d79f4d8c868951a0c5c16, type: 3}
       propertyPath: m_Name
-      value: Wall_Archway (1)
+      value: ExitArchway
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ef3a35881a3d79f4d8c868951a0c5c16, type: 3}
       propertyPath: m_Layer
@@ -22531,11 +22570,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 430618357}
+    m_TransformParent: {fileID: 357231485}
     m_Modifications:
     - target: {fileID: 100000, guid: 8675413daf5178d42b7514153d03f830, type: 3}
       propertyPath: m_Name
-      value: Coin_Purse
+      value: CoinPurse2
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 8675413daf5178d42b7514153d03f830, type: 3}
       propertyPath: m_Layer
@@ -22631,11 +22670,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 430618357}
+    m_TransformParent: {fileID: 357231485}
     m_Modifications:
     - target: {fileID: 100000, guid: 6fb09ba948a82ba4197bc32e046297c1, type: 3}
       propertyPath: m_Name
-      value: Coin_Gold (4)
+      value: CoinGold5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6fb09ba948a82ba4197bc32e046297c1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22747,7 +22786,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 430618357}
+    m_TransformParent: {fileID: 105018283}
     m_Modifications:
     - target: {fileID: 100000, guid: d30f842db1c631f4fa3824963dc997a6, type: 3}
       propertyPath: m_Name
@@ -22758,16 +22797,24 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d30f842db1c631f4fa3824963dc997a6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d30f842db1c631f4fa3824963dc997a6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d30f842db1c631f4fa3824963dc997a6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.6306324
+      value: 0.011751175
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d30f842db1c631f4fa3824963dc997a6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7
+      value: 0.70000005
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d30f842db1c631f4fa3824963dc997a6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.0418577
+      value: 0.33606052
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d30f842db1c631f4fa3824963dc997a6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -22954,7 +23001,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (10)
+      value: CeilingWood8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23042,6 +23089,7 @@ Transform:
   - {fileID: 1101775404}
   - {fileID: 708715922}
   - {fileID: 1971819384}
+  - {fileID: 1613352138}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &883275906
@@ -23054,7 +23102,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Name
-      value: Wall_02 (1)
+      value: HallwayWall3
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Layer
@@ -23149,19 +23197,27 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 430618357}
+    m_TransformParent: {fileID: 105018283}
     m_Modifications:
     - target: {fileID: 100000, guid: aff8c83a8b3ce7843b89984c36b2681b, type: 3}
       propertyPath: m_Name
-      value: Chair_Wood (1)
+      value: Chair2
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: aff8c83a8b3ce7843b89984c36b2681b, type: 3}
       propertyPath: m_Layer
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: aff8c83a8b3ce7843b89984c36b2681b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aff8c83a8b3ce7843b89984c36b2681b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aff8c83a8b3ce7843b89984c36b2681b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.7247572
+      value: 0.20000076
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: aff8c83a8b3ce7843b89984c36b2681b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -23169,7 +23225,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: aff8c83a8b3ce7843b89984c36b2681b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.9738278
+      value: -1.7999992
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: aff8c83a8b3ce7843b89984c36b2681b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -23296,7 +23352,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (6)
+      value: CeilingWood3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23450,7 +23506,7 @@ GameObject:
   - component: {fileID: 902290467}
   - component: {fileID: 902290466}
   m_Layer: 0
-  m_Name: Cube (14)
+  m_Name: IronBar2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23552,7 +23608,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (13)
+      value: CeilingWood11
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23626,7 +23682,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 100000, guid: 443d48a30675807468840798620e61b0, type: 3}
       propertyPath: m_Name
-      value: Barrel
+      value: Barrel1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 443d48a30675807468840798620e61b0, type: 3}
       propertyPath: m_Layer
@@ -23711,7 +23767,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 100000, guid: bf69c0f1f89622144a22786532cc9625, type: 3}
       propertyPath: m_Name
-      value: Pot_03
+      value: Pot1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: bf69c0f1f89622144a22786532cc9625, type: 3}
       propertyPath: m_Layer
@@ -23832,7 +23888,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: f3d67946313e730428ed1f132e76987f, type: 3}
       propertyPath: m_Name
-      value: Bag_01
+      value: Sack
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f3d67946313e730428ed1f132e76987f, type: 3}
       propertyPath: m_Layer
@@ -23861,7 +23917,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (7)
+      value: HallwayWall12
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -24114,7 +24170,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: d226cc637e472f442af0df6cfbe55f74, type: 3}
       propertyPath: m_Name
-      value: Stairs_Wood_Short
+      value: Stairs1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d226cc637e472f442af0df6cfbe55f74, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24249,7 +24305,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (8)
+      value: CellWall10
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -24278,7 +24334,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Name
-      value: Wall_02 (10)
+      value: OffRoomWall3
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Layer
@@ -24368,7 +24424,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 430618357}
+    m_TransformParent: {fileID: 105018283}
     m_Modifications:
     - target: {fileID: 100000, guid: d094b8be89ee22c40805d44bac470ff0, type: 3}
       propertyPath: m_Name
@@ -24379,16 +24435,24 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d094b8be89ee22c40805d44bac470ff0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d094b8be89ee22c40805d44bac470ff0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d094b8be89ee22c40805d44bac470ff0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.8247566
+      value: 0.39999962
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d094b8be89ee22c40805d44bac470ff0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7
+      value: 0.70000005
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d094b8be89ee22c40805d44bac470ff0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.0738277
+      value: 0.40000057
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d094b8be89ee22c40805d44bac470ff0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -24446,11 +24510,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 430618357}
+    m_TransformParent: {fileID: 1893867272}
     m_Modifications:
     - target: {fileID: 100000, guid: 7f09643a5c2503847954a468b540ce16, type: 3}
       propertyPath: m_Name
-      value: Candle_Taper_02
+      value: CandleTaper2
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 7f09643a5c2503847954a468b540ce16, type: 3}
       propertyPath: m_Layer
@@ -24458,11 +24522,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7f09643a5c2503847954a468b540ce16, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.0752435
+      value: -4.075243
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7f09643a5c2503847954a468b540ce16, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.8
+      value: 0.79999995
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7f09643a5c2503847954a468b540ce16, type: 3}
       propertyPath: m_LocalPosition.z
@@ -25179,7 +25243,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: af85e3cf500e2b44380c5add94e14415, type: 3}
       propertyPath: m_Name
-      value: Bottle_Wine_04
+      value: Bottle2
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: af85e3cf500e2b44380c5add94e14415, type: 3}
       propertyPath: m_Layer
@@ -25328,7 +25392,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (11)
+      value: CeilingWood9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25472,7 +25536,7 @@ GameObject:
   - component: {fileID: 1046919163}
   - component: {fileID: 1046919162}
   m_Layer: 0
-  m_Name: Cube (15)
+  m_Name: IronBar4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25809,7 +25873,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: eeaa817bee3d30c4796b84d0561025a8, type: 3}
       propertyPath: m_Name
-      value: Wall_Cell_Doorway
+      value: CellDoorway
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: eeaa817bee3d30c4796b84d0561025a8, type: 3}
       propertyPath: m_Layer
@@ -26196,7 +26260,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (1)
+      value: HallwayWall10
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -26333,7 +26397,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ef3a35881a3d79f4d8c868951a0c5c16, type: 3}
       propertyPath: m_Name
-      value: Wall_Archway
+      value: OffRoomArchway
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ef3a35881a3d79f4d8c868951a0c5c16, type: 3}
       propertyPath: m_Layer
@@ -26412,7 +26476,7 @@ GameObject:
   - component: {fileID: 1134563596}
   - component: {fileID: 1134563595}
   m_Layer: 0
-  m_Name: Cube (16)
+  m_Name: IronBar6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26834,7 +26898,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 430618357}
+    m_TransformParent: {fileID: 105018283}
     m_Modifications:
     - target: {fileID: 100000, guid: 873f11b94e038ad49828dffff0c9bb41, type: 3}
       propertyPath: m_Name
@@ -26845,16 +26909,24 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 873f11b94e038ad49828dffff0c9bb41, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 873f11b94e038ad49828dffff0c9bb41, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 873f11b94e038ad49828dffff0c9bb41, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.5247564
+      value: -0.20000076
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 873f11b94e038ad49828dffff0c9bb41, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7
+      value: 0.70000005
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 873f11b94e038ad49828dffff0c9bb41, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.9738278
+      value: 0.20000076
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 873f11b94e038ad49828dffff0c9bb41, type: 3}
       propertyPath: m_LocalRotation.w
@@ -26911,7 +26983,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: ea6fd82daa8417c45831a609ad2c4f16, type: 3}
       propertyPath: m_Name
-      value: Wall_Short
+      value: HallwayWall13
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ea6fd82daa8417c45831a609ad2c4f16, type: 3}
       propertyPath: m_Layer
@@ -27050,7 +27122,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Name
-      value: Wall_02 (12)
+      value: OffRoomWall5
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Layer
@@ -27281,7 +27353,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: ea6fd82daa8417c45831a609ad2c4f16, type: 3}
       propertyPath: m_Name
-      value: Wall_Short (1)
+      value: HallwayWall14
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ea6fd82daa8417c45831a609ad2c4f16, type: 3}
       propertyPath: m_Layer
@@ -27365,111 +27437,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4.0000005, y: 1.0011005, z: 0.4800004}
   m_Center: {x: 0.00000023841864, y: 0.50055027, z: 0}
---- !u!1 &1206021590
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1206021594}
-  - component: {fileID: 1206021593}
-  - component: {fileID: 1206021592}
-  - component: {fileID: 1206021591}
-  m_Layer: 0
-  m_Name: Cube (24)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &1206021591
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1206021590}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1206021592
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1206021590}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 2d25ee7102ba2664391989d09f66caab, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1206021593
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1206021590}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1206021594
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1206021590}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.55, y: -0.5, z: -0.8000002}
-  m_LocalScale: {x: 0.05, y: 1, z: 0.05}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1479816383}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1206472751
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27480,7 +27447,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (7)
+      value: CeilingWood5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27546,7 +27513,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_Name
-      value: Floor_Stone (2)
+      value: Floor3
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_TagString
@@ -27686,7 +27653,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (2)
+      value: HallwayTorch1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27754,7 +27721,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (6)
+      value: HallwayTorch6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27787,7 +27754,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Name
-      value: Wall_02 (11)
+      value: OffRoomWall4
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Layer
@@ -27877,19 +27844,27 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 430618357}
+    m_TransformParent: {fileID: 105018283}
     m_Modifications:
     - target: {fileID: 100000, guid: aff8c83a8b3ce7843b89984c36b2681b, type: 3}
       propertyPath: m_Name
-      value: Chair_Wood
+      value: Chair1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: aff8c83a8b3ce7843b89984c36b2681b, type: 3}
       propertyPath: m_Layer
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: aff8c83a8b3ce7843b89984c36b2681b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aff8c83a8b3ce7843b89984c36b2681b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aff8c83a8b3ce7843b89984c36b2681b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.8247566
+      value: 0.39999962
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: aff8c83a8b3ce7843b89984c36b2681b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -27897,7 +27872,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: aff8c83a8b3ce7843b89984c36b2681b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.873828
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: aff8c83a8b3ce7843b89984c36b2681b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -27954,7 +27929,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 48b4af048e11bf04d98099feb3bce0c4, type: 3}
       propertyPath: m_Name
-      value: Skeleton_Sitting
+      value: Skeleton
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 48b4af048e11bf04d98099feb3bce0c4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28020,7 +27995,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (3)
+      value: HallwayWall7
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -28170,7 +28145,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 1e224303df16ae440b47573e525e470a, type: 3}
       propertyPath: m_Name
-      value: Bottle_Potion_02
+      value: Potion1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 1e224303df16ae440b47573e525e470a, type: 3}
       propertyPath: m_Layer
@@ -28243,7 +28218,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: c9d1933323ce70641b72b53d0ff04a9e, type: 3}
       propertyPath: m_Name
-      value: Quill_Inkpot
+      value: QuillInkpot
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: c9d1933323ce70641b72b53d0ff04a9e, type: 3}
       propertyPath: m_Layer
@@ -28457,7 +28432,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_Name
-      value: Floor_Stone (11)
+      value: Floor7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28575,7 +28550,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (8)
+      value: CeilingWood4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28641,7 +28616,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Name
-      value: Wall_02 (13)
+      value: OffRoomWall1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Layer
@@ -28762,7 +28737,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (9)
+      value: CeilingWood13
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28854,7 +28829,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (8)
+      value: TeleportRoomWall1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -28958,7 +28933,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: f67140d9ffb29a848b113b5dab3c07f6, type: 3}
       propertyPath: m_Name
-      value: Floor_Wood (1)
+      value: TeleportRoomFloor
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f67140d9ffb29a848b113b5dab3c07f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29049,7 +29024,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 0da7f7fb2f85e664faf044e71acff3ca, type: 3}
       propertyPath: m_Name
-      value: Table_Wood_Rectangular
+      value: Table
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0da7f7fb2f85e664faf044e71acff3ca, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29188,7 +29163,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (15)
+      value: CeilingWood6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalScale.x
@@ -29396,7 +29371,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_Name
-      value: Floor_Stone (8)
+      value: Floor12
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29644,7 +29619,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_Name
-      value: Floor_Stone (1)
+      value: Floor2
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_TagString
@@ -30014,12 +29989,11 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 739296161}
-  - {fileID: 1206021594}
-  - {fileID: 1878767405}
   - {fileID: 902290469}
+  - {fileID: 1878767405}
   - {fileID: 1046919165}
-  - {fileID: 1134563598}
   - {fileID: 545215295}
+  - {fileID: 1134563598}
   m_Father: {fileID: 333685839}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1495113312 stripped
@@ -30196,11 +30170,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 430618357}
+    m_TransformParent: {fileID: 1893867272}
     m_Modifications:
     - target: {fileID: 100000, guid: ffaeb91d33e6e72429bea28c96310603, type: 3}
       propertyPath: m_Name
-      value: Candle_Taper_01
+      value: CandleTaper1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ffaeb91d33e6e72429bea28c96310603, type: 3}
       propertyPath: m_Layer
@@ -30208,11 +30182,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ffaeb91d33e6e72429bea28c96310603, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.0752435
+      value: -4.075243
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ffaeb91d33e6e72429bea28c96310603, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.8
+      value: 0.79999995
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ffaeb91d33e6e72429bea28c96310603, type: 3}
       propertyPath: m_LocalPosition.z
@@ -30299,7 +30273,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (9)
+      value: TeleportRoomWall2
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -30433,7 +30407,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (7)
+      value: HallwayTorch5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30457,27 +30431,35 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 430618357}
+    m_TransformParent: {fileID: 105018283}
     m_Modifications:
     - target: {fileID: 100000, guid: af85e3cf500e2b44380c5add94e14415, type: 3}
       propertyPath: m_Name
-      value: Bottle_Wine_04 (1)
+      value: Bottle3
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: af85e3cf500e2b44380c5add94e14415, type: 3}
       propertyPath: m_Layer
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: af85e3cf500e2b44380c5add94e14415, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: af85e3cf500e2b44380c5add94e14415, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: af85e3cf500e2b44380c5add94e14415, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.9258213
+      value: 0.602129
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: af85e3cf500e2b44380c5add94e14415, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7
+      value: 0.70000005
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: af85e3cf500e2b44380c5add94e14415, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.7738276
+      value: -0.19999981
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: af85e3cf500e2b44380c5add94e14415, type: 3}
       propertyPath: m_LocalRotation.w
@@ -30609,7 +30591,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (2)
+      value: HallwayWall11
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -30759,7 +30741,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (7)
+      value: CellWall8
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -30788,7 +30770,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1613352138}
   m_Layer: 0
-  m_Name: Candle_Lighting
+  m_Name: Candles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30803,17 +30785,17 @@ Transform:
   m_GameObject: {fileID: 1613352137}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.8752432, y: 1.16, z: 6.5738277}
+  m_LocalPosition: {x: 8.955989, y: -0.996199, z: 7.066662}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2608770}
   - {fileID: 97258170}
   - {fileID: 786927569}
-  - {fileID: 282620833}
   - {fileID: 2063594028}
+  - {fileID: 282620833}
   - {fileID: 38090918}
-  m_Father: {fileID: 430618357}
+  m_Father: {fileID: 876008798}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1615208003
 PrefabInstance:
@@ -30825,7 +30807,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01
+      value: CellWall1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -31284,7 +31266,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (3)
+      value: HallwayTorch2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31344,7 +31326,7 @@ GameObject:
   - component: {fileID: 1683908038}
   - component: {fileID: 1683908039}
   m_Layer: 2
-  m_Name: Door_Wood
+  m_Name: ExitDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31508,7 +31490,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 9887ba53e5ef95c40a65c40edf99c785, type: 3}
       propertyPath: m_Name
-      value: Prison_Cot
+      value: PrisonCot
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9887ba53e5ef95c40a65c40edf99c785, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31809,7 +31791,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (3)
+      value: CeilingWood1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31927,27 +31909,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1097351079}
   - {fileID: 1615208004}
-  - {fileID: 224862682}
-  - {fileID: 1852417572}
-  - {fileID: 1325171010}
-  - {fileID: 956644293}
-  - {fileID: 1235238975}
-  - {fileID: 1173138215}
-  - {fileID: 1955556764}
-  - {fileID: 883275907}
-  - {fileID: 459194965}
-  - {fileID: 328029057}
-  - {fileID: 2024212901}
-  - {fileID: 1245494529}
-  - {fileID: 178786022}
-  - {fileID: 1396760991}
-  - {fileID: 1834791166}
-  - {fileID: 1851827253}
-  - {fileID: 1129200872}
-  - {fileID: 1572822786}
-  - {fileID: 926181265}
-  - {fileID: 1544263348}
   - {fileID: 494443035}
   - {fileID: 756353848}
   - {fileID: 228994405}
@@ -31958,11 +31921,31 @@ Transform:
   - {fileID: 702854087}
   - {fileID: 945897565}
   - {fileID: 526823935}
-  - {fileID: 1097351079}
+  - {fileID: 224862682}
+  - {fileID: 1955556764}
+  - {fileID: 883275907}
+  - {fileID: 459194965}
+  - {fileID: 328029057}
+  - {fileID: 2024212901}
+  - {fileID: 1245494529}
+  - {fileID: 1834791166}
+  - {fileID: 1851827253}
+  - {fileID: 1129200872}
+  - {fileID: 1572822786}
+  - {fileID: 926181265}
   - {fileID: 1163910390}
   - {fileID: 1204256596}
-  - {fileID: 788797461}
   - {fileID: 1133941511}
+  - {fileID: 589983722}
+  - {fileID: 1852417572}
+  - {fileID: 1325171010}
+  - {fileID: 956644293}
+  - {fileID: 1235238975}
+  - {fileID: 1173138215}
+  - {fileID: 788797461}
+  - {fileID: 1396760991}
+  - {fileID: 1544263348}
+  - {fileID: 178786022}
   m_Father: {fileID: 333685839}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1771085535
@@ -32134,7 +32117,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (4)
+      value: CeilingWood2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32196,19 +32179,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 430618357}
+    m_TransformParent: {fileID: 1893867272}
     m_Modifications:
     - target: {fileID: 100000, guid: 6b1331dc7b707a545b89b1cddbd74bf7, type: 3}
       propertyPath: m_Name
-      value: Candle_Holder_Taper (1)
+      value: CandleHolderTaper3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b1331dc7b707a545b89b1cddbd74bf7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.8752437
+      value: -3.8752441
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b1331dc7b707a545b89b1cddbd74bf7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7
+      value: 0.70000005
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b1331dc7b707a545b89b1cddbd74bf7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -32345,7 +32328,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Name
-      value: Wall_02 (5)
+      value: HallwayWall8
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Layer
@@ -32439,7 +32422,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Name
-      value: Wall_02 (6)
+      value: HallwayWall9
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Layer
@@ -32533,7 +32516,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Name
-      value: Wall_02 (9)
+      value: OffRoomWall2
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Layer
@@ -32689,7 +32672,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: f36afde725864254b84eb06536da212f, type: 3}
       propertyPath: m_Name
-      value: Bottle_Wine_02
+      value: Bottle1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: f36afde725864254b84eb06536da212f, type: 3}
       propertyPath: m_Layer
@@ -32814,7 +32797,7 @@ GameObject:
   - component: {fileID: 1878767403}
   - component: {fileID: 1878767402}
   m_Layer: 0
-  m_Name: Cube (13)
+  m_Name: IronBar3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32969,11 +32952,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 430618357}
+    m_TransformParent: {fileID: 357231485}
     m_Modifications:
     - target: {fileID: 100000, guid: 8675413daf5178d42b7514153d03f830, type: 3}
       propertyPath: m_Name
-      value: Coin_Purse (1)
+      value: CoinPurse1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 8675413daf5178d42b7514153d03f830, type: 3}
       propertyPath: m_Layer
@@ -33211,7 +33194,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: f0d1871d6b806fe4f8eee78e0556315c, type: 3}
       propertyPath: m_Name
-      value: Bone_Pile
+      value: BonePile
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: f0d1871d6b806fe4f8eee78e0556315c, type: 3}
       propertyPath: m_Layer
@@ -33301,6 +33284,43 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: f0d1871d6b806fe4f8eee78e0556315c, type: 3}
+--- !u!1 &1893867271
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1893867272}
+  m_Layer: 0
+  m_Name: Candles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1893867272
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893867271}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 617676132}
+  - {fileID: 1530247790}
+  - {fileID: 1817395923}
+  - {fileID: 309295080}
+  - {fileID: 648754735}
+  - {fileID: 984722450}
+  m_Father: {fileID: 430618357}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1909878325 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
@@ -33337,7 +33357,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 994a266be286e2547ae18f3ccf8c9726, type: 3}
       propertyPath: m_Name
-      value: Bottle_Wine_01
+      value: Bottle4
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 994a266be286e2547ae18f3ccf8c9726, type: 3}
       propertyPath: m_Layer
@@ -33432,7 +33452,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_Name
-      value: Floor_Stone (12)
+      value: Floor8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_LocalPosition.x
@@ -38688,7 +38708,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Name
-      value: Wall_02 (7)
+      value: HallwayWall2
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Layer
@@ -39411,7 +39431,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3090912462094733762, guid: 339fd99d134a476479956f042003adb9, type: 3}
       propertyPath: m_Name
-      value: Fire Light (3)
+      value: AtmosphericLight
       objectReference: {fileID: 0}
     - target: {fileID: 3293608879164623977, guid: 339fd99d134a476479956f042003adb9, type: 3}
       propertyPath: m_Range
@@ -39581,13 +39601,13 @@ Transform:
   m_GameObject: {fileID: 1995646791}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.595822, y: -1.6575345, z: 10.6104355}
+  m_LocalPosition: {x: -1.8796749, y: -0.5013355, z: 14.743774}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 599248338}
   - {fileID: 645805723}
-  m_Father: {fileID: 333685839}
+  m_Father: {fileID: 536224828}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1998090034
 GameObject:
@@ -39731,27 +39751,35 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 430618357}
+    m_TransformParent: {fileID: 105018283}
     m_Modifications:
     - target: {fileID: 100000, guid: 1313eb3d21e986348957d9357983f057, type: 3}
       propertyPath: m_Name
-      value: Flagon
+      value: Cup
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 1313eb3d21e986348957d9357983f057, type: 3}
       propertyPath: m_Layer
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1313eb3d21e986348957d9357983f057, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1313eb3d21e986348957d9357983f057, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1313eb3d21e986348957d9357983f057, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.6247568
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1313eb3d21e986348957d9357983f057, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7
+      value: 0.70000005
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1313eb3d21e986348957d9357983f057, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.6738276
+      value: -0.39999962
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1313eb3d21e986348957d9357983f057, type: 3}
       propertyPath: m_LocalRotation.w
@@ -39830,7 +39858,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Name
-      value: Wall_02 (4)
+      value: HallwayWall6
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Layer
@@ -44837,7 +44865,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_Name
-      value: Floor_Stone (5)
+      value: Floor5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8e16d237f49852841ae26baa3f3bf154, type: 3}
       propertyPath: m_LocalPosition.x
@@ -44906,7 +44934,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7269837772379014575, guid: 7d10f222c40d0d246a7ed5e786e6a6ae, type: 3}
       propertyPath: m_Name
-      value: Particle_Candle_Flame (1)
+      value: CandleFlame1
       objectReference: {fileID: 0}
     - target: {fileID: 7269837772379014576, guid: 7d10f222c40d0d246a7ed5e786e6a6ae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -45180,7 +45208,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 807b4361aa8e0e1419faac4057e4cfaa, type: 3}
       propertyPath: m_Name
-      value: Door_Cell
+      value: CellDoor
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 807b4361aa8e0e1419faac4057e4cfaa, type: 3}
       propertyPath: m_Layer
@@ -45423,11 +45451,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 430618357}
+    m_TransformParent: {fileID: 357231485}
     m_Modifications:
     - target: {fileID: 100000, guid: 2a0826ad237d48847ad9a933839aa0f4, type: 3}
       propertyPath: m_Name
-      value: Coin_Silver
+      value: CoinSilver1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2a0826ad237d48847ad9a933839aa0f4, type: 3}
       propertyPath: m_Layer
@@ -45435,11 +45463,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2a0826ad237d48847ad9a933839aa0f4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.0752435
+      value: -4.075243
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2a0826ad237d48847ad9a933839aa0f4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7
+      value: 0.70000005
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2a0826ad237d48847ad9a933839aa0f4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -45549,7 +45577,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 186074664503701704, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_Name
-      value: Scroll_with_text
+      value: IntroScroll
       objectReference: {fileID: 0}
     - target: {fileID: 186074664504061160, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_LocalPosition.x
@@ -45720,7 +45748,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch
+      value: CellTorch1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

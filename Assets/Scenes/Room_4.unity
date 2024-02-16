@@ -28211,7 +28211,7 @@ GameObject:
   - component: {fileID: 1236386659}
   - component: {fileID: 1236386658}
   m_Layer: 0
-  m_Name: Text (TMP)
+  m_Name: Arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28766,7 +28766,7 @@ GameObject:
   - component: {fileID: 1314436510}
   - component: {fileID: 1314436509}
   m_Layer: 0
-  m_Name: Text (TMP) (1)
+  m_Name: SignText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28813,8 +28813,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Mathe Olympiade
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1f96eb56f50b6994cae5f11187d4162e, type: 2}
+  m_sharedMaterial: {fileID: 8694288473087831709, guid: 1f96eb56f50b6994cae5f11187d4162e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -28903,7 +28903,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
+  - {fileID: 8694288473087831709, guid: 1f96eb56f50b6994cae5f11187d4162e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
