@@ -5,33 +5,36 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class KeyInteraction : MonoBehaviour
 {
+    // Transform of the lock and the script controlling the cell door interaction.
     public Transform lockTransform;
     public CellDoorInteraction cellDoorInteraction;
+
+    // Key interaction components and effects.
     private XRGrabInteractable grabInteractable;
     private Rigidbody _rigidbody;
     public float unlockDistance = 0.2f;
-    private bool hasUnlocked = false;
-    private KeyAudioFeedback keyAudioFeedback;
-    public ParticleSystem keyUnlockParticles;
-    public ParticleSystem keyIdleParticles;
+    private bool hasUnlocked = false; // Tracks if the key has unlocked the door.
+    private KeyAudioFeedback keyAudioFeedback; // Handles audio feedback for key interactions.
+    public ParticleSystem keyUnlockParticles, keyIdleParticles; // Visual effects for the key.
+    public KeyHighlightEffect keyHighlightEffect; // Visual effect for highlighting the key.
     private bool isDropped = false;
-    public KeyHighlightEffect keyHighlightEffect;
 
+    // Used for respawning the key if dropped below a certain height.
     private Vector3 originalPosition;
     private Quaternion originalRotation;
-    public float floorThreshold = -10f; // Threshold for y-coordinate
+    public float floorThreshold = -10f;
 
     void Start()
     {
+        // Initialize components and store the key's original position for possible respawn.
         grabInteractable = GetComponent<XRGrabInteractable>();
         _rigidbody = GetComponent<Rigidbody>();
-        grabInteractable.enabled = false;
-
-        // Store the original position and rotation
         originalPosition = transform.position;
         originalRotation = transform.rotation;
+        grabInteractable.enabled = false; // Interaction is enabled under specific conditions.
     }
 
+    // Check for unlock conditions or if the key needs to be respawned.
     void Update()
     {
         if (grabInteractable.isSelected && !hasUnlocked)
@@ -48,12 +51,11 @@ public class KeyInteraction : MonoBehaviour
         }
     }
 
+    // Resets the key's position, orientation, and physics.
     private void RespawnKey()
     {
-        // Reset the key's position and rotation to its original state
         transform.SetPositionAndRotation(originalPosition, originalRotation);
 
-        // Reset physics state
         _rigidbody.velocity = Vector3.zero;
         _rigidbody.angularVelocity = Vector3.zero;
         _rigidbody.isKinematic = false;
@@ -68,6 +70,7 @@ public class KeyInteraction : MonoBehaviour
         keyIdleParticles.Stop();
     }
 
+    // Handles the key being dropped, playing effects and adjusting state.
     public void OnKeyDropped()
     {
         isDropped = true;
@@ -85,6 +88,7 @@ public class KeyInteraction : MonoBehaviour
         }
     }
 
+    // Enables key interaction and initializes feedback mechanisms.
     public void MakeKeyInteractable()
     {
         grabInteractable.enabled = true;
@@ -93,6 +97,7 @@ public class KeyInteraction : MonoBehaviour
 
     }
 
+    // Coroutine handling the key unlocking the door, with visual and audio feedback.
     private IEnumerator UnlockProcedure()
     {
         // Ensure this procedure runs only once

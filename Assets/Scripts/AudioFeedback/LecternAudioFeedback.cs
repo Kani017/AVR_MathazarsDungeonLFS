@@ -1,7 +1,6 @@
-// Manages audio feedback for lectern interactions, such as starting, ending help, and flipping pages.
-
 using UnityEngine;
 
+// Manages audio feedback for lectern interactions, such as starting, ending help, and flipping pages.
 public class LecternAudioFeedback : MonoBehaviour
 {
     public AudioClip StartEndHelpSound;

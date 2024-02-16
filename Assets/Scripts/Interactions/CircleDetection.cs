@@ -62,7 +62,7 @@ public class CircleDetection : MonoBehaviour
             {
                 // All questions answered, riddle solved
                 detectionCircleAudioFeedback.PlayAllQuestionsSolvedSound(); // Play sound when all questions are solved
-                riddleManager.SolveRiddle(2); // Start particle effect
+                riddleManager.SolveRiddle(2); // Start particle effect and interactability on lever
 
                 // Deactivate all questions
                 foreach (var question in questions)
@@ -77,8 +77,6 @@ public class CircleDetection : MonoBehaviour
         else
         {
             StartCoroutine(ResetCircleColor());
-            // Provide feedback to the player
-            // Implement the feedback logic here
         }
     }
 
@@ -91,7 +89,7 @@ public class CircleDetection : MonoBehaviour
 
     bool IsCorrectCheese(GameObject cheese, int questionIndex)
     {
-        // Implement logic to check if the cake matches the fraction required by the question
+        // Logic to check if the cake matches the fraction required by the question
         return cheese.name == cheesePrefabs[correctCheeseIndex[questionIndex]].name;
     }
 

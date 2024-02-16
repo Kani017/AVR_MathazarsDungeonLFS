@@ -1,15 +1,13 @@
-using System.Collections;
 using UnityEngine;
 
+// Manages opening of the cell door, removing the raycast blockers and the mathazar sequence.
 public class CellDoorInteraction : MonoBehaviour
 {
     public Animator cellDoorAnimator;
     public BoxCollider boxCollider;
-    public GameObject blockerToDestroy1;
-    public GameObject blockerToDestroy2;
+    public GameObject blockerToDestroy1, blockerToDestroy2;
     private AudioSource audioSource;
-    public GameObject MathazarInteraction;
-    public GameObject mathazarGameObject; // Direct reference to Mathazar GameObject
+    public GameObject MathazarInteraction, mathazarGameObject;
 
     void Start()
     {
@@ -18,20 +16,13 @@ public class CellDoorInteraction : MonoBehaviour
 
     public void OpenCellDoor()
     {
-        Debug.Log("OpenCellDoor method called");
+        // Open the door and trigger related interactions
         cellDoorAnimator.SetBool("Activated", true);
-        PlayCreakingSound();
+        audioSource.Play(); // Door creaking sound
         Destroy(boxCollider);
         Destroy(blockerToDestroy1);
         Destroy(blockerToDestroy2);
-
-        // Aktiviere das Mathazar GameObject, um die Sequenz zu starten
-        mathazarGameObject.SetActive(true);
+        mathazarGameObject.SetActive(true); // Start Mathazar interaction sequence
         MathazarInteraction.SetActive(true);
-    }
-
-    private void PlayCreakingSound()
-    {
-        audioSource.Play();
     }
 }

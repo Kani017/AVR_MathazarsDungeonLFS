@@ -1,7 +1,6 @@
-// This script handles the audio feedback for book interactions such as picking up, dropping, and snapping into place.
-
 using UnityEngine;
 
+// This script handles the audio feedback for book interactions such as picking up, dropping, and snapping into place.
 public class BookAudioFeedback : MonoBehaviour
 {
     public AudioClip bookPickupSound;

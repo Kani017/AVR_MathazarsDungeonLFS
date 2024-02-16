@@ -1,6 +1,6 @@
-// This script manages audio feedback for cheese pickup and drop interactions within the game.
-
 using UnityEngine;
+
+// This script manages audio feedback for cheese pickup and drop interactions within the game.
 
 public class CheeseAudioFeedback : MonoBehaviour
 {

@@ -1,13 +1,14 @@
 using UnityEngine;
 using System.Collections;
 
+// Manages the end sequence of the game, including animations, effects, and audio.
 public class EndSequence : MonoBehaviour
 {
     public Animator mathazarAnimator;
     public ParticleSystem appearanceEffect;
     public AudioClip voiceLine;
     public GameObject credits;
-    public Animator creditsAnimation; // Reference to the Animation component for credits
+    public Animator creditsAnimation;
     private EndSequenceAudioFeedback endSequenceAudioFeedback;
     public PauseMenuActions pauseMenuActions;
 
@@ -17,20 +18,17 @@ public class EndSequence : MonoBehaviour
         StartCoroutine(SequenceCoroutine());
     }
 
+    // Handles the sequence of events for the end game animation and transition to credits.
     private IEnumerator SequenceCoroutine()
     {
         endSequenceAudioFeedback.PlayGlobalBgMusic();
-        // Play Anim
         mathazarAnimator.SetTrigger("Jump");
         yield return new WaitForSeconds(1f);
 
-
-        // Play Mathazar's voice line
         endSequenceAudioFeedback.PlayMathazarOutroVoiceline();
         yield return new WaitForSeconds(voiceLine.length);
 
-
-        //Mathazar despawn
+        // Mathazar despawns with visual and audio effects.
         endSequenceAudioFeedback.PlayMathazarJumpSound();
         yield return new WaitForSeconds(0.5f);
         appearanceEffect.Play();
@@ -40,17 +38,14 @@ public class EndSequence : MonoBehaviour
         appearanceEffect.Stop();
         yield return new WaitForSeconds(4f);
 
-
-        // Trigger the credits animation
+        // Triggers and displays the credits along with ending music.
         endSequenceAudioFeedback.PlayEndMusic();
         credits.SetActive(true);
         creditsAnimation.SetBool("Activated", true);
         yield return new WaitForSeconds(28f);
         credits.SetActive(false);
 
-
-
-        //End Menü hier
+        // Activates the pause menu at the end.
         pauseMenuActions.OnActivate();
     }
 }

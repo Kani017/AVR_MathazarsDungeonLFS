@@ -1,7 +1,6 @@
-// This script provides audio feedback for interactions with the bookshelf, such as placing the correct book and solving all questions.
-
 using UnityEngine;
 
+// This script provides audio feedback for interactions with the bookshelf, such as placing the correct book and solving all questions.
 public class BookshelfAudioFeedback : MonoBehaviour
 {
     //public AudioClip wrongBookSound;

@@ -1,7 +1,6 @@
-// Manages audio feedback for events within the detection circle, such as solving a question or all questions.
-
 using UnityEngine;
 
+// Manages audio feedback for events within the detection circle, such as solving a question or all questions.
 public class DetectionCircleAudioFeedback : MonoBehaviour
 {
     public AudioClip questionSolvedSound;

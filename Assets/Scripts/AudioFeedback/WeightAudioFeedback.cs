@@ -1,7 +1,6 @@
-// Handles audio feedback for interactions with weights, including snapping into place, picking up, and dropping.
-
 using UnityEngine;
 
+// Handles audio feedback for interactions with weights, including snapping into place, picking up, and dropping.
 public class WeightAudioFeedback : MonoBehaviour
 {
     public AudioClip weightSnappingSound;

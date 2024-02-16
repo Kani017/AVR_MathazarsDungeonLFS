@@ -1,7 +1,6 @@
-// Handles the playback of specific audio clips associated with the end sequence, including outro lines, jump sounds, and music transitions.
-
 using UnityEngine;
 
+// Handles the playback of specific audio clips associated with the end sequence, including outro lines, jump sounds, and music transitions.
 public class EndSequenceAudioFeedback : MonoBehaviour
 {
     public AudioClip mathazarOutroVoiceline;

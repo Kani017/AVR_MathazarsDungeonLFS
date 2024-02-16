@@ -1,12 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
+// Manages door opening interactions, including animation and sound.
 public class DoorInteraction : MonoBehaviour
 {
-    public Animator doorAnimator; // Assign in the inspector
+    public Animator doorAnimator;
     private MeshCollider meshCollider;
     private AudioSource woodenDoorAudioSource;
 
@@ -16,11 +13,11 @@ public class DoorInteraction : MonoBehaviour
         woodenDoorAudioSource = GetComponentInChildren<AudioSource>();
     }
 
+    // Triggers the door to open, playing an audio clip and starting an animation.
     public void OpenDoor()
     {
         woodenDoorAudioSource.Play();
-        UnityEngine.Debug.Log("OpenDoor method called"); // Make sure the quotes and parentheses are correctly placed
-        doorAnimator.SetBool("Activated", true); // Assuming 'Activated' is your parameter to open the door
-        Destroy(meshCollider); 
+        doorAnimator.SetBool("Activated", true);
+        Destroy(meshCollider);
     }
 }
