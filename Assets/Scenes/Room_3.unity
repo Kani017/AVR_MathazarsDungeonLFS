@@ -48495,12 +48495,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 363857782}
   - {fileID: 1667893816}
+  - {fileID: 827826257}
   - {fileID: 2001467395}
   - {fileID: 1385510874}
   - {fileID: 523173035}
-  - {fileID: 363857782}
-  - {fileID: 827826257}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1303718806
@@ -57734,11 +57734,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1953511376}
-  - {fileID: 1980425679}
-  - {fileID: 1240574931}
   - {fileID: 373033254}
   - {fileID: 1986011124}
+  - {fileID: 1953511376}
+  - {fileID: 1240574931}
+  - {fileID: 1980425679}
   - {fileID: 1784946140}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -63093,7 +63093,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartEndHelpSound: {fileID: 8300000, guid: 6710f59d1d9e1f446ae3c1931aedf50e, type: 3}
-  ForwardBackSound: {fileID: 8300000, guid: 6710f59d1d9e1f446ae3c1931aedf50e, type: 3}
+  PageOneSound: {fileID: 0}
+  PageTwoSound: {fileID: 0}
+  PageThreeSound: {fileID: 0}
 --- !u!1001 &1898180113
 PrefabInstance:
   m_ObjectHideFlags: 0

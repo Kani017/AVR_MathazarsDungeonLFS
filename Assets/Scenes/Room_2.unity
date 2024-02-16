@@ -1388,7 +1388,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Name
-      value: Wall_02 (11)
+      value: Wall6
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Layer
@@ -1553,7 +1553,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 687531520}
+    m_TransformParent: {fileID: 1680525159}
     m_Modifications:
     - target: {fileID: -8065041886905656013, guid: ef3a35881a3d79f4d8c868951a0c5c16, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1569,7 +1569,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ef3a35881a3d79f4d8c868951a0c5c16, type: 3}
       propertyPath: m_Name
-      value: Wall_Archway (4)
+      value: ExitArchway
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ef3a35881a3d79f4d8c868951a0c5c16, type: 3}
       propertyPath: m_Layer
@@ -1935,11 +1935,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 687531520}
-  - {fileID: 421523486}
-  - {fileID: 1768904296}
-  - {fileID: 1596394448}
   - {fileID: 1340406365}
+  - {fileID: 687531520}
+  - {fileID: 1768904296}
+  - {fileID: 421523486}
+  - {fileID: 1596394448}
   - {fileID: 1714299177}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2791,11 +2791,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 687531520}
+    m_TransformParent: {fileID: 454301997}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.4
+      value: 17.399998
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2839,7 +2839,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (22)
+      value: TeleportRoomWall6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -3932,7 +3932,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (8)
+      value: Wall45
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -4755,7 +4755,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Name
-      value: Wall_02 (3)
+      value: Wall34
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Layer
@@ -5025,7 +5025,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (7)
+      value: Wall22
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -5234,7 +5234,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (1)
+      value: Wall36
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -5319,13 +5319,13 @@ Transform:
   - {fileID: 1358214770}
   - {fileID: 1873715693}
   - {fileID: 499670925}
-  - {fileID: 510622619}
-  - {fileID: 1901713288}
   - {fileID: 501086497}
   - {fileID: 1429914585}
   - {fileID: 1405588430}
   - {fileID: 2088901962}
   - {fileID: 1624579905}
+  - {fileID: 510622619}
+  - {fileID: 1901713288}
   m_Father: {fileID: 97389005}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &422270785
@@ -5525,7 +5525,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (20)
+      value: Wall50
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -5826,11 +5826,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 687531520}
+    m_TransformParent: {fileID: 454301997}
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (22)
+      value: TeleportRoomWall1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -5995,11 +5995,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 687531520}
+    m_TransformParent: {fileID: 454301997}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.199999
+      value: 16.199997
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6043,7 +6043,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (16)
+      value: TeleportRoomWall5
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -6088,6 +6088,43 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.000003, y: 2.9999998, z: 0.47703195}
   m_Center: {x: 0.0000015497208, y: 1.4999999, z: 0.0000013113022}
+--- !u!1 &454301996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 454301997}
+  m_Layer: 0
+  m_Name: TeleportRoom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &454301997
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454301996}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 435286086}
+  - {fileID: 1184129402}
+  - {fileID: 995517041}
+  - {fileID: 1928140041}
+  - {fileID: 439435653}
+  - {fileID: 184952578}
+  m_Father: {fileID: 687531520}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &456366323
 GameObject:
   m_ObjectHideFlags: 0
@@ -11054,7 +11091,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (14)
+      value: Wall7
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -11197,7 +11234,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (15)
+      value: Wall40
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -11805,7 +11842,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: CeilingWood12
+      value: TeleportRoomCeiling1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11871,7 +11908,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (8)
+      value: Wall32
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -11970,7 +12007,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Name
-      value: Wall_02 (13)
+      value: Wall9
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Layer
@@ -13019,7 +13056,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (4)
+      value: Wall21
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -13144,7 +13181,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Name
-      value: Wall_02 (15)
+      value: Wall41
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Layer
@@ -13379,7 +13416,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (16)
+      value: Wall8
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -13722,7 +13759,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (13)
+      value: Wall12
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -13926,7 +13963,6 @@ Transform:
   - {fileID: 966191018}
   - {fileID: 1058338789}
   - {fileID: 1705838235}
-  - {fileID: 435286086}
   - {fileID: 1234826173}
   - {fileID: 1406821189}
   - {fileID: 1542470253}
@@ -13948,7 +13984,6 @@ Transform:
   - {fileID: 1469140358}
   - {fileID: 385964228}
   - {fileID: 1521092941}
-  - {fileID: 1209883058}
   - {fileID: 976179170}
   - {fileID: 1636142183}
   - {fileID: 499252371}
@@ -13956,16 +13991,7 @@ Transform:
   - {fileID: 1421997578}
   - {fileID: 1604608920}
   - {fileID: 807469638}
-  - {fileID: 1313335219}
-  - {fileID: 1592438923}
-  - {fileID: 63672820}
-  - {fileID: 1774241100}
   - {fileID: 268319964}
-  - {fileID: 439435653}
-  - {fileID: 184952578}
-  - {fileID: 1928140041}
-  - {fileID: 1184129402}
-  - {fileID: 995517041}
   - {fileID: 993101213}
   - {fileID: 815450208}
   - {fileID: 1994522235}
@@ -13974,6 +14000,8 @@ Transform:
   - {fileID: 691081741}
   - {fileID: 1723708348}
   - {fileID: 1508132819}
+  - {fileID: 1680525159}
+  - {fileID: 454301997}
   m_Father: {fileID: 97389005}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &691081740
@@ -14030,7 +14058,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (9)
+      value: Wall51
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -17844,7 +17872,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (20)
+      value: Wall44
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -17987,7 +18015,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (19)
+      value: Wall47
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -18042,7 +18070,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (15)
+      value: Wall11
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -18549,7 +18577,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Name
-      value: Wall_02 (8)
+      value: Wall13
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Layer
@@ -18667,10 +18695,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 943218679}
   - {fileID: 5148418168758633676}
-  - {fileID: 186165680}
   - {fileID: 501108533}
+  - {fileID: 943218679}
+  - {fileID: 186165680}
   - {fileID: 155090115}
   - {fileID: 422270791}
   m_Father: {fileID: 0}
@@ -19325,7 +19353,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Name
-      value: Wall_02 (9)
+      value: Wall14
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Layer
@@ -19468,7 +19496,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (13)
+      value: Wall38
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -19667,7 +19695,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (17)
+      value: Wall46
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -19718,11 +19746,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 687531520}
+    m_TransformParent: {fileID: 454301997}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.199999
+      value: 18.199997
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_LocalPosition.y
@@ -19766,7 +19794,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (21)
+      value: TeleportRoomWall3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -19821,7 +19849,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Name
-      value: Wall_02 (6)
+      value: Wall1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Layer
@@ -19920,7 +19948,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (6)
+      value: Wall24
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -20019,7 +20047,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Name
-      value: Wall_02 (12)
+      value: Wall10
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Layer
@@ -20358,7 +20386,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (12)
+      value: Wall15
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -20630,7 +20658,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (19)
+      value: Wall30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -21759,7 +21787,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 687531520}
+    m_TransformParent: {fileID: 454301997}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21807,7 +21835,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (24)
+      value: TeleportRoomWall2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -23420,7 +23448,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (17)
+      value: Wall4
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -23515,7 +23543,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 687531520}
+    m_TransformParent: {fileID: 1680525159}
     m_Modifications:
     - target: {fileID: -8065041886905656013, guid: ef3a35881a3d79f4d8c868951a0c5c16, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -23531,7 +23559,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ef3a35881a3d79f4d8c868951a0c5c16, type: 3}
       propertyPath: m_Name
-      value: Wall_Archway
+      value: SideroomArchway1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ef3a35881a3d79f4d8c868951a0c5c16, type: 3}
       propertyPath: m_Layer
@@ -23543,7 +23571,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ef3a35881a3d79f4d8c868951a0c5c16, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.1000001
+      value: 3.1000004
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ef3a35881a3d79f4d8c868951a0c5c16, type: 3}
       propertyPath: m_LocalPosition.y
@@ -23919,7 +23947,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (2)
+      value: Wall17
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -24991,7 +25019,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (18)
+      value: Wall49
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -25110,7 +25138,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 687531520}
+    m_TransformParent: {fileID: 1680525159}
     m_Modifications:
     - target: {fileID: -8065041886905656013, guid: ef3a35881a3d79f4d8c868951a0c5c16, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -25126,7 +25154,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ef3a35881a3d79f4d8c868951a0c5c16, type: 3}
       propertyPath: m_Name
-      value: Wall_Archway (3)
+      value: SideroomArchway2
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ef3a35881a3d79f4d8c868951a0c5c16, type: 3}
       propertyPath: m_Layer
@@ -25967,7 +25995,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (7)
+      value: Wall29
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -26525,7 +26553,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Name
-      value: Wall_02 (10)
+      value: Wall5
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Layer
@@ -26624,7 +26652,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Name
-      value: Wall_02 (5)
+      value: Wall26
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Layer
@@ -27010,7 +27038,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (3)
+      value: Wall18
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -28061,7 +28089,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (21)
+      value: Wall42
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -28506,7 +28534,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (9)
+      value: Wall27
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -28853,7 +28881,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (5)
+      value: Wall33
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -28908,7 +28936,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (4)
+      value: Wall20
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -29051,7 +29079,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow
+      value: Wall35
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -29336,7 +29364,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Name
-      value: Wall_02 (4)
+      value: Wall25
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Layer
@@ -29479,7 +29507,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (11)
+      value: Wall53
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -29800,7 +29828,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (6)
+      value: Wall37
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -30105,7 +30133,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Name
-      value: Wall_02 (7)
+      value: Wall3
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Layer
@@ -30235,7 +30263,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (5)
+      value: Wall19
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -30576,7 +30604,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 687531520}
+    m_TransformParent: {fileID: 1680525159}
     m_Modifications:
     - target: {fileID: -8065041886905656013, guid: ef3a35881a3d79f4d8c868951a0c5c16, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -30592,7 +30620,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ef3a35881a3d79f4d8c868951a0c5c16, type: 3}
       propertyPath: m_Name
-      value: Wall_Archway (2)
+      value: SideroomArchway3
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ef3a35881a3d79f4d8c868951a0c5c16, type: 3}
       propertyPath: m_Layer
@@ -31981,7 +32009,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (12)
+      value: Wall43
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -33158,7 +33186,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (14)
+      value: Wall39
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -33453,7 +33481,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (18)
+      value: Wall28
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -33622,7 +33650,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Name
-      value: Wall_02 (14)
+      value: Wall31
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fbfeb062764801447a015b02ccab6725, type: 3}
       propertyPath: m_Layer
@@ -34179,6 +34207,42 @@ Transform:
   m_Children: []
   m_Father: {fileID: 740240572}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1680525158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1680525159}
+  m_Layer: 0
+  m_Name: Archways
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1680525159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680525158}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1209883058}
+  - {fileID: 1313335219}
+  - {fileID: 1592438923}
+  - {fileID: 1774241100}
+  - {fileID: 63672820}
+  m_Father: {fileID: 687531520}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1682378716
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34464,7 +34528,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (3)
+      value: Wall16
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -34740,7 +34804,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (10)
+      value: Wall52
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -35075,7 +35139,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 687531520}
+    m_TransformParent: {fileID: 1680525159}
     m_Modifications:
     - target: {fileID: -8065041886905656013, guid: ef3a35881a3d79f4d8c868951a0c5c16, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -35091,7 +35155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ef3a35881a3d79f4d8c868951a0c5c16, type: 3}
       propertyPath: m_Name
-      value: Wall_Archway (1)
+      value: SideroomArchway4
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ef3a35881a3d79f4d8c868951a0c5c16, type: 3}
       propertyPath: m_Layer
@@ -35103,7 +35167,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ef3a35881a3d79f4d8c868951a0c5c16, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.1000001
+      value: 3.1000004
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ef3a35881a3d79f4d8c868951a0c5c16, type: 3}
       propertyPath: m_LocalPosition.y
@@ -41197,7 +41261,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: CeilingWood13
+      value: TeleportRoomCeiling2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -41424,11 +41488,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 687531520}
+    m_TransformParent: {fileID: 454301997}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.4
+      value: 19.399998
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_LocalPosition.y
@@ -41472,7 +41536,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (23)
+      value: TeleportRoomWall4
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -42741,7 +42805,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Name
-      value: Wall_Narrow (25)
+      value: Wall48
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9d7a7bab51ee5242bc5de2f9c9ed374, type: 3}
       propertyPath: m_Layer
@@ -42796,7 +42860,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (11)
+      value: Wall2
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer
@@ -43706,7 +43770,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Name
-      value: Wall_01 (10)
+      value: Wall23
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6ee6cd3454bfd5c4faf3aad5d03071ed, type: 3}
       propertyPath: m_Layer

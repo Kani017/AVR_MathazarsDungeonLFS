@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem.LowLevel;
 using UnityEngine.XR.Interaction.Toolkit;
 
 public class LeverInteraction : MonoBehaviour
@@ -47,6 +48,7 @@ public class LeverInteraction : MonoBehaviour
             leverAnimator.SetBool("Activated", true);
             hasBeenActivated = true;
             CoroutineUtilities.DelayedAction(this, 1, doorInteraction.OpenDoor);
+            interactable.enabled = false;
         }
     }
 

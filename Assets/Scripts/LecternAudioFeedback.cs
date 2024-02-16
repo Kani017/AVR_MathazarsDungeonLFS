@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class LecternAudioFeedback : MonoBehaviour
@@ -19,6 +17,7 @@ public class LecternAudioFeedback : MonoBehaviour
     {
         if (audioSource && StartEndHelpSound)
         {
+            audioSource.Stop(); // Stop any currently playing audio
             audioSource.PlayOneShot(StartEndHelpSound);
         }
     }
@@ -26,6 +25,7 @@ public class LecternAudioFeedback : MonoBehaviour
     {
         if (audioSource && PageOneSound)
         {
+            audioSource.Stop();
             audioSource.PlayOneShot(PageOneSound);
         }
     }
@@ -34,6 +34,7 @@ public class LecternAudioFeedback : MonoBehaviour
     {
         if (audioSource && PageTwoSound)
         {
+            audioSource.Stop(); 
             audioSource.PlayOneShot(PageTwoSound);
         }
     }
@@ -42,6 +43,7 @@ public class LecternAudioFeedback : MonoBehaviour
     {
         if (audioSource && PageThreeSound)
         {
+            audioSource.Stop(); 
             audioSource.PlayOneShot(PageThreeSound);
         }
     }

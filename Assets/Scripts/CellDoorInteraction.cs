@@ -28,8 +28,6 @@ public class CellDoorInteraction : MonoBehaviour
         // Aktiviere das Mathazar GameObject, um die Sequenz zu starten
         mathazarGameObject.SetActive(true);
         MathazarInteraction.SetActive(true);
-
-        Debug.Log("function ran through");
     }
 
     private void PlayCreakingSound()

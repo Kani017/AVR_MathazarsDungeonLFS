@@ -706,7 +706,6 @@ Transform:
   - {fileID: 893407620}
   - {fileID: 1322090468}
   - {fileID: 1206472752}
-  - {fileID: 1406101451}
   - {fileID: 142269207}
   - {fileID: 871961065}
   - {fileID: 1022358034}
@@ -715,6 +714,7 @@ Transform:
   - {fileID: 629389921}
   - {fileID: 1337508524}
   - {fileID: 300668641}
+  - {fileID: 1406101451}
   m_Father: {fileID: 333685839}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &97258169
@@ -7798,12 +7798,13 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 83799176}
-  - {fileID: 1754244211}
   - {fileID: 536224828}
+  - {fileID: 1995646792}
+  - {fileID: 1754244211}
   - {fileID: 1479816383}
-  - {fileID: 1858647719}
+  - {fileID: 83799176}
   - {fileID: 430618357}
+  - {fileID: 1858647719}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &347250941 stripped
@@ -9616,7 +9617,6 @@ Transform:
   - {fileID: 445642147}
   - {fileID: 98936017}
   - {fileID: 1434793616}
-  - {fileID: 1995646792}
   m_Father: {fileID: 333685839}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &536224829
@@ -25808,7 +25808,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0.469
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -27309,11 +27309,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 598033078}
-  - {fileID: 1683908036}
   - {fileID: 448588843}
   - {fileID: 1477616247}
   - {fileID: 1033639065}
+  - {fileID: 598033078}
+  - {fileID: 1683908036}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1189539434 stripped
@@ -29163,7 +29163,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: CeilingWood6
+      value: TeleportRoomCeiling
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalScale.x
@@ -31149,7 +31149,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1658289368}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: d7dc2b23a593e0b428091197e2bd34fd, type: 2}
   m_CullingMode: 0
@@ -39601,13 +39601,13 @@ Transform:
   m_GameObject: {fileID: 1995646791}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.8796749, y: -0.5013355, z: 14.743774}
+  m_LocalPosition: {x: 12.595822, y: -1.6575345, z: 10.6104355}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 599248338}
   - {fileID: 645805723}
-  m_Father: {fileID: 536224828}
+  m_Father: {fileID: 333685839}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1998090034
 GameObject:

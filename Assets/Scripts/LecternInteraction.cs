@@ -48,6 +48,7 @@ public class LecternInteraction : MonoBehaviour
         helpScroll.transform.SetPositionAndRotation(originalPosition, originalRotation);
 
         scrollSpawned = true; // Scroll has been spawned
+        lecternAudioFeedback.PlayPageOneSound();
     }
 
 
@@ -69,6 +70,7 @@ public class LecternInteraction : MonoBehaviour
         if (currentPageIndex < pageTextComponents.Count - 1)
         {
             currentPageIndex++;
+            
             UpdateScrollText();
         }
         CheckButtons();
