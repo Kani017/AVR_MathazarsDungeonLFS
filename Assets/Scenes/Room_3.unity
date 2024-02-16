@@ -465,7 +465,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (2)
+      value: Torch3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -789,7 +789,7 @@ GameObject:
   m_Component:
   - component: {fileID: 63385003}
   m_Layer: 2
-  m_Name: Pillar (10)
+  m_Name: Pillar6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1226,7 +1226,7 @@ GameObject:
   m_Component:
   - component: {fileID: 107439354}
   m_Layer: 2
-  m_Name: Pillar (9)
+  m_Name: Pillar1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1678,7 +1678,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (10)
+      value: Ceiling3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1944,7 +1944,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (37)
+      value: BookshelfDecorated35
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -2785,7 +2785,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (10)
+      value: BookshelfDecorated31
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -3050,7 +3050,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (41)
+      value: BookshelfDecorated39
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -3478,7 +3478,7 @@ GameObject:
   m_Component:
   - component: {fileID: 240495399}
   m_Layer: 2
-  m_Name: Pillar (2)
+  m_Name: Pillar9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3866,7 +3866,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (35)
+      value: BookshelfDecorated37
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -4614,7 +4614,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (47)
+      value: BookshelfDecorated5
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -4909,7 +4909,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (13)
+      value: BookshelfDecorated34
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -5036,7 +5036,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 390cb60aa42ca55418acb1fb644572c1, type: 3}
       propertyPath: m_Name
-      value: Pillar_Endcap_01
+      value: PillarEndcap
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 390cb60aa42ca55418acb1fb644572c1, type: 3}
       propertyPath: m_Layer
@@ -5128,7 +5128,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 390cb60aa42ca55418acb1fb644572c1, type: 3}
       propertyPath: m_Name
-      value: Pillar_Endcap_01
+      value: PillarEndcap
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 390cb60aa42ca55418acb1fb644572c1, type: 3}
       propertyPath: m_Layer
@@ -5411,7 +5411,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch
+      value: Torch1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5439,7 +5439,7 @@ GameObject:
   m_Component:
   - component: {fileID: 344670127}
   m_Layer: 2
-  m_Name: Pillar (7)
+  m_Name: Pillar2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6140,7 +6140,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (12)
+      value: Ceiling11
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6206,7 +6206,7 @@ GameObject:
   m_Component:
   - component: {fileID: 397878207}
   m_Layer: 2
-  m_Name: Pillar (1)
+  m_Name: Pillar11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6396,7 +6396,7 @@ GameObject:
   m_Component:
   - component: {fileID: 416374936}
   m_Layer: 2
-  m_Name: Pillar (4)
+  m_Name: Pillar5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6595,7 +6595,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (45)
+      value: BookshelfDecorated23
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -6820,7 +6820,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (48)
+      value: BookshelfDecorated12
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -7716,7 +7716,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (31)
+      value: BookshelfDecorated26
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -8504,7 +8504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 487831460}
   m_Layer: 2
-  m_Name: Pillar (6)
+  m_Name: Pillar3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8854,7 +8854,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (8)
+      value: Ceiling14
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9046,7 +9046,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (33)
+      value: BookshelfDecorated28
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -9721,7 +9721,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (25)
+      value: BookshelfDecorated7
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -10425,7 +10425,7 @@ GameObject:
   m_Component:
   - component: {fileID: 550618706}
   m_Layer: 2
-  m_Name: Pillar (5)
+  m_Name: Pillar4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10440,7 +10440,7 @@ Transform:
   m_GameObject: {fileID: 550618705}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.8098173, y: -3.2199697, z: 7.9812274}
+  m_LocalPosition: {x: 0.8098178, y: -3.2199697, z: 7.9812274}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10554,7 +10554,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (39)
+      value: BookshelfDecorated19
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -10779,7 +10779,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (34)
+      value: BookshelfDecorated38
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -11125,7 +11125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 571435261}
   m_Layer: 2
-  m_Name: Pillar (11)
+  m_Name: Pillar7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11518,7 +11518,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (9)
+      value: Ceiling18
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11724,7 +11724,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 390cb60aa42ca55418acb1fb644572c1, type: 3}
       propertyPath: m_Name
-      value: Pillar_Endcap_01
+      value: PillarEndcap
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 390cb60aa42ca55418acb1fb644572c1, type: 3}
       propertyPath: m_Layer
@@ -12050,7 +12050,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (46)
+      value: BookshelfDecorated21
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -12406,7 +12406,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (4)
+      value: Torch5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12614,7 +12614,7 @@ GameObject:
   m_Component:
   - component: {fileID: 659801223}
   m_Layer: 2
-  m_Name: Pillar
+  m_Name: Pillar10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13097,7 +13097,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (9)
+      value: BookshelfDecorated4
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -13419,7 +13419,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: f876a384f14aaf74097cfc1f1ce533a6, type: 3}
       propertyPath: m_Name
-      value: Floor_Sconce_Torch (2)
+      value: FloorSconce3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f876a384f14aaf74097cfc1f1ce533a6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14294,7 +14294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1746840903474592783, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.71
+      value: -7.678
       objectReference: {fileID: 0}
     - target: {fileID: 1746840903474592783, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_LocalRotation.w
@@ -14354,7 +14354,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (15)
+      value: BookshelfDecorated42
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -20029,7 +20029,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1746840903474592783, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.71
+      value: -7.675
       objectReference: {fileID: 0}
     - target: {fileID: 1746840903474592783, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_LocalRotation.w
@@ -20093,7 +20093,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (14)
+      value: BookshelfDecorated41
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -20268,7 +20268,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 390cb60aa42ca55418acb1fb644572c1, type: 3}
       propertyPath: m_Name
-      value: Pillar_Endcap_01
+      value: PillarEndcap
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 390cb60aa42ca55418acb1fb644572c1, type: 3}
       propertyPath: m_Layer
@@ -20430,6 +20430,88 @@ Transform:
   - {fileID: 465246763}
   m_Father: {fileID: 1294810941}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &840722572
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1157592185}
+    m_Modifications:
+    - target: {fileID: 100000, guid: a45fd788da387de4e82f443280ca9b29, type: 3}
+      propertyPath: m_Name
+      value: Book_Open_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a45fd788da387de4e82f443280ca9b29, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a45fd788da387de4e82f443280ca9b29, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a45fd788da387de4e82f443280ca9b29, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a45fd788da387de4e82f443280ca9b29, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a45fd788da387de4e82f443280ca9b29, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.167
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a45fd788da387de4e82f443280ca9b29, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a45fd788da387de4e82f443280ca9b29, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.029
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a45fd788da387de4e82f443280ca9b29, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.0000000754979
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a45fd788da387de4e82f443280ca9b29, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 6.1232336e-17
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a45fd788da387de4e82f443280ca9b29, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a45fd788da387de4e82f443280ca9b29, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -6.123234e-17
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a45fd788da387de4e82f443280ca9b29, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a45fd788da387de4e82f443280ca9b29, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a45fd788da387de4e82f443280ca9b29, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: a45fd788da387de4e82f443280ca9b29, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a45fd788da387de4e82f443280ca9b29, type: 3}
+--- !u!4 &840722573 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: a45fd788da387de4e82f443280ca9b29, type: 3}
+  m_PrefabInstance: {fileID: 840722572}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &841903804
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20887,7 +20969,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (17)
+      value: Ceiling12
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21139,7 +21221,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (7)
+      value: Torch8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21263,7 +21345,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (8)
+      value: BookshelfDecorated3
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -21484,7 +21566,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (20)
+      value: BookshelfDecorated17
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -21612,7 +21694,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (16)
+      value: Ceiling8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22144,7 +22226,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1746840903474592783, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.71
+      value: -7.68
       objectReference: {fileID: 0}
     - target: {fileID: 1746840903474592783, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_LocalRotation.w
@@ -22208,7 +22290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (16)
+      value: BookshelfDecorated43
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -23669,7 +23751,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (6)
+      value: BookshelfDecorated1
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -23913,7 +23995,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 390cb60aa42ca55418acb1fb644572c1, type: 3}
       propertyPath: m_Name
-      value: Pillar_Endcap_01
+      value: PillarEndcap
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 390cb60aa42ca55418acb1fb644572c1, type: 3}
       propertyPath: m_Layer
@@ -24644,7 +24726,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (27)
+      value: BookshelfDecorated13
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -25117,7 +25199,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (36)
+      value: BookshelfDecorated36
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -25965,7 +26047,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (44)
+      value: BookshelfDecorated22
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -26235,6 +26317,7 @@ Transform:
   - {fileID: 297022334}
   - {fileID: 362688694}
   - {fileID: 798980309}
+  - {fileID: 840722573}
   - {fileID: 50309500}
   - {fileID: 617881413}
   - {fileID: 2080953957}
@@ -26256,7 +26339,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (6)
+      value: Ceiling6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31423,7 +31506,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (26)
+      value: BookshelfDecorated14
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -36818,7 +36901,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (4)
+      value: Ceiling17
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -36884,7 +36967,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 390cb60aa42ca55418acb1fb644572c1, type: 3}
       propertyPath: m_Name
-      value: Pillar_Endcap_01
+      value: PillarEndcap
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 390cb60aa42ca55418acb1fb644572c1, type: 3}
       propertyPath: m_Layer
@@ -37046,7 +37129,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (4)
+      value: BookshelfDecorated15
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -37355,7 +37438,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (3)
+      value: BookshelfDecorated10
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -42614,7 +42697,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (18)
+      value: Ceiling16
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -42700,26 +42783,26 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1246464985}
-  - {fileID: 1394236401}
-  - {fileID: 1965521405}
   - {fileID: 2019343956}
-  - {fileID: 1157968614}
-  - {fileID: 1776998192}
-  - {fileID: 503479947}
-  - {fileID: 593740007}
-  - {fileID: 1712933725}
-  - {fileID: 2050074049}
-  - {fileID: 1198478951}
   - {fileID: 146387138}
   - {fileID: 2036116752}
-  - {fileID: 895553604}
-  - {fileID: 862953183}
-  - {fileID: 1239879284}
-  - {fileID: 1277168187}
+  - {fileID: 1965521405}
+  - {fileID: 1157968614}
   - {fileID: 2056225009}
+  - {fileID: 895553604}
+  - {fileID: 1712933725}
+  - {fileID: 1776998192}
   - {fileID: 388873211}
+  - {fileID: 862953183}
+  - {fileID: 2050074049}
+  - {fileID: 503479947}
   - {fileID: 1396367107}
+  - {fileID: 1239879284}
+  - {fileID: 1198478951}
+  - {fileID: 593740007}
   - {fileID: 2142843928}
+  - {fileID: 1277168187}
+  - {fileID: 1394236401}
   m_Father: {fileID: 1574898875}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1244424313
@@ -47688,7 +47771,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood
+      value: Ceiling1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -47794,7 +47877,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (10)
+      value: Torch11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -47848,7 +47931,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: f876a384f14aaf74097cfc1f1ce533a6, type: 3}
       propertyPath: m_Name
-      value: Floor_Sconce_Torch (1)
+      value: FloorSconce2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f876a384f14aaf74097cfc1f1ce533a6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -48104,7 +48187,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (19)
+      value: Ceiling20
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -48798,7 +48881,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (50)
+      value: BookshelfDecorated11
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -54115,7 +54198,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (12)
+      value: BookshelfDecorated33
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -54340,7 +54423,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (43)
+      value: BookshelfDecorated29
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -54573,7 +54656,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (49)
+      value: BookshelfDecorated6
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -54898,7 +54981,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (19)
+      value: BookshelfDecorated25
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -55210,7 +55293,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (20)
+      value: TeleportRoomCeiling
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -55276,7 +55359,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (13)
+      value: Ceiling15
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -55487,7 +55570,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 390cb60aa42ca55418acb1fb644572c1, type: 3}
       propertyPath: m_Name
-      value: Pillar_Endcap_01
+      value: PillarEndcap
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 390cb60aa42ca55418acb1fb644572c1, type: 3}
       propertyPath: m_Layer
@@ -56004,7 +56087,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (32)
+      value: BookshelfDecorated27
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -56129,7 +56212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1443690615}
   m_Layer: 2
-  m_Name: Pillar (8)
+  m_Name: Pillar12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -56471,7 +56554,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (7)
+      value: BookshelfDecorated2
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -56847,7 +56930,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (6)
+      value: Torch7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -56915,7 +56998,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (5)
+      value: Torch6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -56943,7 +57026,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 390cb60aa42ca55418acb1fb644572c1, type: 3}
       propertyPath: m_Name
-      value: Pillar_Endcap_01
+      value: PillarEndcap
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 390cb60aa42ca55418acb1fb644572c1, type: 3}
       propertyPath: m_Layer
@@ -57083,7 +57166,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (3)
+      value: Torch4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -57288,7 +57371,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 390cb60aa42ca55418acb1fb644572c1, type: 3}
       propertyPath: m_Name
-      value: Pillar_Endcap_01
+      value: PillarEndcap
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 390cb60aa42ca55418acb1fb644572c1, type: 3}
       propertyPath: m_Layer
@@ -58303,7 +58386,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (11)
+      value: BookshelfDecorated32
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -58490,7 +58573,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1746840903474592783, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.76
+      value: -7.701
       objectReference: {fileID: 0}
     - target: {fileID: 1746840903474592783, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_LocalRotation.w
@@ -58554,7 +58637,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (17)
+      value: BookshelfDecorated40
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -58687,7 +58770,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 390cb60aa42ca55418acb1fb644572c1, type: 3}
       propertyPath: m_Name
-      value: Pillar_Endcap_01
+      value: PillarEndcap
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 390cb60aa42ca55418acb1fb644572c1, type: 3}
       propertyPath: m_Layer
@@ -58753,7 +58836,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 390cb60aa42ca55418acb1fb644572c1, type: 3}
       propertyPath: m_Name
-      value: Pillar_Endcap_01
+      value: PillarEndcap
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 390cb60aa42ca55418acb1fb644572c1, type: 3}
       propertyPath: m_Layer
@@ -59824,7 +59907,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (2)
+      value: Ceiling9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -59930,7 +60013,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (9)
+      value: Torch10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -60164,7 +60247,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: f876a384f14aaf74097cfc1f1ce533a6, type: 3}
       propertyPath: m_Name
-      value: Floor_Sconce_Torch
+      value: FloorSconce1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f876a384f14aaf74097cfc1f1ce533a6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -60434,7 +60517,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (7)
+      value: Ceiling10
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -60975,7 +61058,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (42)
+      value: BookshelfDecorated30
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -61100,7 +61183,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 390cb60aa42ca55418acb1fb644572c1, type: 3}
       propertyPath: m_Name
-      value: Pillar_Endcap_01
+      value: PillarEndcap
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 390cb60aa42ca55418acb1fb644572c1, type: 3}
       propertyPath: m_Layer
@@ -61716,7 +61799,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1844109838}
   m_Layer: 2
-  m_Name: Pillar (3)
+  m_Name: Pillar8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63084,7 +63167,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (24)
+      value: BookshelfDecorated8
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -63319,7 +63402,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (8)
+      value: Torch9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -68489,18 +68572,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 659801223}
-  - {fileID: 487831460}
-  - {fileID: 240495399}
-  - {fileID: 550618706}
-  - {fileID: 1844109838}
-  - {fileID: 416374936}
-  - {fileID: 397878207}
-  - {fileID: 1443690615}
   - {fileID: 107439354}
+  - {fileID: 344670127}
+  - {fileID: 487831460}
+  - {fileID: 550618706}
+  - {fileID: 416374936}
   - {fileID: 63385003}
   - {fileID: 571435261}
-  - {fileID: 344670127}
+  - {fileID: 1844109838}
+  - {fileID: 240495399}
+  - {fileID: 659801223}
+  - {fileID: 397878207}
+  - {fileID: 1443690615}
   m_Father: {fileID: 1574898875}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1965093064
@@ -68613,7 +68696,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (1)
+      value: Ceiling5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -68798,53 +68881,53 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1746840903509922412}
-  - {fileID: 1898180114}
-  - {fileID: 525615110}
-  - {fileID: 1069437868}
-  - {fileID: 1179004914}
-  - {fileID: 191778280}
-  - {fileID: 1601280880}
-  - {fileID: 968586138}
-  - {fileID: 767179360}
-  - {fileID: 813467361}
-  - {fileID: 1622197139}
-  - {fileID: 1347983785}
-  - {fileID: 311556418}
-  - {fileID: 1746840902561198510}
-  - {fileID: 1746840902034291766}
-  - {fileID: 1229027667}
-  - {fileID: 1207004094}
-  - {fileID: 1981465178}
-  - {fileID: 891086472}
   - {fileID: 1020362717}
   - {fileID: 1457196214}
   - {fileID: 883993947}
   - {fileID: 710675381}
-  - {fileID: 507479752}
-  - {fileID: 1442410869}
+  - {fileID: 295935626}
+  - {fileID: 1353664117}
+  - {fileID: 525615110}
+  - {fileID: 1898180114}
+  - {fileID: 1746840902034291766}
+  - {fileID: 1229027667}
+  - {fileID: 1319534763}
+  - {fileID: 421472217}
+  - {fileID: 1069437868}
+  - {fileID: 1179004914}
+  - {fileID: 1207004094}
+  - {fileID: 1981465178}
+  - {fileID: 891086472}
+  - {fileID: 1746840902174984728}
   - {fileID: 561118680}
   - {fileID: 2012067000}
+  - {fileID: 620189621}
+  - {fileID: 1151445765}
+  - {fileID: 417980663}
+  - {fileID: 2078865742}
+  - {fileID: 1378993332}
   - {fileID: 462033149}
+  - {fileID: 1442410869}
+  - {fileID: 507479752}
+  - {fileID: 1349662696}
+  - {fileID: 1811607496}
+  - {fileID: 191778280}
+  - {fileID: 1601280880}
+  - {fileID: 1347983785}
+  - {fileID: 311556418}
   - {fileID: 153070698}
   - {fileID: 1109564673}
   - {fileID: 275745927}
-  - {fileID: 1746840902865675779}
   - {fileID: 562913123}
   - {fileID: 196818056}
-  - {fileID: 1811607496}
-  - {fileID: 295935626}
-  - {fileID: 1353664117}
-  - {fileID: 421472217}
-  - {fileID: 1319534763}
-  - {fileID: 1349662696}
-  - {fileID: 1151445765}
-  - {fileID: 417980663}
-  - {fileID: 620189621}
-  - {fileID: 1378993332}
-  - {fileID: 2078865742}
+  - {fileID: 1622197139}
+  - {fileID: 813467361}
+  - {fileID: 767179360}
+  - {fileID: 968586138}
+  - {fileID: 1746840903509922412}
+  - {fileID: 1746840902561198510}
+  - {fileID: 1746840902865675779}
   - {fileID: 1746840903580034598}
-  - {fileID: 1746840902174984728}
   m_Father: {fileID: 1574898875}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1981465177
@@ -68953,7 +69036,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (5)
+      value: BookshelfDecorated16
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -69197,7 +69280,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (1)
+      value: Torch2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -69807,7 +69890,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (38)
+      value: BookshelfDecorated20
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -70039,7 +70122,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (5)
+      value: Ceiling2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -70412,7 +70495,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: f876a384f14aaf74097cfc1f1ce533a6, type: 3}
       propertyPath: m_Name
-      value: Floor_Sconce_Torch (3)
+      value: FloorSconce4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f876a384f14aaf74097cfc1f1ce533a6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -70484,7 +70567,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (15)
+      value: Ceiling4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -70830,7 +70913,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (3)
+      value: Ceiling13
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -71036,7 +71119,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (11)
+      value: Ceiling7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -71294,7 +71377,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: Bookshelf_decorated (18)
+      value: BookshelfDecorated24
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -72162,7 +72245,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (14)
+      value: Ceiling19
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -83585,7 +83668,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1746840902174984728}
   m_Layer: 2
-  m_Name: Bookshelf_decorated (28)
+  m_Name: BookshelfDecorated18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -83601,7 +83684,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1746840902034291766}
   m_Layer: 2
-  m_Name: BookshelfHasInteractableBook3
+  m_Name: BookshelfDecorated9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

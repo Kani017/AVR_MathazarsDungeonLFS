@@ -983,7 +983,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: eea97b17eb805b6488178dbc6bf130fd, type: 3}
       propertyPath: m_Name
-      value: Bag_02 (1)
+      value: Bag3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1005,7 +1005,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (6)
+      value: CeilingWood3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1673,7 +1673,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (11)
+      value: CeilingWood5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2625,7 +2625,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 60a76bf99eb082e41b4a1bd3abc9e101, type: 3}
       propertyPath: m_Name
-      value: Lever_Wall_Base
+      value: LeverBase
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 60a76bf99eb082e41b4a1bd3abc9e101, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2894,7 +2894,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (3)
+      value: CeilingWood1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2960,7 +2960,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 836086e4e5b70ba48952c250904508e6, type: 3}
       propertyPath: m_Name
-      value: Lectern_Stone
+      value: Lectern
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 836086e4e5b70ba48952c250904508e6, type: 3}
       propertyPath: m_Layer
@@ -3581,7 +3581,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 100000, guid: bf69c0f1f89622144a22786532cc9625, type: 3}
       propertyPath: m_Name
-      value: Pot_03
+      value: Pot1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf69c0f1f89622144a22786532cc9625, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3987,7 +3987,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: f97b7ca9f8f6cde49a98e84ad3cf7535, type: 3}
       propertyPath: m_Name
-      value: Crate_Large
+      value: CrateLarge1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f97b7ca9f8f6cde49a98e84ad3cf7535, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5128,7 +5128,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eea97b17eb805b6488178dbc6bf130fd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eea97b17eb805b6488178dbc6bf130fd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5168,7 +5168,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: eea97b17eb805b6488178dbc6bf130fd, type: 3}
       propertyPath: m_Name
-      value: Bag_02
+      value: Bag1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5343,7 +5343,7 @@ GameObject:
   - component: {fileID: 422270788}
   - component: {fileID: 422270792}
   m_Layer: 2
-  m_Name: Door_Wood
+  m_Name: ExitDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11252,7 +11252,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (13)
+      value: CeilingWood11
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11483,7 +11483,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (14)
+      value: CeilingWood14
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11805,7 +11805,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (19)
+      value: CeilingWood12
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12069,7 +12069,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 788640ea4bcbc2a498c3db55d8f1776e, type: 3}
       propertyPath: m_Name
-      value: Pillar_Endcap_02 (5)
+      value: PillarFoot2
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 788640ea4bcbc2a498c3db55d8f1776e, type: 3}
       propertyPath: m_Layer
@@ -12350,7 +12350,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: b7d8f06f66571a84baf4b56663323dc8, type: 3}
       propertyPath: m_Name
-      value: Crate_Large_Lid
+      value: CrateLargeOpenLid
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b7d8f06f66571a84baf4b56663323dc8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13243,7 +13243,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (7)
+      value: CeilingWood4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13486,7 +13486,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 100000, guid: 443d48a30675807468840798620e61b0, type: 3}
       propertyPath: m_Name
-      value: Barrel
+      value: Barrel1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 443d48a30675807468840798620e61b0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13552,7 +13552,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_Name
-      value: Floor_Tiles_Small (2)
+      value: Floor17
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_TagString
@@ -13821,7 +13821,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 65c6c44d70fa53946a57b3d66e287a02, type: 3}
       propertyPath: m_Name
-      value: Pot_04
+      value: Pot2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65c6c44d70fa53946a57b3d66e287a02, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14088,7 +14088,7 @@ GameObject:
   - component: {fileID: 698813633}
   - component: {fileID: 698813632}
   m_Layer: 0
-  m_Name: Green
+  m_Name: GreenLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14191,7 +14191,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_Name
-      value: Floor_Tiles_Small (12)
+      value: Floor13
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_TagString
@@ -14322,7 +14322,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 7fead066994fa954fbcf36a1ee6a9de8, type: 3}
       propertyPath: m_Name
-      value: Lever_Wall_Handle
+      value: LeverHandle
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7fead066994fa954fbcf36a1ee6a9de8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14621,7 +14621,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_Name
-      value: Floor_Tiles_Small
+      value: Floor1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_TagString
@@ -15855,7 +15855,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (11)
+      value: Torch6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15883,7 +15883,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_Name
-      value: Floor_Tiles_Small (13)
+      value: Floor12
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_TagString
@@ -17506,7 +17506,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 100000, guid: 4ea3567838c896a4f9539de6a061713c, type: 3}
       propertyPath: m_Name
-      value: Pot_01
+      value: Pot3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ea3567838c896a4f9539de6a061713c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18181,7 +18181,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (20)
+      value: Torch11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18383,7 +18383,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (12)
+      value: Torch7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18415,7 +18415,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 100000, guid: 443d48a30675807468840798620e61b0, type: 3}
       propertyPath: m_Name
-      value: Barrel (2)
+      value: Barrel2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 443d48a30675807468840798620e61b0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18521,7 +18521,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (2)
+      value: Torch2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18685,7 +18685,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: cd0eba5af33864b49abb528f18395a22, type: 3}
       propertyPath: m_Name
-      value: Chest_Large_Gold
+      value: ChestLargeGold
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd0eba5af33864b49abb528f18395a22, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18733,7 +18733,10 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 400000, guid: cd0eba5af33864b49abb528f18395a22, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1960544386}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd0eba5af33864b49abb528f18395a22, type: 3}
 --- !u!4 &883771169 stripped
@@ -18751,7 +18754,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_Name
-      value: Floor_Tiles_Small (14)
+      value: Floor11
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_TagString
@@ -18851,7 +18854,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (17)
+      value: CeilingWood8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18913,15 +18916,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1596394448}
+    m_TransformParent: {fileID: 1164379158}
     m_Modifications:
     - target: {fileID: 100000, guid: 0a18bc391715f7a459a102aaaf1230f9, type: 3}
       propertyPath: m_Name
-      value: Chest_Medium_Silver_Lid (1)
+      value: ChestMediumSilverLid2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0a18bc391715f7a459a102aaaf1230f9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.0806065
+      value: 0.021174373
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0a18bc391715f7a459a102aaaf1230f9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -18929,23 +18932,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0a18bc391715f7a459a102aaaf1230f9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.36494
+      value: 0.39999968
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0a18bc391715f7a459a102aaaf1230f9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6532815
+      value: 0.9238796
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0a18bc391715f7a459a102aaaf1230f9, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.27059805
+      value: 0.38268346
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0a18bc391715f7a459a102aaaf1230f9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.6532815
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0a18bc391715f7a459a102aaaf1230f9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.27059805
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0a18bc391715f7a459a102aaaf1230f9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -18983,7 +18986,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_Name
-      value: Floor_Tiles_Small (10)
+      value: Floor4
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_TagString
@@ -19117,7 +19120,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_Name
-      value: Floor_Tiles_Small (9)
+      value: Floor5
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_TagString
@@ -19294,7 +19297,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (15)
+      value: Torch9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19520,7 +19523,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_Name
-      value: Floor_Tiles_Small (15)
+      value: Floor10
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_TagString
@@ -20524,7 +20527,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 788640ea4bcbc2a498c3db55d8f1776e, type: 3}
       propertyPath: m_Name
-      value: Pillar_Endcap_02 (3)
+      value: PillarFoot5
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 788640ea4bcbc2a498c3db55d8f1776e, type: 3}
       propertyPath: m_Layer
@@ -20726,7 +20729,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 7cf456b02342f324f9760d4c74cd177b, type: 3}
       propertyPath: m_Name
-      value: Crate
+      value: Crate1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7cf456b02342f324f9760d4c74cd177b, type: 3}
       propertyPath: m_LocalScale.x
@@ -21320,7 +21323,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_Name
-      value: Floor_Tiles_Small (4)
+      value: Floor2
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_TagString
@@ -21490,7 +21493,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 100000, guid: 443d48a30675807468840798620e61b0, type: 3}
       propertyPath: m_Name
-      value: Barrel (1)
+      value: Barrel1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 443d48a30675807468840798620e61b0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21556,7 +21559,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 0261f92458346ef4386a75d047c07333, type: 3}
       propertyPath: m_Name
-      value: Crate_Large_Open
+      value: CrateLargeOpen
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0261f92458346ef4386a75d047c07333, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21622,7 +21625,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 5df2b3a15884f1843934c8bd704a99f9, type: 3}
       propertyPath: m_Name
-      value: Chest_Medium_Silver (1)
+      value: ChestMediumSilver2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5df2b3a15884f1843934c8bd704a99f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21630,7 +21633,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5df2b3a15884f1843934c8bd704a99f9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5df2b3a15884f1843934c8bd704a99f9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -21670,7 +21673,10 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 400000, guid: 5df2b3a15884f1843934c8bd704a99f9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 928148268}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5df2b3a15884f1843934c8bd704a99f9, type: 3}
 --- !u!4 &1164379158 stripped
@@ -21688,7 +21694,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 5df2b3a15884f1843934c8bd704a99f9, type: 3}
       propertyPath: m_Name
-      value: Chest_Medium_Silver
+      value: ChestMediumSilver1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5df2b3a15884f1843934c8bd704a99f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21736,7 +21742,10 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 400000, guid: 5df2b3a15884f1843934c8bd704a99f9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2080685946}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5df2b3a15884f1843934c8bd704a99f9, type: 3}
 --- !u!4 &1182038240 stripped
@@ -23311,7 +23320,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_Name
-      value: Floor_Tiles_Small (16)
+      value: Floor7
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_TagString
@@ -23838,7 +23847,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (18)
+      value: Torch15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24035,7 +24044,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 186074664503701704, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_Name
-      value: Scroll_with_text
+      value: PodiumScroll
       objectReference: {fileID: 0}
     - target: {fileID: 186074664503701704, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_IsActive
@@ -25075,7 +25084,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch
+      value: Torch1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25448,7 +25457,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 7cf456b02342f324f9760d4c74cd177b, type: 3}
       propertyPath: m_Name
-      value: Crate (2)
+      value: Crate3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7cf456b02342f324f9760d4c74cd177b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25812,7 +25821,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_Name
-      value: Floor_Tiles_Small (6)
+      value: Floor15
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_TagString
@@ -26011,7 +26020,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 788640ea4bcbc2a498c3db55d8f1776e, type: 3}
       propertyPath: m_Name
-      value: Pillar_Endcap_02 (4)
+      value: PillarFoot6
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 788640ea4bcbc2a498c3db55d8f1776e, type: 3}
       propertyPath: m_Layer
@@ -26114,7 +26123,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (18)
+      value: CeilingWood9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26220,7 +26229,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (5)
+      value: Torch3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26413,7 +26422,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 7c1c278bf30980b46925226a4d2d4e36, type: 3}
       propertyPath: m_Name
-      value: Treasure_Pile_Chest
+      value: TreasurePileChest
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7c1c278bf30980b46925226a4d2d4e36, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26461,7 +26470,10 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 400000, guid: 7c1c278bf30980b46925226a4d2d4e36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1734062645}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c1c278bf30980b46925226a4d2d4e36, type: 3}
 --- !u!4 &1373828754 stripped
@@ -26886,7 +26898,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (9)
+      value: CeilingWood16
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27091,7 +27103,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (19)
+      value: Torch10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28323,7 +28335,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (8)
+      value: CeilingWood15
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28389,7 +28401,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 788640ea4bcbc2a498c3db55d8f1776e, type: 3}
       propertyPath: m_Name
-      value: Pillar_Endcap_02 (2)
+      value: PillarFoot4
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 788640ea4bcbc2a498c3db55d8f1776e, type: 3}
       propertyPath: m_Layer
@@ -28631,7 +28643,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (9)
+      value: Torch14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29092,7 +29104,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_Name
-      value: Floor_Tiles_Small (5)
+      value: Floor16
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_TagString
@@ -29256,7 +29268,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 7cf456b02342f324f9760d4c74cd177b, type: 3}
       propertyPath: m_Name
-      value: Crate (1)
+      value: Crate2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7cf456b02342f324f9760d4c74cd177b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29593,7 +29605,7 @@ GameObject:
   - component: {fileID: 1510764110}
   - component: {fileID: 1510764109}
   m_Layer: 0
-  m_Name: White
+  m_Name: WhiteLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29728,8 +29740,8 @@ Transform:
   - {fileID: 833634695}
   - {fileID: 1592898094}
   - {fileID: 1863537513}
-  - {fileID: 1233323420}
   - {fileID: 1459134423}
+  - {fileID: 1233323420}
   m_Father: {fileID: 1186136930}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1521092940
@@ -30850,7 +30862,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (16)
+      value: Torch12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30897,34 +30909,30 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 289114159}
+  - {fileID: 541859662}
+  - {fileID: 1159411996}
   - {fileID: 1119203272}
+  - {fileID: 1499447853}
+  - {fileID: 1327194450}
+  - {fileID: 289114159}
+  - {fileID: 1666229785}
   - {fileID: 2037797822}
+  - {fileID: 1682378717}
   - {fileID: 658277438}
   - {fileID: 252414686}
   - {fileID: 685925200}
-  - {fileID: 883771169}
-  - {fileID: 1960544386}
-  - {fileID: 1499447853}
-  - {fileID: 1159411996}
-  - {fileID: 541859662}
-  - {fileID: 2037028975}
-  - {fileID: 381768512}
-  - {fileID: 1182038240}
-  - {fileID: 2080685946}
   - {fileID: 782773637}
+  - {fileID: 381768512}
+  - {fileID: 1969959300}
+  - {fileID: 17053401}
   - {fileID: 1154647785}
-  - {fileID: 1734062645}
+  - {fileID: 862779231}
+  - {fileID: 2037028975}
+  - {fileID: 883771169}
+  - {fileID: 1182038240}
   - {fileID: 1164379158}
   - {fileID: 1373828754}
-  - {fileID: 928148268}
-  - {fileID: 1666229785}
-  - {fileID: 1327194450}
   - {fileID: 335455518}
-  - {fileID: 862779231}
-  - {fileID: 1969959300}
-  - {fileID: 1682378717}
-  - {fileID: 17053401}
   m_Father: {fileID: 97389005}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1597553699
@@ -32725,7 +32733,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_Name
-      value: Floor_Tiles_Small (8)
+      value: Floor6
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_TagString
@@ -32825,7 +32833,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (4)
+      value: CeilingWood18
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33882,7 +33890,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_Name
-      value: Floor_Tiles_Small (11)
+      value: Floor3
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_TagString
@@ -33982,7 +33990,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: f97b7ca9f8f6cde49a98e84ad3cf7535, type: 3}
       propertyPath: m_Name
-      value: Crate_Large (1)
+      value: CrateLarge2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f97b7ca9f8f6cde49a98e84ad3cf7535, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34048,7 +34056,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_Name
-      value: Floor_Tiles_Small (1)
+      value: Floor19
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_TagString
@@ -34179,7 +34187,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 029462538c5118f4c8f8632d631bdec2, type: 3}
       propertyPath: m_Name
-      value: Crate_Cage (1)
+      value: CageCrate2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 029462538c5118f4c8f8632d631bdec2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34388,7 +34396,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (5)
+      value: CeilingWood2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34586,7 +34594,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_Name
-      value: Floor_Tiles_Small (17)
+      value: Floor9
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_TagString
@@ -34781,15 +34789,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1596394448}
+    m_TransformParent: {fileID: 1373828754}
     m_Modifications:
     - target: {fileID: 100000, guid: 0817b49a32372304b85090349aaa5bf8, type: 3}
       propertyPath: m_Name
-      value: Treasure_Pile_Large
+      value: TreasurePileLarge
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0817b49a32372304b85090349aaa5bf8, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 0.49999988
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0817b49a32372304b85090349aaa5bf8, type: 3}
       propertyPath: m_LocalScale.y
@@ -34797,23 +34805,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0817b49a32372304b85090349aaa5bf8, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5
+      value: 0.49999988
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0817b49a32372304b85090349aaa5bf8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.019394
+      value: -4.4999986
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0817b49a32372304b85090349aaa5bf8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0817b49a32372304b85090349aaa5bf8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.8649397
+      value: -14.700003
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0817b49a32372304b85090349aaa5bf8, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0817b49a32372304b85090349aaa5bf8, type: 3}
       propertyPath: m_LocalRotation.x
@@ -34821,7 +34829,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0817b49a32372304b85090349aaa5bf8, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0817b49a32372304b85090349aaa5bf8, type: 3}
       propertyPath: m_LocalRotation.z
@@ -34903,7 +34911,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (10)
+      value: Torch5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -35358,7 +35366,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (16)
+      value: CeilingWood7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35589,7 +35597,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 788640ea4bcbc2a498c3db55d8f1776e, type: 3}
       propertyPath: m_Name
-      value: Pillar_Endcap_02 (1)
+      value: PillarFoot3
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 788640ea4bcbc2a498c3db55d8f1776e, type: 3}
       propertyPath: m_Layer
@@ -35802,7 +35810,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (17)
+      value: Torch13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -40719,7 +40727,7 @@ GameObject:
   - component: {fileID: 1873526048}
   - component: {fileID: 1873526047}
   m_Layer: 0
-  m_Name: Red
+  m_Name: RedLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40822,7 +40830,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (12)
+      value: CeilingWood10
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40888,7 +40896,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_Name
-      value: Floor_Tiles_Small (3)
+      value: Floor18
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_TagString
@@ -41121,7 +41129,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (15)
+      value: CeilingWood6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -41187,7 +41195,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (20)
+      value: CeilingWood13
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -41651,7 +41659,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_Name
-      value: Floor_Tiles_Small (7)
+      value: Floor14
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_TagString
@@ -42021,15 +42029,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1596394448}
+    m_TransformParent: {fileID: 883771169}
     m_Modifications:
     - target: {fileID: 100000, guid: eb1926b19f6a55e4fb48cfce67ff5ce5, type: 3}
       propertyPath: m_Name
-      value: Chest_Large_Gold_Lid
+      value: ChestLargeGoldLid
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eb1926b19f6a55e4fb48cfce67ff5ce5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.319394
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eb1926b19f6a55e4fb48cfce67ff5ce5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -42037,19 +42045,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eb1926b19f6a55e4fb48cfce67ff5ce5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.264939
+      value: 0.39999968
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eb1926b19f6a55e4fb48cfce67ff5ce5, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.7071068
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eb1926b19f6a55e4fb48cfce67ff5ce5, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eb1926b19f6a55e4fb48cfce67ff5ce5, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eb1926b19f6a55e4fb48cfce67ff5ce5, type: 3}
       propertyPath: m_LocalRotation.z
@@ -42091,7 +42099,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 2df1e71c56f72734386b881cf266d896, type: 3}
       propertyPath: m_Name
-      value: Door_Frame_Wood
+      value: EntranceDoorframe
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2df1e71c56f72734386b881cf266d896, type: 3}
       propertyPath: m_Layer
@@ -42385,7 +42393,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 919132149155446097, guid: f3d67946313e730428ed1f132e76987f, type: 3}
       propertyPath: m_Name
-      value: Bag_01
+      value: Bag2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -42584,7 +42592,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 788640ea4bcbc2a498c3db55d8f1776e, type: 3}
       propertyPath: m_Name
-      value: Pillar_Endcap_02
+      value: PillarFoot1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 788640ea4bcbc2a498c3db55d8f1776e, type: 3}
       propertyPath: m_Layer
@@ -42893,7 +42901,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb4b540df0dd4ac46b19920518b36226, type: 2}
     - target: {fileID: 100000, guid: f9ddf712bf2745640b2b3baaa2005353, type: 3}
       propertyPath: m_Name
-      value: Barrel_Open
+      value: BarrelOpen
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f9ddf712bf2745640b2b3baaa2005353, type: 3}
       propertyPath: m_LocalPosition.x
@@ -42955,7 +42963,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 029462538c5118f4c8f8632d631bdec2, type: 3}
       propertyPath: m_Name
-      value: Crate_Cage
+      value: CageCrate1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 029462538c5118f4c8f8632d631bdec2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -43061,7 +43069,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (14)
+      value: Torch8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -43129,7 +43137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637773667957989338, guid: e8379409dcb9900488fb9b9b2a4a4484, type: 3}
       propertyPath: m_Name
-      value: Wall_Torch (6)
+      value: Torch4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -43153,15 +43161,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1596394448}
+    m_TransformParent: {fileID: 1182038240}
     m_Modifications:
     - target: {fileID: 100000, guid: 0a18bc391715f7a459a102aaaf1230f9, type: 3}
       propertyPath: m_Name
-      value: Chest_Medium_Silver_Lid
+      value: ChestMediumSilverLid1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0a18bc391715f7a459a102aaaf1230f9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.1693945
+      value: -0.0035219193
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0a18bc391715f7a459a102aaaf1230f9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -43169,11 +43177,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0a18bc391715f7a459a102aaaf1230f9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.81494
+      value: 0.3771944
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0a18bc391715f7a459a102aaaf1230f9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0a18bc391715f7a459a102aaaf1230f9, type: 3}
       propertyPath: m_LocalRotation.x
@@ -43181,7 +43189,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0a18bc391715f7a459a102aaaf1230f9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0a18bc391715f7a459a102aaaf1230f9, type: 3}
       propertyPath: m_LocalRotation.z
@@ -43356,7 +43364,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_Name
-      value: Floor_Tiles_Small (19)
+      value: Floor8
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a39d550ae7b6a274b97e0c8c777c0d34, type: 3}
       propertyPath: m_TagString
@@ -43426,7 +43434,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_Name
-      value: Ceiling_Wood (10)
+      value: CeilingWood17
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a89fe1d61f5188b4c8a3f1d4f8bc7a08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -43795,7 +43803,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 096c278616fdbe642a740e5641f7e365, type: 3}
       propertyPath: m_Name
-      value: Door_Wood
+      value: EntranceDoor
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 096c278616fdbe642a740e5641f7e365, type: 3}
       propertyPath: m_Layer

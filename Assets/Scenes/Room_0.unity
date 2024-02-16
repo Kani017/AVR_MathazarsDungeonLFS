@@ -9941,7 +9941,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 7fead066994fa954fbcf36a1ee6a9de8, type: 3}
       propertyPath: m_Name
-      value: Lever_Wall_Handle
+      value: LeverHandle
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7fead066994fa954fbcf36a1ee6a9de8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31079,7 +31079,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 60a76bf99eb082e41b4a1bd3abc9e101, type: 3}
       propertyPath: m_Name
-      value: Lever_Wall_Base
+      value: LeverBase
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 60a76bf99eb082e41b4a1bd3abc9e101, type: 3}
       propertyPath: m_LocalPosition.x
