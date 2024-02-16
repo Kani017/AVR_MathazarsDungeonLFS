@@ -1,8 +1,10 @@
+// Manages audio feedback for events within the detection circle, such as solving a question or all questions.
+
 using UnityEngine;
 
 public class DetectionCircleAudioFeedback : MonoBehaviour
 {
-    public AudioClip questionSolvedSound; 
+    public AudioClip questionSolvedSound;
     public AudioClip allQuestionsSolvedSound;
     private AudioSource audioSource;
 
@@ -18,6 +20,7 @@ public class DetectionCircleAudioFeedback : MonoBehaviour
             audioSource.PlayOneShot(questionSolvedSound);
         }
     }
+
     public void PlayAllQuestionsSolvedSound()
     {
         if (audioSource && allQuestionsSolvedSound)

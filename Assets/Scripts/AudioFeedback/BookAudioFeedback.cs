@@ -1,5 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
+// This script handles the audio feedback for book interactions such as picking up, dropping, and snapping into place.
+
 using UnityEngine;
 
 public class BookAudioFeedback : MonoBehaviour

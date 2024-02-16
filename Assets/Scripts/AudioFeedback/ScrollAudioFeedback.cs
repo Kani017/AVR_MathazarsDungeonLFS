@@ -1,3 +1,5 @@
+// Handles audio feedback for scroll interactions such as picking up and dropping the scroll.
+
 using UnityEngine;
 
 public class ScrollAudioFeedback : MonoBehaviour

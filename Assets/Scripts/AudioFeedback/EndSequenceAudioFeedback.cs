@@ -1,5 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
+// Handles the playback of specific audio clips associated with the end sequence, including outro lines, jump sounds, and music transitions.
+
 using UnityEngine;
 
 public class EndSequenceAudioFeedback : MonoBehaviour
@@ -22,6 +22,7 @@ public class EndSequenceAudioFeedback : MonoBehaviour
             audioSource.PlayOneShot(mathazarOutroVoiceline);
         }
     }
+
     public void PlayMathazarJumpSound()
     {
         if (audioSource && mathazarJumpSound)
@@ -34,7 +35,7 @@ public class EndSequenceAudioFeedback : MonoBehaviour
     {
         if (audioSource)
         {
-            audioSource.Stop(); // Stoppt jegliche aktuell spielende Musik
+            audioSource.Stop(); // Stops any currently playing music
         }
     }
 
@@ -42,8 +43,8 @@ public class EndSequenceAudioFeedback : MonoBehaviour
     {
         if (audioSource && endMusic)
         {
-            StopBackgroundMusic(); // Stellt sicher, dass die Hintergrundmusik gestoppt wird
-            audioSource.PlayOneShot(endMusic); // Spielt die Endmusik
+            StopBackgroundMusic(); // Ensures the background music is stopped
+            audioSource.PlayOneShot(endMusic); // Plays the ending music
         }
     }
 
@@ -55,5 +56,3 @@ public class EndSequenceAudioFeedback : MonoBehaviour
         }
     }
 }
-
-

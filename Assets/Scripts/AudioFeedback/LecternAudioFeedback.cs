@@ -1,3 +1,5 @@
+// Manages audio feedback for lectern interactions, such as starting, ending help, and flipping pages.
+
 using UnityEngine;
 
 public class LecternAudioFeedback : MonoBehaviour
@@ -17,7 +19,7 @@ public class LecternAudioFeedback : MonoBehaviour
     {
         if (audioSource && StartEndHelpSound)
         {
-            audioSource.Stop(); // Stop any currently playing audio
+            audioSource.Stop(); // Stop any currently playing voicelines to stop them overlapping
             audioSource.PlayOneShot(StartEndHelpSound);
         }
     }
@@ -34,7 +36,7 @@ public class LecternAudioFeedback : MonoBehaviour
     {
         if (audioSource && PageTwoSound)
         {
-            audioSource.Stop(); 
+            audioSource.Stop();
             audioSource.PlayOneShot(PageTwoSound);
         }
     }
@@ -43,7 +45,7 @@ public class LecternAudioFeedback : MonoBehaviour
     {
         if (audioSource && PageThreeSound)
         {
-            audioSource.Stop(); 
+            audioSource.Stop();
             audioSource.PlayOneShot(PageThreeSound);
         }
     }

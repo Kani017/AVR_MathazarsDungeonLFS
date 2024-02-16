@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -7,30 +6,30 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class BookshelfInteraction : MonoBehaviour
 {
-    public TextMeshPro[] questions; // Assign in Inspector
-    public TextMeshPro finalText;
+    public TextMeshPro[] questions; // Question text displays
+    public TextMeshPro finalText; // Text to display upon completing all questions
     public List<GameObject> books = new();
     private readonly List<XRSocketInteractor> socketInteractors = new();
 
-    public ParticleSystem bookshelfInteractableParticles;
+    public ParticleSystem bookshelfInteractableParticles; // Particle effect for the bookshelf
 
     private RiddleManager riddleManager;
     private int currentQuestionIndex = 0;
-    private readonly int[] correctBookIndex = { 0, 1, 2, 3, 4, 5 }; // Adjust as needed
+    private readonly int[] correctBookIndex = { 0, 1, 2, 3, 4, 5 }; // Indexes of the correct books for each question
 
     private BookshelfAudioFeedback bookshelfAudioFeedback;
     [SerializeField]
-    private SocketHighlightingEffect socketHighlightingEffect;
-    public BookMaterialManager bookMaterialManager;
+    private SocketHighlightingEffect socketHighlightingEffect; // Effect for highlighting sockets
+    public BookMaterialManager bookMaterialManager; // Manages material changes for books
 
     private void Start()
     {
-        Debug.Log("hello sockets");
         socketInteractors.AddRange(GetComponentsInChildren<XRSocketInteractor>());
         DisplayQuestion(currentQuestionIndex);
         riddleManager = RiddleManager.Instance;
         bookshelfAudioFeedback = GetComponentInChildren<BookshelfAudioFeedback>();
 
+        // Add listeners for when a book is placed in a socket
         foreach (var socket in socketInteractors)
         {
             socket.selectEntered.AddListener(CheckBook);
@@ -39,12 +38,14 @@ public class BookshelfInteraction : MonoBehaviour
 
     private void OnDestroy()
     {
+        // Remove listeners to avoid memory leaks
         foreach (var socket in socketInteractors)
         {
             socket.selectEntered.RemoveListener(CheckBook);
         }
     }
 
+    // Displays the current question to the player
     void DisplayQuestion(int index)
     {
         foreach (var question in questions)
@@ -54,6 +55,7 @@ public class BookshelfInteraction : MonoBehaviour
         questions[index].gameObject.SetActive(true);
     }
 
+    // Checks if the placed book is correct and handles the result
     private void CheckBook(SelectEnterEventArgs args)
     {
         GameObject book = args.interactableObject.transform.gameObject;
@@ -63,19 +65,12 @@ public class BookshelfInteraction : MonoBehaviour
 
         if (isCorrect)
         {
-            if (audioFeedback != null)
-            {
-                //audioFeedback.PlaySnappingSound(); // Play the snapping sound for the book
-            }
-            Debug.Log("Correct book");
             StartCoroutine(ApplyConstraintsAndDisableInteraction(book));
-
             ProceedWithNextQuestion();
 
-            if (currentQuestionIndex < questions.Length) // This means there are more questions left, not the last book
+            if (currentQuestionIndex < questions.Length)
             {
                 bookshelfAudioFeedback.PlayCorrectBookSound();
-                Debug.Log("Correct book");
             }
 
             XRSocketInteractor socketInteractor = args.interactorObject as XRSocketInteractor;
@@ -87,35 +82,25 @@ public class BookshelfInteraction : MonoBehaviour
         }
         else
         {
-            //audioFeedback.PlaySnappingSound();
             ShowWrongAnswer(book);
         }
     }
 
-
-IEnumerator DisableSocketAfterDelay(XRSocketInteractor socketInteractor)
+    // Disables the socket after a delay to prevent further interactions
+    IEnumerator DisableSocketAfterDelay(XRSocketInteractor socketInteractor)
     {
-        // Wait for a brief moment to allow the book to settle in the socket
-        yield return new WaitForSeconds(0.5f); // Adjust the delay as needed
-
-        // Disable the socket to prevent further interactions
+        yield return new WaitForSeconds(0.5f);
         socketInteractor.enabled = false;
     }
 
-
+    // Applies constraints to the correct book and disables its interaction
     IEnumerator ApplyConstraintsAndDisableInteraction(GameObject book)
     {
         yield return new WaitForSeconds(0.5f);
-
-        Rigidbody rb = book.GetComponent<Rigidbody>();
-        if (rb == null)
-        {
-            rb = book.AddComponent<Rigidbody>();
-        }
+        Rigidbody rb = book.GetComponent<Rigidbody>() ?? book.AddComponent<Rigidbody>();
         rb.constraints = RigidbodyConstraints.FreezeAll;
         rb.useGravity = false;
-
-        if (book.TryGetComponent<XRGrabInteractable>(out var grabInteractable))
+        if (book.TryGetComponent(out XRGrabInteractable grabInteractable))
         {
             grabInteractable.enabled = false;
         }
@@ -123,6 +108,7 @@ IEnumerator DisableSocketAfterDelay(XRSocketInteractor socketInteractor)
         bookIdleParticles.Stop();
     }
 
+    // Proceeds to the next question or completes the riddle if all questions are answered
     void ProceedWithNextQuestion()
     {
         currentQuestionIndex++;
@@ -136,34 +122,22 @@ IEnumerator DisableSocketAfterDelay(XRSocketInteractor socketInteractor)
         }
     }
 
+    // Shows visual feedback for a wrong answer
     void ShowWrongAnswer(GameObject book)
     {
-        // Use the BookMaterialChanger to set the book's material to the wrong material
-        if (bookMaterialManager != null)
-        {
-            bookMaterialManager.SetBookMaterialWrong(book);
-        }
-
-        else
-        {
-            Debug.LogError("BookMaterialChanger reference not set in BookshelfInteraction.");
-        }
+        bookMaterialManager.SetBookMaterialWrong(book);
     }
 
-
+    // Checks if the selected book is the correct answer for the current question
     bool IsCorrectBook(GameObject book, int questionIndex)
     {
         return books.IndexOf(book) == correctBookIndex[questionIndex];
     }
 
+    // Handles the completion of the riddle
     void CompleteRiddle()
     {
         bookshelfAudioFeedback.PlayAllQuestionsSolvedSound();
-        Debug.Log("Riddle completed");
-        foreach (var question in questions)
-        {
-            question.gameObject.SetActive(false);
-        }
         finalText.gameObject.SetActive(true);
         bookshelfInteractableParticles.Stop();
         riddleManager.SolveRiddle(3);

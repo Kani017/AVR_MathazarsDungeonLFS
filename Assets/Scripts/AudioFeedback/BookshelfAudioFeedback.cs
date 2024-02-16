@@ -1,5 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
+// This script provides audio feedback for interactions with the bookshelf, such as placing the correct book and solving all questions.
+
 using UnityEngine;
 
 public class BookshelfAudioFeedback : MonoBehaviour
@@ -21,6 +21,7 @@ public class BookshelfAudioFeedback : MonoBehaviour
             audioSource.PlayOneShot(wrongBookSound);
         }
     }*/
+
     public void PlayCorrectBookSound()
     {
         if (audioSource && correctBookSound)

@@ -1,3 +1,5 @@
+// Manages audio feedback for key interactions such as picking up, dropping, and unlocking.
+
 using UnityEngine;
 
 public class KeyAudioFeedback : MonoBehaviour
@@ -19,6 +21,7 @@ public class KeyAudioFeedback : MonoBehaviour
             audioSource.PlayOneShot(keyPickupSound);
         }
     }
+
     public void PlayDropSound()
     {
         if (audioSource && keyDropSound)

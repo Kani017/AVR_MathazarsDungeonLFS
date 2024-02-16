@@ -1,5 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
+// Handles audio feedback for interactions with weights, including snapping into place, picking up, and dropping.
+
 using UnityEngine;
 
 public class WeightAudioFeedback : MonoBehaviour
