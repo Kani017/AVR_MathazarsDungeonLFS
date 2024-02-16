@@ -1939,8 +1939,8 @@ Transform:
   - {fileID: 421523486}
   - {fileID: 1768904296}
   - {fileID: 1596394448}
-  - {fileID: 1714299177}
   - {fileID: 1340406365}
+  - {fileID: 1714299177}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &102455907
@@ -24730,7 +24730,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartEndHelpSound: {fileID: 8300000, guid: 6710f59d1d9e1f446ae3c1931aedf50e, type: 3}
-  ForwardBackSound: {fileID: 8300000, guid: 6710f59d1d9e1f446ae3c1931aedf50e, type: 3}
+  PageOneSound: {fileID: 8300000, guid: ac5b0a303a02af54cbca221a0b837f49, type: 3}
+  PageTwoSound: {fileID: 8300000, guid: 29698e1ac071d7a4a9bdf8d5e49892a9, type: 3}
+  PageThreeSound: {fileID: 8300000, guid: 8ae096a1bc4d4814897d5be2faae8fac, type: 3}
 --- !u!1001 &1242481058
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33428,7 +33430,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1323931821}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1

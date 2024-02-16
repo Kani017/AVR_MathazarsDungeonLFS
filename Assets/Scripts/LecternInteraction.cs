@@ -14,6 +14,8 @@ public class LecternInteraction : MonoBehaviour
     public Button previousPageButton;
 
     private int currentPageIndex = 0;
+    private bool scrollSpawned = false;
+
 
     private Vector3 originalPosition;
     private Quaternion originalRotation;
@@ -22,22 +24,18 @@ public class LecternInteraction : MonoBehaviour
 
     private void Start()
     {
-        // Ensure there's at least one page to prevent errors
-        if (pageTextComponents.Count > 0)
-        {
-            // Store the original position and rotation
-            originalPosition = helpScroll.transform.position;
-            originalRotation = helpScroll.transform.rotation;
-
-            // Initially, hide all pages except the first one
-            UpdateScrollText();
-        }
-
         lecternAudioFeedback = GetComponentInChildren<LecternAudioFeedback>();
+        // Store the original position and rotation
+        originalPosition = helpScroll.transform.position;
+        originalRotation = helpScroll.transform.rotation;
+
+        // Initially, hide all pages except the first one
+        UpdateScrollText();
+
     }
 
     public void SpawnScroll()
-    {   
+    {
         lecternAudioFeedback.PlayStartEndHelpSound();
         currentPageIndex = 0; // Reset to the first page
         UpdateScrollText();
@@ -48,7 +46,10 @@ public class LecternInteraction : MonoBehaviour
         nextPageButton.gameObject.SetActive(pageTextComponents.Count > 1); // Only show if more than one page
         previousPageButton.gameObject.SetActive(false); // Can't go back on the first page
         helpScroll.transform.SetPositionAndRotation(originalPosition, originalRotation);
+
+        scrollSpawned = true; // Scroll has been spawned
     }
+
 
     public void DespawnScroll()
     {
@@ -58,13 +59,15 @@ public class LecternInteraction : MonoBehaviour
         despawnHelpScrollButton.gameObject.SetActive(false);
         nextPageButton.gameObject.SetActive(false);
         previousPageButton.gameObject.SetActive(false);
+
+        scrollSpawned = false; // Scroll has been despawned
     }
+
 
     public void NextPage()
     {
         if (currentPageIndex < pageTextComponents.Count - 1)
         {
-            lecternAudioFeedback.PlayForwardBackSound();
             currentPageIndex++;
             UpdateScrollText();
         }
@@ -75,7 +78,6 @@ public class LecternInteraction : MonoBehaviour
     {
         if (currentPageIndex > 0)
         {
-            lecternAudioFeedback.PlayForwardBackSound();
             currentPageIndex--;
             UpdateScrollText();
         }
@@ -94,8 +96,36 @@ public class LecternInteraction : MonoBehaviour
         if (currentPageIndex >= 0 && currentPageIndex < pageTextComponents.Count)
         {
             pageTextComponents[currentPageIndex].gameObject.SetActive(true);
+            PlayCurrentPageSound(currentPageIndex); // Play the sound for the current page
         }
     }
+
+    private void PlayCurrentPageSound(int pageIndex)
+    {
+        if (!scrollSpawned) // Check if the scroll is not spawned
+        {
+            return; // Do not play any sound
+        }
+
+        switch (pageIndex)
+        {
+            case 0:
+                lecternAudioFeedback.PlayPageOneSound();
+                break;
+            case 1:
+                lecternAudioFeedback.PlayPageTwoSound();
+                break;
+            case 2:
+                lecternAudioFeedback.PlayPageThreeSound();
+                break;
+            // Add more cases as needed for additional pages
+            default:
+                // Optionally, play a default sound or do nothing
+                break;
+        }
+    }
+
+
 
     // Enable or disable navigation buttons based on the current page index
     private void CheckButtons()
