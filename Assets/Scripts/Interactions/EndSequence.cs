@@ -21,7 +21,6 @@ public class EndSequence : MonoBehaviour
     // Handles the sequence of events for the end game animation and transition to credits.
     private IEnumerator SequenceCoroutine()
     {
-        endSequenceAudioFeedback.PlayGlobalBgMusic();
         mathazarAnimator.SetTrigger("Jump");
         yield return new WaitForSeconds(1f);
 
