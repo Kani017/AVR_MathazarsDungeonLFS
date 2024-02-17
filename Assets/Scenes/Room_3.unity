@@ -55842,8 +55842,8 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4175202303552184808, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
   m_PrefabInstance: {fileID: 1442410868}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &1435951669
-BoxCollider:
+--- !u!64 &1435951668
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -55860,9 +55860,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.5415045, y: 2.284747, z: 0.4517399}
-  m_Center: {x: -0.0032739043, y: 1.1423734, z: -0.000000007450581}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 41b303865c6b2af44b14059d3ef5b400, type: 3}
 --- !u!1 &1437196088 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4175202303552184808, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
@@ -56087,7 +56088,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Name
-      value: BookshelfDecorated27
+      value: BookshelfHasInteractableBook3
       objectReference: {fileID: 0}
     - target: {fileID: 4034606801051125313, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       propertyPath: m_Layer
@@ -56195,7 +56196,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4175202303552184808, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1435951669}
+      addedObject: {fileID: 1435951668}
   m_SourcePrefab: {fileID: 100100000, guid: 965108f5cc49fae4bb7008c52b949e86, type: 3}
 --- !u!4 &1442410869 stripped
 Transform:
@@ -68942,7 +68943,6 @@ Transform:
   - {fileID: 2078865742}
   - {fileID: 1378993332}
   - {fileID: 462033149}
-  - {fileID: 1442410869}
   - {fileID: 507479752}
   - {fileID: 1349662696}
   - {fileID: 1811607496}
@@ -68961,6 +68961,7 @@ Transform:
   - {fileID: 968586138}
   - {fileID: 1746840903509922412}
   - {fileID: 1746840902561198510}
+  - {fileID: 1442410869}
   - {fileID: 1746840902865675779}
   - {fileID: 1746840903580034598}
   m_Father: {fileID: 1574898875}
@@ -87764,7 +87765,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 34d78840036606f40a54e1c93290cb63, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.8964472
+      value: -0.878
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 34d78840036606f40a54e1c93290cb63, type: 3}
       propertyPath: m_LocalPosition.z
