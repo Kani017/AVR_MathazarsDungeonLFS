@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
@@ -13,7 +11,7 @@ public class PodiumScrollInteraction : MonoBehaviour
     private Vector3 originalPosition;
     private Quaternion originalRotation;
     public float floorThreshold = -10f; // Threshold for y-coordinate
-    // Start is called before the first frame update
+
     void Start()
     {
         grabInteractable = GetComponent<XRGrabInteractable>();
@@ -25,7 +23,6 @@ public class PodiumScrollInteraction : MonoBehaviour
         originalRotation = transform.rotation;
     }
 
-    // Update is called once per frame
     void Update()
     { 
         if (transform.position.y < floorThreshold)

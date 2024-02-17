@@ -1,10 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class TeleportationTutorial : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Short script to display controls at the start of the game
 public void OnFirstTeleport()
     {
         gameObject.SetActive(false);

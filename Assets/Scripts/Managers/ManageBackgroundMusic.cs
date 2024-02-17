@@ -5,11 +5,12 @@ public class ManageBackgroundMusic : MonoBehaviour
 {
     public static ManageBackgroundMusic Instance { get; private set; }
     private AudioSource audioSource;
-    public AudioClip musicClip; // Assign this in the inspector
+    public AudioClip musicClip;
 
     public float fadeTime = 2.0f; // Duration of the fade
     private readonly bool isFading = false;
 
+    // Singleton declaration so that a single instance can be used throughout every scene and the music isnt cut off on scene load
     private void Awake()
     {
         if (Instance == null)

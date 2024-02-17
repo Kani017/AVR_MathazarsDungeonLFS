@@ -6,7 +6,7 @@ public class BookMaterialManager : MonoBehaviour
     public Material defaultMaterial;
     public Material wrongMaterial;
 
-    // Method to change the material of a specific book to indicate a wrong answer
+    // Class to change the material of a specific book to indicate a wrong answer
     public void SetBookMaterialWrong(GameObject book)
     {
         var renderer = book.GetComponent<Renderer>();

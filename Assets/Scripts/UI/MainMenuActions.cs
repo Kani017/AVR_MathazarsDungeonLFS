@@ -12,6 +12,7 @@ public class MainMenuActions : MonoBehaviour
 
     public void StartGame()
     {
+        // load first ingame scene
         SceneManager.LoadScene("Room_0"); 
     }
 
@@ -35,6 +36,7 @@ public class MainMenuActions : MonoBehaviour
         exitButton.gameObject.SetActive(true);
     }
 
+    // Quit Game and exit play mode in Unity editor
     public void ExitGame()
     {
         Application.Quit();

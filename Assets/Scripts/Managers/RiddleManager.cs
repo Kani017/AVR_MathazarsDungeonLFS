@@ -10,14 +10,14 @@ public class RiddleManager : MonoBehaviour
 
     public bool[] isRiddleSolved; // Array to keep track of solved riddles
 
+    // Singleton declaration so that one instance can be used throughout all scenes
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
-            // Initialize the array here or in Start depending on your needs
-            isRiddleSolved = new bool[4]; // Adjust the size according to your riddles
+            isRiddleSolved = new bool[4]; // 4 riddles
         }
         else
         {
@@ -41,6 +41,7 @@ public class RiddleManager : MonoBehaviour
         if (riddleIndex >= 0 && riddleIndex < isRiddleSolved.Length && !isRiddleSolved[riddleIndex])
         {
             isRiddleSolved[riddleIndex] = true;
+
             // Invoke the OnRiddleSolved event to notify any listeners
             OnRiddleSolved?.Invoke();
         }

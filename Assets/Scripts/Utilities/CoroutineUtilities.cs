@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 
+// Utility class to call a coroutine with a delay 
 public static class CoroutineUtilities
 {
     public static Coroutine DelayedAction(MonoBehaviour owner, float delay, Action action)

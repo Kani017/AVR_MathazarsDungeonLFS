@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -9,11 +7,13 @@ public class PauseMenuActions : MonoBehaviour
     public Button resumeButton;
     public Button startMenuButton;
     public Button exitGameButton;
+
     public GameObject exitGameWarning;
     public GameObject startMenuWarning;
 
     private bool isMenuActive = false;
 
+    // Method to toggle the pause menu depending on whether it is active or not with the left trigger button
     public void OnActivate()
     {
         if (!isMenuActive)
@@ -36,6 +36,7 @@ public class PauseMenuActions : MonoBehaviour
         }
     }
 
+    // Unfreeze time and resume game
     public void ResumeGame()
     {
         isMenuActive = false;
@@ -49,6 +50,7 @@ public class PauseMenuActions : MonoBehaviour
         Time.timeScale = 1;
     }
 
+    // back to start menu
     public void BackToMenu()
     {
         Time.timeScale = 1;
@@ -60,6 +62,7 @@ public class PauseMenuActions : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
+    // Quit game and exit play mode in Unity editor
     public void ExitGame()
     {
         Application.Quit();
@@ -68,6 +71,7 @@ public class PauseMenuActions : MonoBehaviour
 #endif
     }
 
+    // Methods to handle the warnings about losing your progress
     public void ShowExitGameWarning()
     {
         exitGameWarning.SetActive(true);

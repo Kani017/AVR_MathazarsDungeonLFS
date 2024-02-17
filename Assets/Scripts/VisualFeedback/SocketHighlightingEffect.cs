@@ -3,8 +3,10 @@ using UnityEngine;
 
 public class SocketHighlightingEffect : MonoBehaviour
 {
+    // Class that highlights sockets by making a Plus Sign appear on each one when the corresponding interactable is held
+
     [SerializeField]
-    private GameObject[] sockets; // Manually assign sockets in the Unity Editor.
+    private GameObject[] sockets; // Manually assign sockets in the Inspector.
 
     private GameObject[] plusSigns;
 

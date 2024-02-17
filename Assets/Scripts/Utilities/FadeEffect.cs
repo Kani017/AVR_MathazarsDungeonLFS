@@ -1,7 +1,7 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+// Utility class to fade the shader that appears when players peak through walls with their heads in and out
 public class FadeEffect : MonoBehaviour
 {
     [SerializeField]
