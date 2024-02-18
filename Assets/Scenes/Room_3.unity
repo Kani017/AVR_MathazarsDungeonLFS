@@ -7154,7 +7154,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 186074664503701704, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 186074664504061160, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7287,9 +7287,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 186074664503701704, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       insertIndex: -1
       addedObject: {fileID: 438078391}
-    - targetCorrespondingSourceObject: {fileID: 3434908570904428465, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
 --- !u!4 &438078388 stripped
 Transform:
