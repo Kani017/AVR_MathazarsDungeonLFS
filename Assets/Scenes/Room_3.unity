@@ -721,7 +721,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &94085998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -742,8 +742,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Umrechnungen: 1kg = 1000g, 1g = 1000mg. Nutze dies, um Gleichgewicht zu
-    erreichen.'
+  m_text: "Um das Raetsel zu l\xF6sen, musst du die Eigenschaften genau betrachten.
+    Wie viele Seiten sind gleich lang? Sind die Winkel gleich gro\xDF? Gibt es parallele
+    Seiten? Nutze dein Wissen, um das richtige Viereck zu erkennen. Die Antwort liegt
+    in den Details.\r\n\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1f96eb56f50b6994cae5f11187d4162e, type: 2}
   m_sharedMaterial: {fileID: 8694288473087831709, guid: 1f96eb56f50b6994cae5f11187d4162e, type: 2}
@@ -770,8 +772,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.3
-  m_fontSizeBase: 0.3
+  m_fontSize: 0.247
+  m_fontSizeBase: 0.247
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4723,7 +4725,7 @@ GameObject:
   - component: {fileID: 318804827}
   - component: {fileID: 318804826}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: LecternUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7152,7 +7154,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 186074664503701704, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 186074664504061160, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7200,7 +7202,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3434908570904428465, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4907927931020990262, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -7208,12 +7210,14 @@ PrefabInstance:
       objectReference: {fileID: 8694288473087831709, guid: 1f96eb56f50b6994cae5f11187d4162e, type: 2}
     - target: {fileID: 6268689182145467605, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_text
-      value: Einheiten messen die Welt. Ein Kilogramm (kg) sind 1000 Gramm (g), ein
-        Gramm sind 1000 Milligramm (mg).
+      value: Willkommen, tapferer Mathemagier! Die Geheimnisse der Geometrie warten
+        darauf, von dir entschluesselt zu werden. Ein Viereck ist eine Figur mit
+        vier Seiten. Doch nicht alle Vierecke sind gleich. Lass uns ihre Geheimnisse
+        erkunden.
       objectReference: {fileID: 0}
     - target: {fileID: 6268689182145467605, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_fontSize
-      value: 0.3
+      value: 0.26
       objectReference: {fileID: 0}
     - target: {fileID: 6268689182145467605, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_fontAsset
@@ -7237,7 +7241,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6268689182145467605, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_fontSizeBase
-      value: 0.3
+      value: 0.26
       objectReference: {fileID: 0}
     - target: {fileID: 6268689182145467605, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       propertyPath: m_sharedMaterial
@@ -7283,6 +7287,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 186074664503701704, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
       insertIndex: -1
       addedObject: {fileID: 438078391}
+    - targetCorrespondingSourceObject: {fileID: 3434908570904428465, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 0fe0598f0b04f124c9d68b7f53750f78, type: 3}
 --- !u!4 &438078388 stripped
 Transform:
@@ -69808,7 +69815,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2030841107
 RectTransform:
   m_ObjectHideFlags: 0
@@ -69890,7 +69897,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1kg = 1000g, 1g = 1000mg. Wandele weise um.
+  m_text: "Quadrat: Alle Seiten gleich lang. Alle Winkel betragen 90 Grad.\r\nRechteck:
+    Gegen\xFCberliegende Seiten gleich lang. Alle Winkel betragen 90 Grad.\r\nParallelogramm:
+    Gegen\xFCberliegende Seiten gleich lang und parallel. Gegen\xFCberliegende Winkel
+    gleich gro\xDF.\r\nTrapez: Ein Paar paralleler Seiten. Die Winkel und die L\xE4ngen
+    der Seiten k\xF6nnen variieren.\r\nRaute (Rhombus): Alle Seiten gleich lang.
+    Gegen\xFCberliegende Seiten parallel. Gegen\xFCberliegende Winkel gleich gro\xDF."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1f96eb56f50b6994cae5f11187d4162e, type: 2}
   m_sharedMaterial: {fileID: 8694288473087831709, guid: 1f96eb56f50b6994cae5f11187d4162e, type: 2}
@@ -69917,8 +69929,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.3
-  m_fontSizeBase: 0.3
+  m_fontSize: 0.183
+  m_fontSizeBase: 0.183
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

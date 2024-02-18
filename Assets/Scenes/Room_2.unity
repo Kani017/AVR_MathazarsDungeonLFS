@@ -33504,7 +33504,7 @@ GameObject:
   - component: {fileID: 1641779459}
   - component: {fileID: 1641779458}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: LecternUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
