@@ -63092,10 +63092,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e2ef2ab2ca838c4c875afda84c23adb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartEndHelpSound: {fileID: 8300000, guid: 6710f59d1d9e1f446ae3c1931aedf50e, type: 3}
-  PageOneSound: {fileID: 0}
-  PageTwoSound: {fileID: 0}
-  PageThreeSound: {fileID: 0}
+  StartEndHelpSound: {fileID: 8300000, guid: d896f333befd71b44831b9a9c20f61fe, type: 3}
+  PageOneSound: {fileID: 8300000, guid: e7ab71c969e03b741bfb5faecfe918f3, type: 3}
+  PageTwoSound: {fileID: 8300000, guid: 2e4d201c2000ee24b93d5537bcc91773, type: 3}
+  PageThreeSound: {fileID: 8300000, guid: 94ce62b7ed638a140b603decb929587c, type: 3}
 --- !u!1001 &1898180113
 PrefabInstance:
   m_ObjectHideFlags: 0
