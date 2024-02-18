@@ -11,6 +11,7 @@ public class MySceneManager : MonoBehaviour
 
     private int currentRoomIndex = 0;
 
+    // Singleton declaration so that one instance can be used throughout all scenes
     private void Awake()
     {
         if (Instance == null)
@@ -36,8 +37,8 @@ public class MySceneManager : MonoBehaviour
 
     public void ResetManager()
     {
+        // Reset manager for when a player goes back to the start menu from the pause menu
         currentRoomIndex = 0;
-        // Reset other necessary states if any
     }
 
     IEnumerator LoadScene(string sceneName)

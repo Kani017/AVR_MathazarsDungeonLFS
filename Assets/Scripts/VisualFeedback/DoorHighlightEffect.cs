@@ -6,6 +6,7 @@ public class KeyHighlightEffect : MonoBehaviour
     public Material highlightMaterial;
     private Material originalMaterial;
 
+    // Class to highlight the CellDoor when the corresponding key is held
     private void Start()
     {
         // Store the original material of the door

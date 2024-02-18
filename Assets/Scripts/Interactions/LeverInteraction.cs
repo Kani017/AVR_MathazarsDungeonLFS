@@ -1,12 +1,11 @@
 using UnityEngine;
-using UnityEngine.InputSystem.LowLevel;
 using UnityEngine.XR.Interaction.Toolkit;
 
 public class LeverInteraction : MonoBehaviour
 {
-    public Animator leverAnimator; // Animator for the lever, assign in the inspector
-    public DoorInteraction doorInteraction; // DoorInteraction script, assign in the inspector
-    public int riddleIndex; // Index for the specific riddle this lever is associated with, assign in the inspector
+    public Animator leverAnimator; // Animator for the lever
+    public DoorInteraction doorInteraction; // DoorInteraction script
+    public int riddleIndex; // Index for the specific riddle this lever is associated with
     private XRSimpleInteractable interactable;
     private ParticleSystem leverInteractableParticles;
 

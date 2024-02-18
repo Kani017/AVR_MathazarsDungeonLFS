@@ -3,24 +3,24 @@ using System.Collections;
 
 public class MathazarInteraction_R0 : MonoBehaviour
 {
-    public GameObject mathazarGameObject; // Assign in Inspector
-    public ParticleSystem appearEffect; // Assign in Inspector
-    public AudioSource audioSource; // Assign in Inspector
-    public AudioClip voiceline_R0; // Assign in Inspector
-    public AudioClip teleportSound; // Assign in Inspector
-    public AudioClip appearSound; // Assign in Inspector
-    private RiddleManager riddleManager; // Referenz auf den RiddleManager
+    public GameObject mathazarGameObject; 
+    public ParticleSystem appearEffect; 
+    public AudioSource audioSource; 
+    public AudioClip voiceline_R0; 
+    public AudioClip teleportSound; 
+    public AudioClip appearSound; 
+    private RiddleManager riddleManager; 
 
     private void Start()
     {
         riddleManager = RiddleManager.Instance;
     }
-    void OnEnable() // Verwenden Sie OnEnable anstelle von Start
+    void OnEnable() 
     {
         StartCoroutine(SequenceCoroutine());
     }
 
-
+    // Sequence that spawns Mathazar, plays a voiceline, despawns him with a sound effect and finally makes this room's lever interactable
     private IEnumerator SequenceCoroutine()
     {
         appearEffect.Play();

@@ -32,6 +32,7 @@ public class ScaleInteraction : MonoBehaviour
         }
     }
 
+    // update the total weight on a scale
     public void UpdateTotalWeight()
     {
         totalWeight = 0f;

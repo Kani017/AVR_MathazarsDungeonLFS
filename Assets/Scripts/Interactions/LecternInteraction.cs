@@ -25,6 +25,7 @@ public class LecternInteraction : MonoBehaviour
     private void Start()
     {
         lecternAudioFeedback = GetComponentInChildren<LecternAudioFeedback>();
+
         // Store the original position and rotation
         originalPosition = helpScroll.transform.position;
         originalRotation = helpScroll.transform.rotation;
