@@ -25,6 +25,14 @@
 
 ## Dokument 2: SW Dokumentation
 
+![Alt text for my diagram](https://www.plantuml.com/plantuml/png/LOx1IiKm44Nt-Ohv0S5r5b9e5KH5iVW1GpfeO9BKP2BKhtzfNiDh5bdaNkwSCoJ1ADcn4YjCCDDl9cy89elV4Ps6pn0St2kbLenYZLtH2tmmRXIxQ3OnC7VH2stTVoJcAOH-zuRoW__OXw_qrv-l6dMhhcouUpYG6fwiNy1mfdIKfIji3MEfoSXfqXGqV2MgWkNrnVjAFfqcJL33epSXUw5umrHH3SzxYeLK__kg-RPx0_abExu0)
+
+
+![Alt text for my diagram](https://www.plantuml.com/plantuml/png/jTF1Qjmm40RWkvvYeBT28Ej0ANiesNNjMzCIKtfeUXXRKrkDD1F6yfPI-kvrX0tUnLcsXnxtryodrLYwxIDg788t_QFZ9rGCK6FpsAeCR7Fnel2gACgil5bKZ4sHuBS1s9_MbaLPvCNpYgWbdTBTs-lhcpTZMWh7Emm4kGpgICqVOwABdg1AvWTiEiS4xnssYc4Bzo81DiPyVVqDhgxUmPry8TTsyPF7XkmMzjGwXjWHgBFMapakI3tBu2DN3NhQR27zXfzf3OGXvR2v4CXU0ZApjbrYyewQSORj7ZroGxEW5D3nc4zM_y2YpwaS291_JV6Qc_qdTxCww_kfrVjPXEygOPxS-X_yToWp9mTAHbhhKvACtQBvARaFZ6oXJtM0Ib1FnMUyproV5UiXBiM1pvhh5srdVmnzdEd5LRlKo5usCdCybqICRsKBbVW3BH_6wO5NlqmLKIF8WHH40OzsDRV4TWZ-Bm00)
+
+![Alt text for my diagram](https://www.plantuml.com/plantuml/png/TLJ1SjCm4BthAtRAfMN6btBhWMcQD4mERI65wG4u26lZQ2Alp4gcT9Z-EvAZA8eDD-NfxLkzjnjVEo_PzwqHRgUfaonR-27hNSEs9pMtnZAykRrTNYxV5OnGv17-282R4VTfgpr6tB92tcCt9f02jhJaxsMBCBSzQsJnAeJNtY0y3dftijvgGbXesOGkLx2sjeLB8Rw-_GvLzHw-a2JtZ8nA78zNWUyw8ry-zUYyjdH-KTn2fUmpXThv5j7XYZooh7qeImXy3AyBF4qmrrmR52Dc8M6PiVQpGJhN9zIym4eXURtHgFwlySIMcf72Ykf_QfJjia1f_1v_UpZO_aRdgmsqbX5-9iXTZ4M2m5ehPV3HcbzHOcPCLd0mEyHRF1CgritMZrhFDXuP5XXo5qV5mcYOcH3xFPc44HTdVtMM8h27zCz0kbJmG1FQWctNeIf82H6GYw0ok0dFBGd5k3_B7H8yz5x0AIFxp4hZ5OcxBbwpgpBPmL9Qq-Ja0oEIWF9Nl8sieqYPyrHY7OtbSyus8SDVxNGIK5vDkvqCgcotr2JD7Jed6upqQoGLlmb_0G00)
+
+
 ## Dokument 3: Verzeichnisregister
 
 ### AVR_MathazarsDungeonLFS Projektstruktur
@@ -33,6 +41,7 @@
 Das Root-Verzeichnis enthält die Hauptordner und Konfigurationsdateien des Projekts.
 
 - **Assets**: Beinhaltet alle Ressourcen wie Grafiken, Audio und Scripts, die im Spiel verwendet werden.
+- **Builds**: Enthält das Executable.
 - **Packages**: Speichert die Unity Package Manager Dateien.
 - **ProjectSettings**: Enthält Einstellungen und Konfigurationen für das Unity-Projekt.
 - **.gitattributes**: Git-Konfigurationsdatei zur Definition von Attributen.
@@ -58,4 +67,3 @@ Beherbergt die Spielressourcen, unterteilt in spezifische Kategorien.
 - **Scripts**: Quellcode-Dateien in C# für die Spiellogik.
 - **Shaders**: Shader-Programme für grafische Effekte.
 - **ThirdParty**: Externe Ressourcen und Tools, importiert aus dem Unity Store.
-- **XR**: Konfigurationsdateien für VR/AR-Einstellungen (`settings.meta`).
