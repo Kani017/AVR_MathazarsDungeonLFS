@@ -8159,7 +8159,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 429137410}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -6.267}
+  m_LocalPosition: {x: 0, y: 0, z: -6.4297895}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8167,7 +8167,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.627, y: 0.693}
+  m_AnchoredPosition: {x: 1.627, y: 0.8000002}
   m_SizeDelta: {x: 3, y: 0.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &429137412
@@ -8199,6 +8199,12 @@ MonoBehaviour:
 
     Benutze den linken "Trigger"-Button (Zeigefinger),
     um das Pausemenue aufzurufen.
+
+
+    Benutze die drehbaren Sticks an deinen Daumen,
+    um dich zu drehen.
+
+    Hebe nun diese Schriftrolle auf!
 
 
 '
