@@ -52593,7 +52593,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: f876a384f14aaf74097cfc1f1ce533a6, type: 3}
       propertyPath: m_Name
-      value: FloorSconce4 (1)
+      value: FloorSconce5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f876a384f14aaf74097cfc1f1ce533a6, type: 3}
       propertyPath: m_LocalPosition.x
